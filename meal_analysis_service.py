@@ -9,7 +9,7 @@ import json
 from copy import deepcopy
 from openai import AsyncOpenAI
 from PIL import Image
-from models import LLMMealResponse
+from schemas.meal import LLMMealResponse
 from prompts import MEAL_IMAGE_SYSTEM_PROMPT, MEAL_TEXT_SYSTEM_PROMPT
 try:
     from pillow_heif import register_heif_opener

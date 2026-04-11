@@ -3,7 +3,7 @@ Product lookup service using the OpenFoodFacts API.
 Fetches product details by barcode and returns parsed nutritional info.
 """
 import httpx
-from typing import Optional
+
 
 
 class ProductNotFoundError(Exception):

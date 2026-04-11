@@ -2,7 +2,7 @@
 Builds minimal JSON context for LLM based on query type. strict limit of <= 5 fields.
 """
 from typing import Dict, Any
-from models import HealthSignals, Constraints, DecisionHints
+from schemas.chat import HealthSignals, Constraints, DecisionHints
 
 def build(signals: HealthSignals, query_type: str, constraints: Constraints, hints: DecisionHints) -> Dict[str, Any]:
     context = {}
