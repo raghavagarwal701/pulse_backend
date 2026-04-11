@@ -1,8 +1,11 @@
+import logging
 import os
 import re
 import pandas as pd
 from spellchecker import SpellChecker
 from typing import Set
+
+logger = logging.getLogger(__name__)
 
 class PulseSpellChecker:
     def __init__(self, dataset_path: str = None):
@@ -41,7 +44,7 @@ class PulseSpellChecker:
             
             self.spell.word_frequency.load_words(list(custom_words))
         except Exception as e:
-            print(f"Warning: Could not load dataset for spell checker from {self.dataset_path}: {e}")
+            logger.warning("Could not load dataset for spell checker from %s: %s", self.dataset_path, e)
 
     def correct_query(self, query: str) -> str:
         """
