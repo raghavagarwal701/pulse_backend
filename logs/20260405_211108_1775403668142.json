@@ -1,0 +1,12 @@
+{
+  "timestamp": "20260405_211108",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "veg briyani"
+  },
+  "response": {
+    "detail": "Meal text analysis parse error: Currently only `function` tool types support auto-parsing; Received `web_search_preview`"
+  },
+  "status_code": 422
+}

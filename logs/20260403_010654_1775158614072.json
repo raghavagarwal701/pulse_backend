@@ -1,0 +1,333 @@
+{
+  "timestamp": "20260403_010654",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/search?query=dosa&page_number=0&max_results=20",
+  "request": "",
+  "response": {
+    "status": "success",
+    "query": "dosa",
+    "page_number": 0,
+    "max_results": 6,
+    "total_results": 6,
+    "results": [
+      {
+        "food_id": 1518833,
+        "food_name": "Masala Dosa",
+        "brand_name": "Udupi",
+        "servings": [
+          {
+            "serving_description": "1 piece",
+            "serving_id": "1501208",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/udupi/masala-dosa",
+            "metric_serving_amount": "86.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "162",
+            "carbohydrate": "22.00",
+            "protein": "5.00",
+            "fat": "6.00",
+            "saturated_fat": "1.500",
+            "cholesterol": "0",
+            "sodium": "520",
+            "fiber": "2.0",
+            "sugar": "1.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "188",
+            "carbohydrate": "25.58",
+            "protein": "5.81",
+            "fat": "6.98",
+            "saturated_fat": "1.744",
+            "cholesterol": "0",
+            "sodium": "605",
+            "fiber": "2.3",
+            "sugar": "1.16"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Snacks"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/udupi/masala-dosa"
+      },
+      {
+        "food_id": 4063369,
+        "food_name": "Masala Dosa",
+        "brand_name": "Trader Joe's",
+        "servings": [
+          {
+            "serving_description": "1 piece with chutney",
+            "serving_id": "3954691",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/masala-dosa",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "250",
+            "carbohydrate": "30.00",
+            "protein": "5.00",
+            "fat": "7.00",
+            "cholesterol": "0",
+            "sodium": "240",
+            "fiber": "2.0",
+            "sugar": "1.00"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Crepes"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/masala-dosa"
+      },
+      {
+        "food_id": 47486857,
+        "food_name": "Masala Dosa",
+        "brand_name": "Deep",
+        "servings": [
+          {
+            "serving_description": "1 piece",
+            "serving_id": "40572681",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-dosa",
+            "metric_serving_amount": "99.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "230",
+            "carbohydrate": "25.00",
+            "protein": "3.00",
+            "fat": "13.00",
+            "saturated_fat": "4.000",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "550",
+            "potassium": "140",
+            "fiber": "3.0",
+            "sugar": "3.00",
+            "added_sugars": "0",
+            "vitamin_d": "0",
+            "vitamin_a": "0",
+            "vitamin_c": "0",
+            "calcium": "60",
+            "iron": "2.20"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "232",
+            "carbohydrate": "25.25",
+            "protein": "3.03",
+            "fat": "13.13",
+            "saturated_fat": "4.040",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "556",
+            "potassium": "141",
+            "fiber": "3.0",
+            "sugar": "3.03",
+            "added_sugars": "0",
+            "vitamin_d": "0",
+            "vitamin_a": "0",
+            "vitamin_c": "0",
+            "calcium": "61",
+            "iron": "2.22"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Flatbread",
+            "Bread"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-dosa"
+      },
+      {
+        "food_id": 1849296,
+        "food_name": "Masala Dosa",
+        "brand_name": "Tandoor Chef",
+        "servings": [
+          {
+            "serving_description": "1 piece",
+            "serving_id": "1817419",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/masala-dosa",
+            "metric_serving_amount": "86.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "162",
+            "carbohydrate": "22.00",
+            "protein": "5.00",
+            "fat": "6.00",
+            "saturated_fat": "1.500",
+            "cholesterol": "0",
+            "sodium": "520",
+            "fiber": "2.0",
+            "sugar": "1.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "188",
+            "carbohydrate": "25.58",
+            "protein": "5.81",
+            "fat": "6.98",
+            "saturated_fat": "1.744",
+            "cholesterol": "0",
+            "sodium": "605",
+            "fiber": "2.3",
+            "sugar": "1.16"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Crepes"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/masala-dosa"
+      },
+      {
+        "food_id": 22874110,
+        "food_name": "Dosa Batter",
+        "brand_name": "Priyems",
+        "servings": [
+          {
+            "serving_description": "1 dosa",
+            "serving_id": "21413178",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/priyems/dosa-batter",
+            "metric_serving_amount": "65.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "120",
+            "carbohydrate": "24.00",
+            "protein": "3.00",
+            "fat": "0",
+            "saturated_fat": "0",
+            "cholesterol": "0",
+            "sodium": "160",
+            "fiber": "3.0",
+            "sugar": "1.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "185",
+            "carbohydrate": "36.92",
+            "protein": "4.62",
+            "fat": "0",
+            "saturated_fat": "0",
+            "cholesterol": "0",
+            "sodium": "246",
+            "fiber": "4.6",
+            "sugar": "1.54"
+          }
+        ],
+        "food_type": "Brand",
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/priyems/dosa-batter"
+      },
+      {
+        "food_id": 98540995,
+        "food_name": "Onion Rava Masala Dosa",
+        "brand_name": "Deep",
+        "servings": [
+          {
+            "serving_description": "1 piece",
+            "serving_id": "78531601",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/onion-rava-masala-dosa",
+            "metric_serving_amount": "99.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "230",
+            "carbohydrate": "35.00",
+            "protein": "3.00",
+            "fat": "9.00",
+            "saturated_fat": "3.000",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "590",
+            "potassium": "130",
+            "fiber": "2.0",
+            "sugar": "2.00",
+            "added_sugars": "0",
+            "vitamin_d": "0",
+            "vitamin_a": "0",
+            "vitamin_c": "0",
+            "calcium": "40",
+            "iron": "1.90"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "232",
+            "carbohydrate": "35.35",
+            "protein": "3.03",
+            "fat": "9.09",
+            "saturated_fat": "3.030",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "596",
+            "potassium": "131",
+            "fiber": "2.0",
+            "sugar": "2.02",
+            "added_sugars": "0",
+            "vitamin_d": "0",
+            "vitamin_a": "0",
+            "vitamin_c": "0",
+            "calcium": "40",
+            "iron": "1.92"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Snacks"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/onion-rava-masala-dosa"
+      }
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

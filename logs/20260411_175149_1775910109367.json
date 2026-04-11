@@ -1,0 +1,44 @@
+{
+  "timestamp": "20260411_175149",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "One paneer patties and one bag of doritos"
+  },
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The meal consists of one paneer patty and one bag of Doritos. A standard serving size for paneer is 100 grams, providing approximately 321 calories, 21.4 grams of protein, 25 grams of fat, and 3.6 grams of carbohydrates. ([getfoodfacts.com](https://getfoodfacts.com/food/paneer-1864831?utm_source=openai)) A typical serving size for Doritos is 28 grams (about 1 ounce), offering around 140 calories, 2 grams of protein, 7 grams of fat, and 18 grams of carbohydrates. ([snapcalorie.com](https://www.snapcalorie.com/nutrition/spicy_doritos_nutrition.html?utm_source=openai)) Combining these, the total nutritional content for the meal is approximately 461 calories, 23.4 grams of protein, 32 grams of fat, and 21.6 grams of carbohydrates.",
+      "web_source_links": [
+        "https://getfoodfacts.com/food/paneer-1864831",
+        "https://www.snapcalorie.com/nutrition/spicy_doritos_nutrition.html"
+      ],
+      "name_of_meal": "Paneer Patty with Doritos",
+      "serving_size": "1 paneer patty and 1 bag of Doritos",
+      "nutritional_value": {
+        "calories": 461.0,
+        "carbohydrate": 21.6,
+        "protein": 23.4,
+        "fat": 32.0,
+        "saturated_fat": null,
+        "fiber": null,
+        "sugar": null,
+        "sodium": null,
+        "potassium": null,
+        "cholesterol": null,
+        "vitamin_a": null,
+        "vitamin_c": null,
+        "calcium": null,
+        "iron": null,
+        "trans_fat": null,
+        "added_sugars": null,
+        "vitamin_d": null
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "The meal consists of one paneer patty and one bag of Doritos. A standard serving size for paneer is 100 grams, providing approximately 321 calories, 21.4 grams of protein, 25 grams of fat, and 3.6 grams of carbohydrates. ([getfoodfacts.com](https://getfoodfacts.com/food/paneer-1864831?utm_source=openai)) A typical serving size for Doritos is 28 grams (about 1 ounce), offering around 140 calories, 2 grams of protein, 7 grams of fat, and 18 grams of carbohydrates. ([snapcalorie.com](https://www.snapcalorie.com/nutrition/spicy_doritos_nutrition.html?utm_source=openai)) Combining these, the total nutritional content for the meal is approximately 461 calories, 23.4 grams of protein, 32 grams of fat, and 21.6 grams of carbohydrates."
+}

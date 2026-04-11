@@ -1,0 +1,17 @@
+{
+  "timestamp": "20260402_180131",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=dos&max_results=4",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "dos",
+      "dos equis",
+      "dosa",
+      "dos equis xx lager"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

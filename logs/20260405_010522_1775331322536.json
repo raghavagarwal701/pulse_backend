@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260405_010522",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=dos&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "Jowar dosa",
+      "Moong bean dosa",
+      "Masala dosa",
+      "Semolina dosa",
+      "Masala dosa paneer fillings",
+      "Plain dosa",
+      "Masala dosa mixed vegetable fillings",
+      "Rice Dosa",
+      "Rawa Dosa",
+      "Ragi Dosa"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

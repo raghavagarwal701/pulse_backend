@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260402_220240",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "do",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "doritos",
+        "domino's",
+        "donut",
+        "domino's pizza",
+        "doritos nacho cheese tortilla chips (28g)",
+        "dole romaine lettuce",
+        "hot dog",
+        "dole bananas",
+        "donuts",
+        "domino's pizza 12\" hand tossed pepperoni pizza"
+      ]
+    }
+  },
+  "status_code": 200
+}

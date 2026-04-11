@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260402_214804",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=moos&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "moose",
+      "moose tracks",
+      "moose tracks ice cream",
+      "moose meat",
+      "moose stew (alaska native)",
+      "mini moos half & half creamers",
+      "mayfield moose tracks ice cream",
+      "mini moos",
+      "blue moose of boulder smoked gouda cheese spread",
+      "belmont moose tracks ice cream"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

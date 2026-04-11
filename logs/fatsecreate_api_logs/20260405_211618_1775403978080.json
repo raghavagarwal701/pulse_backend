@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260405_211618",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "veg bri",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "vegetable biryani",
+        "veg-all broccoli, cauliflower & carrots with 3 cheese sauce",
+        "veggie patch broccoli bites with cheese",
+        "rice bran vegetable oil",
+        "swad veg biryani",
+        "veg-all steam supreme broccoli florets, cauliflower, whole baby carrots",
+        "cooked vegetable combinations (broccoli, carrots, corn and cauliflower)",
+        "wegmans brown rice vegetable sushi rolls",
+        "cooked vegetable combinations (broccoli, carrots, corn, cauliflower, fat not added in cooking)",
+        "cooked vegetable combinations (broccoli, carrots, corn and cauliflower, fat added in cooking)"
+      ]
+    }
+  },
+  "status_code": 200
+}

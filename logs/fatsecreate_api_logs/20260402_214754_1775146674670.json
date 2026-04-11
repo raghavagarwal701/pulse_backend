@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260402_214754",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "mas",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "mashed",
+        "mashed potatoes",
+        "mashed potato",
+        "mashed potatoes (whole milk and butter added)",
+        "mashed cauliflower",
+        "mashed potato made with milk (from fresh)",
+        "mashed sweet potatoes",
+        "mashed potatoes and gravy",
+        "master choice garlic croutons",
+        "mashed potato (from fresh)"
+      ]
+    }
+  },
+  "status_code": 200
+}

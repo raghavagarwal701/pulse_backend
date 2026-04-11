@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260402_214754",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=mas&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "mashed",
+      "mashed potatoes",
+      "mashed potato",
+      "mashed potatoes (whole milk and butter added)",
+      "mashed cauliflower",
+      "mashed potato made with milk (from fresh)",
+      "mashed sweet potatoes",
+      "mashed potatoes and gravy",
+      "master choice garlic croutons",
+      "mashed potato (from fresh)"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

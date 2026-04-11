@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260402_214802",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "mos",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "moscato",
+        "moscato wine",
+        "moser roth",
+        "moscow mule",
+        "mostaccioli",
+        "moser roth premium dark chocolate 85% cocoa",
+        "moser roth premium dark chocolate 70% cocoa",
+        "moser roth chili chocolate",
+        "moser roth dark chili",
+        "moser roth dark mint"
+      ]
+    }
+  },
+  "status_code": 200
+}

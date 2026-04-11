@@ -1,0 +1,30 @@
+{
+  "timestamp": "20260403_011112",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/add-preview",
+  "request": {
+    "food_id": 1518833,
+    "quantity": 1.6,
+    "serving_description": "1 piece"
+  },
+  "response": {
+    "status": "success",
+    "food_id": 1518833,
+    "food_name": "Masala Dosa",
+    "serving_description": "1 piece",
+    "quantity": 1.6,
+    "totals": {
+      "calories": 259.2,
+      "carbohydrate": 35.2,
+      "protein": 8.0,
+      "fat": 9.600000000000001,
+      "saturated_fat": 2.4000000000000004,
+      "fiber": 3.2,
+      "sugar": 1.6,
+      "sodium": 832.0,
+      "cholesterol": 0.0
+    },
+    "error": null
+  },
+  "status_code": 200
+}

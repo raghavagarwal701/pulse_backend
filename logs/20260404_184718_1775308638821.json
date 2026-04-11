@@ -1,0 +1,25 @@
+{
+  "timestamp": "20260404_184718",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/add-preview",
+  "request": {
+    "food_id": 1000489,
+    "quantity": 1.0,
+    "serving_description": "99 g"
+  },
+  "response": {
+    "status": "success",
+    "food_id": 1000489,
+    "food_name": "Masala dosa",
+    "serving_description": "99 g",
+    "quantity": 1.0,
+    "totals": {
+      "calories": 162.93,
+      "carbohydrate": 19.37,
+      "protein": 3.26,
+      "fat": 7.76
+    },
+    "error": null
+  },
+  "status_code": 200
+}

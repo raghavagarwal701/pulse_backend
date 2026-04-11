@@ -1,0 +1,74 @@
+{
+  "timestamp": "20260401_173410",
+  "method": "POST",
+  "url": "https://f2c7-203-110-242-32.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "curd"
+  },
+  "response": {
+    "status": "analyzed",
+    "product": {
+      "barcode": "MEAL_PHOTO",
+      "product_name": "Curd",
+      "brands": null,
+      "categories": "Dairy",
+      "nutriscore_grade": null,
+      "nutriments": {
+        "energy_kcal_100g": null,
+        "fat_100g": null,
+        "carbohydrates_100g": null,
+        "sugars_100g": null,
+        "proteins_100g": null,
+        "fiber_100g": null,
+        "salt_100g": null,
+        "energy_kcal_pkg": 97.5,
+        "fat_pkg": 5.0,
+        "carbohydrates_pkg": 7.5,
+        "sugars_pkg": null,
+        "proteins_pkg": 4.5,
+        "fiber_pkg": null,
+        "salt_pkg": 0.06
+      },
+      "image_url": null,
+      "ingredients_text": null,
+      "product_quantity": null,
+      "product_quantity_unit": "g",
+      "serving_size": "150 g",
+      "serving_quantity": null,
+      "description": "Curd is a fermented dairy product made from milk, commonly consumed in Indian cuisine. It is rich in probiotics and often eaten plain or as a side dish.",
+      "ingredients": [
+        "Milk",
+        "Probiotics"
+      ],
+      "insights": "Curd is a good source of probiotics and calcium, beneficial for gut health and bone strength.",
+      "pros": [
+        "Probiotics: Supports gut health",
+        "Calcium: Strengthens bones"
+      ],
+      "cons": [
+        "Lactose: May cause issues for lactose intolerant individuals"
+      ],
+      "items": [
+        {
+          "name": "Curd",
+          "estimated_quantity": "150 g",
+          "nutrients": {
+            "calories": 97.5,
+            "protein": 4.5,
+            "carbohydrates": 7.5,
+            "fat": 5.0,
+            "sugar": null,
+            "fiber": null,
+            "sodium": 60.0
+          }
+        }
+      ],
+      "calorie_approximations": "97.5 kcal \u2248 1.7 km or 20 mins of walking"
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "1. **Description parse** \u2014 The user mentioned 'curd', which is a common dairy product. It is typically consumed plain or with meals in Indian cuisine. 2. **Food identification** \u2014 Curd is known as yogurt in many parts of the world, but in the Indian context, it refers to a fermented dairy product made from milk. 3. **Quantity estimation** \u2014 Since no specific quantity was mentioned, I will assume a typical serving size of 150 grams, which is common for a single serving of curd. 4. **Nutritional reference** \u2014 I will use the Indian Food Composition Tables (IFCT) for nutritional values of curd, as it is a common Indian food item. 5. **Confidence** \u2014 The description is straightforward, but the portion size is assumed based on typical serving sizes."
+}

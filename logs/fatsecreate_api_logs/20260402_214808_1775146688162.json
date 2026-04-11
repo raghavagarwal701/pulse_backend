@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260402_214808",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "moo",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "moose tracks ice cream",
+        "moon",
+        "moose",
+        "moon pie",
+        "moon cake",
+        "moong dal",
+        "moo goo gai pan",
+        "moo shu (mu shi) pork",
+        "mooncake",
+        "moon pie mini moon pie chocolate flavor"
+      ]
+    }
+  },
+  "status_code": 200
+}

@@ -1,0 +1,92 @@
+{
+  "timestamp": "20260403_003020",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/search?query=dosa&page_number=0&max_results=20",
+  "request": "",
+  "response": {
+    "status": "success",
+    "query": "dosa",
+    "page_number": 0,
+    "max_results": 6,
+    "total_results": 6,
+    "results": [
+      {
+        "food_id": 1518833,
+        "food_name": "Masala Dosa",
+        "brand_name": "Udupi",
+        "servings": [
+          {
+            "serving_description": "1 piece"
+          },
+          {
+            "serving_description": "100 g"
+          }
+        ]
+      },
+      {
+        "food_id": 4063369,
+        "food_name": "Masala Dosa",
+        "brand_name": "Trader Joe's",
+        "servings": [
+          {
+            "serving_description": "1 piece with chutney"
+          }
+        ]
+      },
+      {
+        "food_id": 47486857,
+        "food_name": "Masala Dosa",
+        "brand_name": "Deep",
+        "servings": [
+          {
+            "serving_description": "1 piece"
+          },
+          {
+            "serving_description": "100 g"
+          }
+        ]
+      },
+      {
+        "food_id": 1849296,
+        "food_name": "Masala Dosa",
+        "brand_name": "Tandoor Chef",
+        "servings": [
+          {
+            "serving_description": "1 piece"
+          },
+          {
+            "serving_description": "100 g"
+          }
+        ]
+      },
+      {
+        "food_id": 22874110,
+        "food_name": "Dosa Batter",
+        "brand_name": "Priyems",
+        "servings": [
+          {
+            "serving_description": "1 dosa"
+          },
+          {
+            "serving_description": "100 g"
+          }
+        ]
+      },
+      {
+        "food_id": 98540995,
+        "food_name": "Onion Rava Masala Dosa",
+        "brand_name": "Deep",
+        "servings": [
+          {
+            "serving_description": "1 piece"
+          },
+          {
+            "serving_description": "100 g"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

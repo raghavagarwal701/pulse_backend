@@ -1,0 +1,3094 @@
+{
+  "timestamp": "20260404_185948",
+  "api": "foods.search.v5",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.search.v5",
+      "search_expression": "Masala dosa",
+      "page_number": 0,
+      "max_results": 50,
+      "region": "IN",
+      "include_sub_categories": "true",
+      "include_food_images": "true",
+      "include_food_attributes": "true",
+      "flag_default_serving": "true",
+      "format": "json"
+    }
+  },
+  "response": {
+    "foods_search": {
+      "max_results": "50",
+      "total_results": "474",
+      "page_number": "0",
+      "results": {
+        "food": [
+          {
+            "food_id": "1518833",
+            "food_name": "Masala Dosa",
+            "brand_name": "Udupi",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Snacks"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/udupi/masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1501208",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/udupi/masala-dosa",
+                  "metric_serving_amount": "86.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "162",
+                  "carbohydrate": "22.00",
+                  "protein": "5.00",
+                  "fat": "6.00",
+                  "saturated_fat": "1.500",
+                  "cholesterol": "0",
+                  "sodium": "520",
+                  "fiber": "2.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "188",
+                  "carbohydrate": "25.58",
+                  "protein": "5.81",
+                  "fat": "6.98",
+                  "saturated_fat": "1.744",
+                  "cholesterol": "0",
+                  "sodium": "605",
+                  "fiber": "2.3",
+                  "sugar": "1.16"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "4063369",
+            "food_name": "Masala Dosa",
+            "brand_name": "Trader Joe's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Crepes"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "3954691",
+                  "serving_description": "1 piece with chutney",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/masala-dosa",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "250",
+                  "carbohydrate": "30.00",
+                  "protein": "5.00",
+                  "fat": "7.00",
+                  "cholesterol": "0",
+                  "sodium": "240",
+                  "fiber": "2.0",
+                  "sugar": "1.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "47486857",
+            "food_name": "Masala Dosa",
+            "brand_name": "Deep",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Flatbread",
+                "Bread"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "40572681",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-dosa",
+                  "metric_serving_amount": "99.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "230",
+                  "carbohydrate": "25.00",
+                  "protein": "3.00",
+                  "fat": "13.00",
+                  "saturated_fat": "4.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "550",
+                  "potassium": "140",
+                  "fiber": "3.0",
+                  "sugar": "3.00",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "vitamin_a": "0",
+                  "vitamin_c": "0",
+                  "calcium": "60",
+                  "iron": "2.20"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "232",
+                  "carbohydrate": "25.25",
+                  "protein": "3.03",
+                  "fat": "13.13",
+                  "saturated_fat": "4.040",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "556",
+                  "potassium": "141",
+                  "fiber": "3.0",
+                  "sugar": "3.03",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "vitamin_a": "0",
+                  "vitamin_c": "0",
+                  "calcium": "61",
+                  "iron": "2.22"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1849296",
+            "food_name": "Masala Dosa",
+            "brand_name": "Tandoor Chef",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Crepes"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1817419",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/masala-dosa",
+                  "metric_serving_amount": "86.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "162",
+                  "carbohydrate": "22.00",
+                  "protein": "5.00",
+                  "fat": "6.00",
+                  "saturated_fat": "1.500",
+                  "cholesterol": "0",
+                  "sodium": "520",
+                  "fiber": "2.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "188",
+                  "carbohydrate": "25.58",
+                  "protein": "5.81",
+                  "fat": "6.98",
+                  "saturated_fat": "1.744",
+                  "cholesterol": "0",
+                  "sodium": "605",
+                  "fiber": "2.3",
+                  "sugar": "1.16"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "98540995",
+            "food_name": "Onion Rava Masala Dosa",
+            "brand_name": "Deep",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Snacks"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/onion-rava-masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "78531601",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/onion-rava-masala-dosa",
+                  "metric_serving_amount": "99.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "230",
+                  "carbohydrate": "35.00",
+                  "protein": "3.00",
+                  "fat": "9.00",
+                  "saturated_fat": "3.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "590",
+                  "potassium": "130",
+                  "fiber": "2.0",
+                  "sugar": "2.00",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "vitamin_a": "0",
+                  "vitamin_c": "0",
+                  "calcium": "40",
+                  "iron": "1.90"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "232",
+                  "carbohydrate": "35.35",
+                  "protein": "3.03",
+                  "fat": "9.09",
+                  "saturated_fat": "3.030",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "596",
+                  "potassium": "131",
+                  "fiber": "2.0",
+                  "sugar": "2.02",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "vitamin_a": "0",
+                  "vitamin_c": "0",
+                  "calcium": "40",
+                  "iron": "1.92"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "63586521",
+            "food_name": "Egg Dosa",
+            "food_type": "Generic",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Breakfast Items"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/generic/egg-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "52563516",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/egg-dosa?portionid=52563516&portionamount=1.000",
+                  "metric_serving_amount": "85.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "piece",
+                  "is_default": "1",
+                  "calories": "186",
+                  "carbohydrate": "21.24",
+                  "protein": "9.20",
+                  "fat": "7.35",
+                  "saturated_fat": "1.653",
+                  "polyunsaturated_fat": "1.469",
+                  "monounsaturated_fat": "3.327",
+                  "cholesterol": "134",
+                  "sodium": "274",
+                  "potassium": "284",
+                  "fiber": "5.2",
+                  "sugar": "1.50",
+                  "vitamin_d": "0",
+                  "vitamin_a": "69",
+                  "vitamin_c": "7.2",
+                  "calcium": "78",
+                  "iron": "3.64"
+                },
+                {
+                  "serving_id": "52563517",
+                  "serving_description": "1 serving (85 g)",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/egg-dosa?portionid=52563517&portionamount=1.000",
+                  "metric_serving_amount": "85.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving (85g)",
+                  "calories": "186",
+                  "carbohydrate": "21.24",
+                  "protein": "9.20",
+                  "fat": "7.35",
+                  "saturated_fat": "1.653",
+                  "polyunsaturated_fat": "1.469",
+                  "monounsaturated_fat": "3.327",
+                  "cholesterol": "134",
+                  "sodium": "274",
+                  "potassium": "284",
+                  "fiber": "5.2",
+                  "sugar": "1.50",
+                  "vitamin_d": "0",
+                  "vitamin_a": "69",
+                  "vitamin_c": "7.2",
+                  "calcium": "78",
+                  "iron": "3.64"
+                },
+                {
+                  "serving_id": "52563518",
+                  "serving_description": "100 g",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/egg-dosa?portionid=52563518&portionamount=100.000",
+                  "metric_serving_amount": "100.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.000",
+                  "measurement_description": "g",
+                  "calories": "219",
+                  "carbohydrate": "24.99",
+                  "protein": "10.82",
+                  "fat": "8.65",
+                  "saturated_fat": "1.945",
+                  "polyunsaturated_fat": "1.728",
+                  "monounsaturated_fat": "3.914",
+                  "cholesterol": "158",
+                  "sodium": "322",
+                  "potassium": "334",
+                  "fiber": "6.1",
+                  "sugar": "1.77",
+                  "vitamin_d": "0",
+                  "vitamin_a": "81",
+                  "vitamin_c": "8.5",
+                  "calcium": "92",
+                  "iron": "4.28"
+                },
+                {
+                  "serving_id": "52563519",
+                  "serving_description": "1 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/egg-dosa?portionid=52563519&portionamount=1.000",
+                  "metric_serving_amount": "28.350",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "oz",
+                  "calories": "62",
+                  "carbohydrate": "7.08",
+                  "protein": "3.07",
+                  "fat": "2.45",
+                  "saturated_fat": "0.551",
+                  "polyunsaturated_fat": "0.490",
+                  "monounsaturated_fat": "1.110",
+                  "cholesterol": "45",
+                  "sodium": "91",
+                  "potassium": "95",
+                  "fiber": "1.7",
+                  "sugar": "0.50",
+                  "vitamin_d": "0",
+                  "vitamin_a": "23",
+                  "vitamin_c": "2.4",
+                  "calcium": "26",
+                  "iron": "1.21"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "22874110",
+            "food_name": "Dosa Batter",
+            "brand_name": "Priyems",
+            "food_type": "Brand",
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/priyems/dosa-batter",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "21413178",
+                  "serving_description": "1 dosa",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/priyems/dosa-batter",
+                  "metric_serving_amount": "65.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "120",
+                  "carbohydrate": "24.00",
+                  "protein": "3.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "160",
+                  "fiber": "3.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "185",
+                  "carbohydrate": "36.92",
+                  "protein": "4.62",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "246",
+                  "fiber": "4.6",
+                  "sugar": "1.54"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "64743667",
+            "food_name": "Chicken Tikka Masala",
+            "food_type": "Generic",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-tikka-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "53404392",
+                  "serving_description": "1 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-tikka-masala?portionid=53404392&portionamount=1.000",
+                  "metric_serving_amount": "240.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "cup",
+                  "is_default": "1",
+                  "calories": "384",
+                  "carbohydrate": "17.63",
+                  "protein": "36.89",
+                  "fat": "18.45",
+                  "saturated_fat": "4.747",
+                  "polyunsaturated_fat": "3.918",
+                  "monounsaturated_fat": "8.377",
+                  "cholesterol": "106",
+                  "sodium": "690",
+                  "potassium": "643",
+                  "fiber": "2.5",
+                  "sugar": "10.04",
+                  "vitamin_d": "0",
+                  "vitamin_a": "100",
+                  "vitamin_c": "18.1",
+                  "calcium": "146",
+                  "iron": "2.81"
+                },
+                {
+                  "serving_id": "53404394",
+                  "serving_description": "100 g",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-tikka-masala?portionid=53404394&portionamount=100.000",
+                  "metric_serving_amount": "100.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.000",
+                  "measurement_description": "g",
+                  "calories": "160",
+                  "carbohydrate": "7.35",
+                  "protein": "15.37",
+                  "fat": "7.69",
+                  "saturated_fat": "1.978",
+                  "polyunsaturated_fat": "1.633",
+                  "monounsaturated_fat": "3.490",
+                  "cholesterol": "44",
+                  "sodium": "288",
+                  "potassium": "268",
+                  "fiber": "1.1",
+                  "sugar": "4.18",
+                  "vitamin_d": "0",
+                  "vitamin_a": "42",
+                  "vitamin_c": "7.5",
+                  "calcium": "61",
+                  "iron": "1.17"
+                },
+                {
+                  "serving_id": "53404395",
+                  "serving_description": "1 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-tikka-masala?portionid=53404395&portionamount=1.000",
+                  "metric_serving_amount": "28.350",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "oz",
+                  "calories": "45",
+                  "carbohydrate": "2.08",
+                  "protein": "4.36",
+                  "fat": "2.18",
+                  "saturated_fat": "0.561",
+                  "polyunsaturated_fat": "0.463",
+                  "monounsaturated_fat": "0.989",
+                  "cholesterol": "13",
+                  "sodium": "82",
+                  "potassium": "76",
+                  "fiber": "0.3",
+                  "sugar": "1.19",
+                  "vitamin_d": "0",
+                  "vitamin_a": "12",
+                  "vitamin_c": "2.1",
+                  "calcium": "17",
+                  "iron": "0.33"
+                },
+                {
+                  "serving_id": "53404393",
+                  "serving_description": "1 serving (200 g)",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-tikka-masala?portionid=53404393&portionamount=1.000",
+                  "metric_serving_amount": "200.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving (200g)",
+                  "calories": "320",
+                  "carbohydrate": "14.69",
+                  "protein": "30.74",
+                  "fat": "15.38",
+                  "saturated_fat": "3.956",
+                  "polyunsaturated_fat": "3.265",
+                  "monounsaturated_fat": "6.981",
+                  "cholesterol": "88",
+                  "sodium": "575",
+                  "potassium": "536",
+                  "fiber": "2.1",
+                  "sugar": "8.37",
+                  "vitamin_d": "0",
+                  "vitamin_a": "84",
+                  "vitamin_c": "15.1",
+                  "calcium": "122",
+                  "iron": "2.34"
+                },
+                {
+                  "serving_id": "86677057",
+                  "serving_description": "100 ml",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-tikka-masala?portionid=86677057&portionamount=100.000",
+                  "metric_serving_amount": "107.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.000",
+                  "measurement_description": "ml",
+                  "calories": "171",
+                  "carbohydrate": "7.86",
+                  "protein": "16.45",
+                  "fat": "8.23",
+                  "saturated_fat": "2.116",
+                  "polyunsaturated_fat": "1.747",
+                  "monounsaturated_fat": "3.735",
+                  "cholesterol": "47",
+                  "sodium": "308",
+                  "potassium": "287",
+                  "fiber": "1.1",
+                  "sugar": "4.48",
+                  "vitamin_d": "0",
+                  "vitamin_a": "45",
+                  "vitamin_c": "8.1",
+                  "calcium": "65",
+                  "iron": "1.25"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "2241",
+            "food_name": "Veal Marsala",
+            "food_type": "Generic",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Veal"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/generic/veal-marsala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "7350",
+                  "serving_description": "1 slice with sauce",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/veal-marsala?portionid=7350&portionamount=1.000",
+                  "metric_serving_amount": "96.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "slice with sauce",
+                  "is_default": "1",
+                  "calories": "268",
+                  "carbohydrate": "6.38",
+                  "protein": "11.59",
+                  "fat": "19.45",
+                  "saturated_fat": "8.601",
+                  "polyunsaturated_fat": "1.259",
+                  "monounsaturated_fat": "8.157",
+                  "cholesterol": "69",
+                  "sodium": "191",
+                  "potassium": "211",
+                  "fiber": "0.2",
+                  "sugar": "1.78",
+                  "vitamin_a": "75",
+                  "vitamin_c": "1.9",
+                  "calcium": "15",
+                  "iron": "0.72"
+                },
+                {
+                  "serving_id": "180646",
+                  "serving_description": "1 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/veal-marsala?portionid=180646&portionamount=1.000",
+                  "metric_serving_amount": "28.350",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "oz",
+                  "calories": "79",
+                  "carbohydrate": "1.89",
+                  "protein": "3.42",
+                  "fat": "5.74",
+                  "saturated_fat": "2.540",
+                  "polyunsaturated_fat": "0.372",
+                  "monounsaturated_fat": "2.409",
+                  "cholesterol": "20",
+                  "sodium": "56",
+                  "potassium": "62",
+                  "fiber": "0.1",
+                  "sugar": "0.52",
+                  "vitamin_a": "22",
+                  "vitamin_c": "0.6",
+                  "calcium": "5",
+                  "iron": "0.21"
+                },
+                {
+                  "serving_id": "7937",
+                  "serving_description": "1 serving (96 g)",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/veal-marsala?portionid=7937&portionamount=1.000",
+                  "metric_serving_amount": "96.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving (96g)",
+                  "calories": "268",
+                  "carbohydrate": "6.38",
+                  "protein": "11.59",
+                  "fat": "19.45",
+                  "saturated_fat": "8.601",
+                  "polyunsaturated_fat": "1.259",
+                  "monounsaturated_fat": "8.157",
+                  "cholesterol": "69",
+                  "sodium": "191",
+                  "potassium": "211",
+                  "fiber": "0.2",
+                  "sugar": "1.78",
+                  "vitamin_a": "75",
+                  "vitamin_c": "1.9",
+                  "calcium": "15",
+                  "iron": "0.72"
+                },
+                {
+                  "serving_id": "50921",
+                  "serving_description": "100 g",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/veal-marsala?portionid=50921&portionamount=100.000",
+                  "metric_serving_amount": "100.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.000",
+                  "measurement_description": "g",
+                  "calories": "279",
+                  "carbohydrate": "6.65",
+                  "protein": "12.07",
+                  "fat": "20.26",
+                  "saturated_fat": "8.959",
+                  "polyunsaturated_fat": "1.311",
+                  "monounsaturated_fat": "8.497",
+                  "cholesterol": "72",
+                  "sodium": "199",
+                  "potassium": "220",
+                  "fiber": "0.2",
+                  "sugar": "1.85",
+                  "vitamin_a": "78",
+                  "vitamin_c": "2.0",
+                  "calcium": "16",
+                  "iron": "0.75"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "4756287",
+            "food_name": "Chicken Marsala",
+            "food_type": "Generic",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Chicken"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-marsala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "4630047",
+                  "serving_description": "1 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-marsala?portionid=4630047&portionamount=1.000",
+                  "metric_serving_amount": "250.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "cup",
+                  "is_default": "1",
+                  "calories": "582",
+                  "carbohydrate": "13.47",
+                  "protein": "38.24",
+                  "fat": "36.97",
+                  "saturated_fat": "14.954",
+                  "polyunsaturated_fat": "3.926",
+                  "monounsaturated_fat": "15.234",
+                  "cholesterol": "157",
+                  "sodium": "385",
+                  "potassium": "467",
+                  "fiber": "0.6",
+                  "sugar": "3.97",
+                  "vitamin_d": "1",
+                  "vitamin_a": "166",
+                  "vitamin_c": "4.4",
+                  "calcium": "32",
+                  "iron": "2.24"
+                },
+                {
+                  "serving_id": "4630050",
+                  "serving_description": "1 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-marsala?portionid=4630050&portionamount=1.000",
+                  "metric_serving_amount": "28.350",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "oz",
+                  "calories": "66",
+                  "carbohydrate": "1.53",
+                  "protein": "4.34",
+                  "fat": "4.19",
+                  "saturated_fat": "1.696",
+                  "polyunsaturated_fat": "0.445",
+                  "monounsaturated_fat": "1.728",
+                  "cholesterol": "18",
+                  "sodium": "44",
+                  "potassium": "53",
+                  "fiber": "0.1",
+                  "sugar": "0.45",
+                  "vitamin_d": "0",
+                  "vitamin_a": "19",
+                  "vitamin_c": "0.5",
+                  "calcium": "4",
+                  "iron": "0.25"
+                },
+                {
+                  "serving_id": "4630049",
+                  "serving_description": "100 g",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-marsala?portionid=4630049&portionamount=100.000",
+                  "metric_serving_amount": "100.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.000",
+                  "measurement_description": "g",
+                  "calories": "233",
+                  "carbohydrate": "5.39",
+                  "protein": "15.30",
+                  "fat": "14.79",
+                  "saturated_fat": "5.982",
+                  "polyunsaturated_fat": "1.571",
+                  "monounsaturated_fat": "6.094",
+                  "cholesterol": "63",
+                  "sodium": "154",
+                  "potassium": "187",
+                  "fiber": "0.2",
+                  "sugar": "1.59",
+                  "vitamin_d": "0",
+                  "vitamin_a": "67",
+                  "vitamin_c": "1.8",
+                  "calcium": "13",
+                  "iron": "0.90"
+                },
+                {
+                  "serving_id": "4630048",
+                  "serving_description": "1 serving (125 g)",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/generic/chicken-marsala?portionid=4630048&portionamount=1.000",
+                  "metric_serving_amount": "125.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving (125g)",
+                  "calories": "291",
+                  "carbohydrate": "6.74",
+                  "protein": "19.12",
+                  "fat": "18.48",
+                  "saturated_fat": "7.477",
+                  "polyunsaturated_fat": "1.963",
+                  "monounsaturated_fat": "7.617",
+                  "cholesterol": "79",
+                  "sodium": "193",
+                  "potassium": "234",
+                  "fiber": "0.3",
+                  "sugar": "1.99",
+                  "vitamin_d": "0",
+                  "vitamin_a": "83",
+                  "vitamin_c": "2.2",
+                  "calcium": "16",
+                  "iron": "1.12"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "10913634",
+            "food_name": "Chicken Tikka Masala",
+            "brand_name": "Masala Wok",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/masala-wok/chicken-tikka-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "10393146",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/masala-wok/chicken-tikka-masala",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "673",
+                  "carbohydrate": "26.00",
+                  "protein": "24.00",
+                  "fat": "54.00",
+                  "saturated_fat": "29.000",
+                  "polyunsaturated_fat": "5.500",
+                  "monounsaturated_fat": "15.000",
+                  "trans_fat": "0",
+                  "cholesterol": "219",
+                  "sodium": "1467",
+                  "potassium": "512",
+                  "fiber": "2.0",
+                  "sugar": "18.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "31388373",
+            "food_name": "Masala Khichri",
+            "brand_name": "Splendid Spoon",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/splendid-spoon/masala-khichri",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "28495780",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/splendid-spoon/masala-khichri",
+                  "metric_serving_amount": "227.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "200",
+                  "carbohydrate": "28.00",
+                  "protein": "7.00",
+                  "fat": "7.00",
+                  "saturated_fat": "1.000",
+                  "sodium": "390",
+                  "fiber": "4.0",
+                  "sugar": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "88",
+                  "carbohydrate": "12.34",
+                  "protein": "3.08",
+                  "fat": "3.08",
+                  "saturated_fat": "0.441",
+                  "sodium": "172",
+                  "fiber": "1.8",
+                  "sugar": "0.88"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "34106190",
+            "food_name": "Chickpea Masala",
+            "brand_name": "Deep Indian Kitchen",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep-indian-kitchen/chickpea-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "30661707",
+                  "serving_description": "3/4 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep-indian-kitchen/chickpea-masala",
+                  "metric_serving_amount": "142.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "18.00",
+                  "protein": "5.00",
+                  "fat": "7.00",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "550",
+                  "fiber": "4.0",
+                  "sugar": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "106",
+                  "carbohydrate": "12.68",
+                  "protein": "3.52",
+                  "fat": "4.93",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "387",
+                  "fiber": "2.8",
+                  "sugar": "2.82"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "65740706",
+            "food_name": "Tikka Masala",
+            "brand_name": "Passage to India",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Chicken"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/passage-to-india/tikka-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "54138089",
+                  "serving_description": "1/3 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/passage-to-india/tikka-masala",
+                  "metric_serving_amount": "93.800",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "80",
+                  "carbohydrate": "8.00",
+                  "protein": "2.00",
+                  "fat": "3.50",
+                  "saturated_fat": "4.000",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "660",
+                  "potassium": "138",
+                  "fiber": "2.0",
+                  "sugar": "4.00",
+                  "added_sugars": "1.00",
+                  "calcium": "14"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "85",
+                  "carbohydrate": "8.53",
+                  "protein": "2.13",
+                  "fat": "3.73",
+                  "saturated_fat": "4.264",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "704",
+                  "potassium": "147",
+                  "fiber": "2.1",
+                  "sugar": "4.26",
+                  "added_sugars": "1.07",
+                  "calcium": "15"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "109745581",
+            "food_name": "Masala Papadi",
+            "brand_name": "Deep",
+            "food_type": "Brand",
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-papadi",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "87057720",
+                  "serving_description": "1 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-papadi",
+                  "metric_serving_amount": "30.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "11.00",
+                  "protein": "3.00",
+                  "fat": "14.00",
+                  "saturated_fat": "2.000",
+                  "sodium": "290",
+                  "potassium": "140",
+                  "fiber": "2.0",
+                  "sugar": "0",
+                  "added_sugars": "0",
+                  "calcium": "30",
+                  "iron": "1.20"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "600",
+                  "carbohydrate": "36.67",
+                  "protein": "10.00",
+                  "fat": "46.67",
+                  "saturated_fat": "6.667",
+                  "sodium": "967",
+                  "potassium": "467",
+                  "fiber": "6.7",
+                  "sugar": "0",
+                  "added_sugars": "0",
+                  "calcium": "100",
+                  "iron": "4.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "458651",
+            "food_name": "Bhindi Masala",
+            "brand_name": "Swad",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/swad/bhindi-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "486701",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/swad/bhindi-masala",
+                  "metric_serving_amount": "100.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "202",
+                  "carbohydrate": "10.00",
+                  "protein": "3.00",
+                  "fat": "16.70",
+                  "saturated_fat": "2.100",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "256",
+                  "fiber": "3.8",
+                  "sugar": "5.70"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "202",
+                  "carbohydrate": "10.00",
+                  "protein": "3.00",
+                  "fat": "16.70",
+                  "saturated_fat": "2.100",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "256",
+                  "fiber": "3.8",
+                  "sugar": "5.70"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "485579",
+            "food_name": "Channa Masala",
+            "brand_name": "Tasty Bite",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tasty-bite/channa-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "512469",
+                  "serving_description": "2/3 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tasty-bite/channa-masala",
+                  "metric_serving_amount": "140.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "170",
+                  "carbohydrate": "22.00",
+                  "protein": "6.00",
+                  "fat": "6.00",
+                  "saturated_fat": "0.500",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "400",
+                  "potassium": "0",
+                  "fiber": "8.0",
+                  "sugar": "3.00",
+                  "added_sugars": "1.00",
+                  "calcium": "50",
+                  "iron": "1.80"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "121",
+                  "carbohydrate": "15.71",
+                  "protein": "4.29",
+                  "fat": "4.29",
+                  "saturated_fat": "0.357",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "286",
+                  "potassium": "0",
+                  "fiber": "5.7",
+                  "sugar": "2.14",
+                  "added_sugars": "0.71",
+                  "calcium": "36",
+                  "iron": "1.29"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "764232",
+            "food_name": "Bhindi Masala",
+            "brand_name": "Ashoka",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/ashoka/bhindi-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "779981",
+                  "serving_description": "1/2 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/ashoka/bhindi-masala",
+                  "metric_serving_amount": "142.000",
+                  "metric_serving_unit": "ml",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "270",
+                  "carbohydrate": "14.00",
+                  "protein": "4.00",
+                  "fat": "23.00",
+                  "saturated_fat": "9.000",
+                  "trans_fat": "0",
+                  "cholesterol": "25",
+                  "sodium": "1240",
+                  "fiber": "3.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 ml",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "ml",
+                  "number_of_units": "100.0",
+                  "measurement_description": "ml",
+                  "calories": "190",
+                  "carbohydrate": "9.86",
+                  "protein": "2.82",
+                  "fat": "16.20",
+                  "saturated_fat": "6.338",
+                  "trans_fat": "0",
+                  "cholesterol": "18",
+                  "sodium": "873",
+                  "fiber": "2.1",
+                  "sugar": "0.70"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1697052",
+            "food_name": "Butter Masala",
+            "brand_name": "Maya Kaimal",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Sauces"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/maya-kaimal/butter-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1671724",
+                  "serving_description": "1/3 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/maya-kaimal/butter-masala",
+                  "metric_serving_amount": "76.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "120",
+                  "carbohydrate": "7.00",
+                  "protein": "2.00",
+                  "fat": "10.00",
+                  "saturated_fat": "5.000",
+                  "cholesterol": "20",
+                  "sodium": "440",
+                  "fiber": "1.0",
+                  "sugar": "3.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "158",
+                  "carbohydrate": "9.21",
+                  "protein": "2.63",
+                  "fat": "13.16",
+                  "saturated_fat": "6.579",
+                  "cholesterol": "26",
+                  "sodium": "579",
+                  "fiber": "1.3",
+                  "sugar": "3.95"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "2983425",
+            "food_name": "Tikka Masala",
+            "brand_name": "Maya Kaimal",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Sauces"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/maya-kaimal/tikka-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "2905414",
+                  "serving_description": "1/4 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/maya-kaimal/tikka-masala",
+                  "metric_serving_amount": "56.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "80",
+                  "carbohydrate": "5.00",
+                  "protein": "1.00",
+                  "fat": "6.00",
+                  "saturated_fat": "2.000",
+                  "trans_fat": "0",
+                  "cholesterol": "10",
+                  "sodium": "260",
+                  "potassium": "33",
+                  "fiber": "1.0",
+                  "sugar": "3.00",
+                  "added_sugars": "1.00",
+                  "vitamin_d": "0",
+                  "calcium": "33",
+                  "iron": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "143",
+                  "carbohydrate": "8.93",
+                  "protein": "1.79",
+                  "fat": "10.71",
+                  "saturated_fat": "3.571",
+                  "trans_fat": "0",
+                  "cholesterol": "18",
+                  "sodium": "464",
+                  "potassium": "59",
+                  "fiber": "1.8",
+                  "sugar": "5.36",
+                  "added_sugars": "1.79",
+                  "vitamin_d": "0",
+                  "calcium": "59",
+                  "iron": "1.79"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "3399836",
+            "food_name": "Chana Masala",
+            "brand_name": "Open Nature",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/open-nature/chana-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "3307144",
+                  "serving_description": "1 tray",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/open-nature/chana-masala",
+                  "metric_serving_amount": "269.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "290",
+                  "carbohydrate": "36.00",
+                  "protein": "9.00",
+                  "fat": "12.00",
+                  "saturated_fat": "5.000",
+                  "cholesterol": "20",
+                  "sodium": "600",
+                  "fiber": "8.0",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "108",
+                  "carbohydrate": "13.38",
+                  "protein": "3.35",
+                  "fat": "4.46",
+                  "saturated_fat": "1.859",
+                  "cholesterol": "7",
+                  "sodium": "223",
+                  "fiber": "3.0",
+                  "sugar": "1.86"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "3662116",
+            "food_name": "Masala Noodles",
+            "brand_name": "Maggi",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Noodles"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/maggi/masala-noodles",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "3562984",
+                  "serving_description": "1 block",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/maggi/masala-noodles",
+                  "metric_serving_amount": "70.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "300",
+                  "carbohydrate": "44.00",
+                  "protein": "6.00",
+                  "fat": "11.00",
+                  "saturated_fat": "5.000",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "810",
+                  "potassium": "324",
+                  "fiber": "2.0",
+                  "sugar": "3.00",
+                  "iron": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "429",
+                  "carbohydrate": "62.86",
+                  "protein": "8.57",
+                  "fat": "15.71",
+                  "saturated_fat": "7.143",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "1157",
+                  "potassium": "463",
+                  "fiber": "2.9",
+                  "sugar": "4.29",
+                  "iron": "2.86"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "3953272",
+            "food_name": "Rajma Masala",
+            "brand_name": "MTR",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/mtr/rajma-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "3847438",
+                  "serving_description": "1/2 pack",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/mtr/rajma-masala",
+                  "metric_serving_amount": "150.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "143",
+                  "carbohydrate": "21.00",
+                  "protein": "8.00",
+                  "fat": "3.00",
+                  "saturated_fat": "1.000",
+                  "trans_fat": "0",
+                  "cholesterol": "2",
+                  "sodium": "748",
+                  "fiber": "2.0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "95",
+                  "carbohydrate": "14.00",
+                  "protein": "5.33",
+                  "fat": "2.00",
+                  "saturated_fat": "0.667",
+                  "trans_fat": "0",
+                  "cholesterol": "1",
+                  "sodium": "499",
+                  "fiber": "1.3",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "7856509",
+            "food_name": "Masala Oats",
+            "brand_name": "Saffola",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Oats"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/saffola/masala-oats",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "7565396",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/saffola/masala-oats",
+                  "metric_serving_amount": "40.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "149",
+                  "carbohydrate": "27.20",
+                  "protein": "4.20",
+                  "fat": "2.60",
+                  "saturated_fat": "0.500",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "fiber": "2.8",
+                  "sugar": "1.60"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "373",
+                  "carbohydrate": "68.00",
+                  "protein": "10.50",
+                  "fat": "6.50",
+                  "saturated_fat": "1.250",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "fiber": "7.0",
+                  "sugar": "4.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "15570944",
+            "food_name": "Garam Masala",
+            "brand_name": "Swad",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Seasoning"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/swad/garam-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "14716598",
+                  "serving_description": "1 tbsp",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/swad/garam-masala",
+                  "metric_serving_amount": "5.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "25",
+                  "carbohydrate": "3.00",
+                  "protein": "1.00",
+                  "fat": "1.00",
+                  "cholesterol": "0",
+                  "sodium": "146",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "500",
+                  "carbohydrate": "60.00",
+                  "protein": "20.00",
+                  "fat": "20.00",
+                  "cholesterol": "0",
+                  "sodium": "2920",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "18176947",
+            "food_name": "Paneer Masala",
+            "brand_name": "Blue Apron",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/blue-apron/paneer-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "17138134",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/blue-apron/paneer-masala",
+                  "metric_serving_amount": "446.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "800",
+                  "carbohydrate": "104.00",
+                  "protein": "34.00",
+                  "fat": "28.00",
+                  "saturated_fat": "16.000",
+                  "cholesterol": "90",
+                  "sodium": "660",
+                  "fiber": "19.0",
+                  "sugar": "14.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "179",
+                  "carbohydrate": "23.32",
+                  "protein": "7.62",
+                  "fat": "6.28",
+                  "saturated_fat": "3.587",
+                  "cholesterol": "20",
+                  "sodium": "148",
+                  "fiber": "4.3",
+                  "sugar": "3.14"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "155353",
+            "food_name": "Channa Masala",
+            "brand_name": "Trader Joe's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/channa-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "199014",
+                  "serving_description": "1/2 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/channa-masala",
+                  "metric_serving_amount": "142.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "22.00",
+                  "protein": "6.00",
+                  "fat": "9.00",
+                  "saturated_fat": "2.000",
+                  "trans_fat": "0",
+                  "cholesterol": "5",
+                  "sodium": "460",
+                  "potassium": "360",
+                  "fiber": "7.0",
+                  "sugar": "3.00",
+                  "added_sugars": "0",
+                  "calcium": "50",
+                  "iron": "2.10"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "127",
+                  "carbohydrate": "15.49",
+                  "protein": "4.23",
+                  "fat": "6.34",
+                  "saturated_fat": "1.408",
+                  "trans_fat": "0",
+                  "cholesterol": "4",
+                  "sodium": "324",
+                  "potassium": "254",
+                  "fiber": "4.9",
+                  "sugar": "2.11",
+                  "added_sugars": "0",
+                  "calcium": "35",
+                  "iron": "1.48"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "23884509",
+            "food_name": "Chana Masala",
+            "brand_name": "Luvo",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/luvo/chana-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "22272900",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/luvo/chana-masala",
+                  "metric_serving_amount": "9.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "270",
+                  "carbohydrate": "47.00",
+                  "protein": "11.00",
+                  "fat": "9.00",
+                  "saturated_fat": "1.000",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "360",
+                  "fiber": "17.0",
+                  "sugar": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "3000",
+                  "carbohydrate": "522.22",
+                  "protein": "122.22",
+                  "fat": "100.00",
+                  "saturated_fat": "11.111",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "4000",
+                  "fiber": "188.9",
+                  "sugar": "22.22"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "119255151",
+            "food_name": "Veggie Masala",
+            "brand_name": "Strong Roots",
+            "food_type": "Brand",
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/strong-roots/veggie-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "93973787",
+                  "serving_description": "1 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/strong-roots/veggie-masala",
+                  "metric_serving_amount": "283.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "260",
+                  "carbohydrate": "40.00",
+                  "protein": "9.00",
+                  "fat": "10.00",
+                  "saturated_fat": "4.000",
+                  "sodium": "628",
+                  "potassium": "577",
+                  "fiber": "12.0",
+                  "sugar": "6.00",
+                  "vitamin_d": "0",
+                  "calcium": "73",
+                  "iron": "2.20"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "92",
+                  "carbohydrate": "14.13",
+                  "protein": "3.18",
+                  "fat": "3.53",
+                  "saturated_fat": "1.413",
+                  "sodium": "222",
+                  "potassium": "204",
+                  "fiber": "4.2",
+                  "sugar": "2.12",
+                  "vitamin_d": "0",
+                  "calcium": "26",
+                  "iron": "0.78"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "25878889",
+            "food_name": "Masala Chhole",
+            "brand_name": "Jyoti",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/jyoti/masala-chhole",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "23949983",
+                  "serving_description": "4 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/jyoti/masala-chhole",
+                  "metric_serving_amount": "114.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "200",
+                  "carbohydrate": "20.00",
+                  "protein": "6.00",
+                  "fat": "11.00",
+                  "saturated_fat": "3.500",
+                  "trans_fat": "0",
+                  "cholesterol": "10",
+                  "sodium": "310",
+                  "fiber": "5.0",
+                  "sugar": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "175",
+                  "carbohydrate": "17.54",
+                  "protein": "5.26",
+                  "fat": "9.65",
+                  "saturated_fat": "3.070",
+                  "trans_fat": "0",
+                  "cholesterol": "9",
+                  "sodium": "272",
+                  "fiber": "4.4",
+                  "sugar": "3.51"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "27540212",
+            "food_name": "Chickpea Masala",
+            "brand_name": "Saffron Road",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/chickpea-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "25287619",
+                  "serving_description": "1/2 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/chickpea-masala",
+                  "metric_serving_amount": "143.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "240",
+                  "carbohydrate": "27.00",
+                  "protein": "8.00",
+                  "fat": "11.00",
+                  "saturated_fat": "1.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "570",
+                  "potassium": "0",
+                  "fiber": "6.0",
+                  "sugar": "6.00",
+                  "added_sugars": "0",
+                  "calcium": "50",
+                  "iron": "1.90"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "168",
+                  "carbohydrate": "18.88",
+                  "protein": "5.59",
+                  "fat": "7.69",
+                  "saturated_fat": "0.699",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "399",
+                  "potassium": "0",
+                  "fiber": "4.2",
+                  "sugar": "4.20",
+                  "added_sugars": "0",
+                  "calcium": "35",
+                  "iron": "1.33"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "27607786",
+            "food_name": "Masala Chips",
+            "brand_name": "Indianlife",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Chips"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/indianlife/masala-chips",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "25342045",
+                  "serving_description": "1 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/indianlife/masala-chips",
+                  "metric_serving_amount": "28.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "120",
+                  "carbohydrate": "11.00",
+                  "protein": "2.00",
+                  "fat": "8.00",
+                  "saturated_fat": "0.500",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "105",
+                  "fiber": "1.0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "429",
+                  "carbohydrate": "39.29",
+                  "protein": "7.14",
+                  "fat": "28.57",
+                  "saturated_fat": "1.786",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "375",
+                  "fiber": "3.6",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "32897211",
+            "food_name": "Chana Masala",
+            "brand_name": "Chef Soraya",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/chef-soraya/chana-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "29719857",
+                  "serving_description": "1 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/chef-soraya/chana-masala",
+                  "metric_serving_amount": "70.800",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "270",
+                  "carbohydrate": "48.00",
+                  "protein": "9.00",
+                  "fat": "4.50",
+                  "saturated_fat": "3.000",
+                  "cholesterol": "0",
+                  "sodium": "740",
+                  "fiber": "4.0",
+                  "sugar": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "381",
+                  "carbohydrate": "67.80",
+                  "protein": "12.71",
+                  "fat": "6.36",
+                  "saturated_fat": "4.237",
+                  "cholesterol": "0",
+                  "sodium": "1045",
+                  "fiber": "5.7",
+                  "sugar": "2.83"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "33655408",
+            "food_name": "Butter Masala",
+            "brand_name": "Curries By Nature",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/curries-by-nature/butter-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "30312600",
+                  "serving_description": "3 tbsp",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/curries-by-nature/butter-masala",
+                  "metric_serving_amount": "43.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "70",
+                  "carbohydrate": "6.00",
+                  "protein": "1.00",
+                  "fat": "5.00",
+                  "saturated_fat": "1.000",
+                  "trans_fat": "0",
+                  "cholesterol": "5",
+                  "sodium": "330",
+                  "potassium": "65",
+                  "fiber": "0",
+                  "sugar": "3.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "163",
+                  "carbohydrate": "13.95",
+                  "protein": "2.33",
+                  "fat": "11.63",
+                  "saturated_fat": "2.326",
+                  "trans_fat": "0",
+                  "cholesterol": "12",
+                  "sodium": "767",
+                  "potassium": "151",
+                  "fiber": "0",
+                  "sugar": "6.98"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "44106942",
+            "food_name": "Masala Poppers",
+            "brand_name": "Franklin Farms",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Meatballs",
+                "Meatless Foods"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/franklin-farms/masala-poppers",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "38138584",
+                  "serving_description": "3 pieces",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/franklin-farms/masala-poppers",
+                  "metric_serving_amount": "85.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "28.00",
+                  "protein": "6.00",
+                  "fat": "5.00",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "180",
+                  "potassium": "497",
+                  "fiber": "5.0",
+                  "sugar": "4.00",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "calcium": "17",
+                  "iron": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "212",
+                  "carbohydrate": "32.94",
+                  "protein": "7.06",
+                  "fat": "5.88",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "212",
+                  "potassium": "585",
+                  "fiber": "5.9",
+                  "sugar": "4.71",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "calcium": "20",
+                  "iron": "2.35"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "51703506",
+            "food_name": "Chana Masala",
+            "brand_name": "Lidl",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/lidl/chana-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "43776606",
+                  "serving_description": "1 tray",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/lidl/chana-masala",
+                  "metric_serving_amount": "283.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "360",
+                  "carbohydrate": "56.00",
+                  "protein": "10.00",
+                  "fat": "11.00",
+                  "saturated_fat": "1.000",
+                  "cholesterol": "0",
+                  "sodium": "430",
+                  "potassium": "380",
+                  "fiber": "5.0",
+                  "sugar": "6.00",
+                  "vitamin_d": "0",
+                  "calcium": "80",
+                  "iron": "2.70"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "127",
+                  "carbohydrate": "19.79",
+                  "protein": "3.53",
+                  "fat": "3.89",
+                  "saturated_fat": "0.353",
+                  "cholesterol": "0",
+                  "sodium": "152",
+                  "potassium": "134",
+                  "fiber": "1.8",
+                  "sugar": "2.12",
+                  "vitamin_d": "0",
+                  "calcium": "28",
+                  "iron": "0.95"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "53658600",
+            "food_name": "Korma Masala",
+            "brand_name": "Curries By Nature",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/curries-by-nature/korma-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "45238443",
+                  "serving_description": "3 tbsp",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/curries-by-nature/korma-masala",
+                  "metric_serving_amount": "43.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "60",
+                  "carbohydrate": "4.00",
+                  "protein": "1.00",
+                  "fat": "4.50",
+                  "saturated_fat": "1.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "240",
+                  "potassium": "75",
+                  "fiber": "0",
+                  "sugar": "2.00",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "calcium": "17",
+                  "iron": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "140",
+                  "carbohydrate": "9.30",
+                  "protein": "2.33",
+                  "fat": "10.47",
+                  "saturated_fat": "2.326",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "558",
+                  "potassium": "174",
+                  "fiber": "0",
+                  "sugar": "4.65",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "calcium": "40",
+                  "iron": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "57815743",
+            "food_name": "Vindaloo Masala",
+            "brand_name": "Curries By Nature",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Sauces"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/curries-by-nature/vindaloo-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "48246951",
+                  "serving_description": "3 tbsp",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/curries-by-nature/vindaloo-masala",
+                  "metric_serving_amount": "43.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "60",
+                  "carbohydrate": "4.00",
+                  "protein": "1.00",
+                  "fat": "5.00",
+                  "saturated_fat": "0.500",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "300",
+                  "potassium": "80",
+                  "sugar": "2.00",
+                  "calcium": "14",
+                  "iron": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "140",
+                  "carbohydrate": "9.30",
+                  "protein": "2.33",
+                  "fat": "11.63",
+                  "saturated_fat": "1.163",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "698",
+                  "potassium": "186",
+                  "sugar": "4.65",
+                  "calcium": "33",
+                  "iron": "2.33"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "750806",
+            "food_name": "Masala Khakhara",
+            "brand_name": "Deep",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Bread"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-khakhara",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "767057",
+                  "serving_description": "2 pieces",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-khakhara",
+                  "metric_serving_amount": "40.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "193",
+                  "carbohydrate": "24.00",
+                  "protein": "4.00",
+                  "fat": "9.00",
+                  "saturated_fat": "2.000",
+                  "cholesterol": "0",
+                  "sodium": "320",
+                  "fiber": "5.0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "483",
+                  "carbohydrate": "60.00",
+                  "protein": "10.00",
+                  "fat": "22.50",
+                  "saturated_fat": "5.000",
+                  "cholesterol": "0",
+                  "sodium": "800",
+                  "fiber": "12.5"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "966607",
+            "food_name": "Channa Masala",
+            "brand_name": "Tandoor Chef",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/channa-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "973815",
+                  "serving_description": "1/2 container",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/channa-masala",
+                  "metric_serving_amount": "141.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "190",
+                  "carbohydrate": "22.00",
+                  "protein": "5.00",
+                  "fat": "9.00",
+                  "saturated_fat": "0.500",
+                  "trans_fat": "0",
+                  "cholesterol": "5",
+                  "sodium": "640",
+                  "fiber": "7.0",
+                  "sugar": "6.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "135",
+                  "carbohydrate": "15.60",
+                  "protein": "3.55",
+                  "fat": "6.38",
+                  "saturated_fat": "0.355",
+                  "trans_fat": "0",
+                  "cholesterol": "4",
+                  "sodium": "454",
+                  "fiber": "5.0",
+                  "sugar": "4.26"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "977106",
+            "food_name": "Chickpea Masala",
+            "brand_name": "Karen & Sisters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/karen-and-sisters/chickpea-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "983879",
+                  "serving_description": "1 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/karen-and-sisters/chickpea-masala",
+                  "metric_serving_amount": "7.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "280",
+                  "carbohydrate": "46.00",
+                  "protein": "14.00",
+                  "fat": "8.00",
+                  "saturated_fat": "1.000",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "300",
+                  "fiber": "13.0",
+                  "sugar": "6.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "40",
+                  "carbohydrate": "6.57",
+                  "protein": "2.00",
+                  "fat": "1.14",
+                  "saturated_fat": "0.143",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "43",
+                  "fiber": "1.9",
+                  "sugar": "0.86"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "141",
+                  "carbohydrate": "23.18",
+                  "protein": "7.06",
+                  "fat": "4.03",
+                  "saturated_fat": "0.504",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "151",
+                  "fiber": "6.6",
+                  "sugar": "3.02"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1128998",
+            "food_name": "Chana Masala",
+            "brand_name": "Patak's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/pataks/chana-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1128480",
+                  "serving_description": "1 container",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/pataks/chana-masala",
+                  "metric_serving_amount": "283.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "270",
+                  "carbohydrate": "51.00",
+                  "protein": "9.00",
+                  "fat": "4.50",
+                  "cholesterol": "0",
+                  "sodium": "600",
+                  "fiber": "4.0",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "95",
+                  "carbohydrate": "18.02",
+                  "protein": "3.18",
+                  "fat": "1.59",
+                  "cholesterol": "0",
+                  "sodium": "212",
+                  "fiber": "1.4",
+                  "sugar": "1.77"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1513514",
+            "food_name": "Channa Masala",
+            "brand_name": "Sukhi's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/sukhis/channa-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1496169",
+                  "serving_description": "1/2 container",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/sukhis/channa-masala",
+                  "metric_serving_amount": "156.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "250",
+                  "carbohydrate": "39.00",
+                  "protein": "11.00",
+                  "fat": "7.00",
+                  "saturated_fat": "0",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "310",
+                  "fiber": "6.0",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "160",
+                  "carbohydrate": "25.00",
+                  "protein": "7.05",
+                  "fat": "4.49",
+                  "saturated_fat": "0",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "199",
+                  "fiber": "3.8",
+                  "sugar": "3.21"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1549541",
+            "food_name": "Tikka Masala",
+            "brand_name": "Archer Farms",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/archer-farms/tikka-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1530584",
+                  "serving_description": "1/3 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/archer-farms/tikka-masala",
+                  "metric_serving_amount": "214.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "380",
+                  "carbohydrate": "64.00",
+                  "protein": "8.00",
+                  "fat": "11.00",
+                  "saturated_fat": "6.000",
+                  "trans_fat": "0",
+                  "cholesterol": "3",
+                  "sodium": "770",
+                  "fiber": "5.0",
+                  "sugar": "13.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "178",
+                  "carbohydrate": "29.91",
+                  "protein": "3.74",
+                  "fat": "5.14",
+                  "saturated_fat": "2.804",
+                  "trans_fat": "0",
+                  "cholesterol": "1",
+                  "sodium": "360",
+                  "fiber": "2.3",
+                  "sugar": "6.08"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1701710",
+            "food_name": "Chana Masala",
+            "brand_name": "MTR",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries",
+                "Chickpeas"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/mtr/chana-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1676220",
+                  "serving_description": "1/3 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/mtr/chana-masala",
+                  "metric_serving_amount": "100.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "170",
+                  "carbohydrate": "18.00",
+                  "protein": "6.00",
+                  "fat": "8.00",
+                  "saturated_fat": "4.000",
+                  "cholesterol": "3",
+                  "sodium": "550"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "170",
+                  "carbohydrate": "18.00",
+                  "protein": "6.00",
+                  "fat": "8.00",
+                  "saturated_fat": "4.000",
+                  "cholesterol": "3",
+                  "sodium": "550"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "3067085",
+            "food_name": "Channa Masala",
+            "brand_name": "Fresh & Easy",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Chickpeas"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/fresh-and-easy/channa-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "2986030",
+                  "serving_description": "1 container",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/fresh-and-easy/channa-masala",
+                  "metric_serving_amount": "262.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "250",
+                  "carbohydrate": "44.00",
+                  "protein": "8.00",
+                  "fat": "4.50",
+                  "saturated_fat": "1.000",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "530",
+                  "fiber": "5.0",
+                  "sugar": "8.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "95",
+                  "carbohydrate": "16.79",
+                  "protein": "3.05",
+                  "fat": "1.72",
+                  "saturated_fat": "0.382",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "202",
+                  "fiber": "1.9",
+                  "sugar": "3.05"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "4201027",
+            "food_name": "Channa Masala",
+            "brand_name": "Cafe Spice",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/cafe-spice/channa-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "4089187",
+                  "serving_description": "1/2 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/cafe-spice/channa-masala",
+                  "metric_serving_amount": "8.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "330",
+                  "carbohydrate": "61.00",
+                  "protein": "13.00",
+                  "fat": "5.00",
+                  "saturated_fat": "0",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "650",
+                  "potassium": "429",
+                  "fiber": "9.0",
+                  "sugar": "5.00",
+                  "calcium": "201",
+                  "iron": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "41",
+                  "carbohydrate": "7.63",
+                  "protein": "1.63",
+                  "fat": "0.63",
+                  "saturated_fat": "0",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "81",
+                  "potassium": "54",
+                  "fiber": "1.1",
+                  "sugar": "0.63",
+                  "calcium": "25",
+                  "iron": "0.50"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "146",
+                  "carbohydrate": "26.90",
+                  "protein": "5.73",
+                  "fat": "2.21",
+                  "saturated_fat": "0",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "287",
+                  "potassium": "189",
+                  "fiber": "4.0",
+                  "sugar": "2.21",
+                  "calcium": "89",
+                  "iron": "1.76"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "4995616",
+            "food_name": "Chana Masala",
+            "brand_name": "MTR",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries",
+                "Chickpeas"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/mtr/chana-masala/1-2-pack",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "4862524",
+                  "serving_description": "1/2 pack",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/mtr/chana-masala/1-2-pack",
+                  "metric_serving_amount": "150.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "173",
+                  "carbohydrate": "18.00",
+                  "protein": "5.00",
+                  "fat": "9.00",
+                  "saturated_fat": "1.800",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "904",
+                  "fiber": "0.5",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "115",
+                  "carbohydrate": "12.00",
+                  "protein": "3.33",
+                  "fat": "6.00",
+                  "saturated_fat": "1.200",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "603",
+                  "fiber": "0.3",
+                  "sugar": "3.33"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "14211292",
+            "food_name": "Masala Chai",
+            "brand_name": "Quik Tea",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Tea",
+                "Beverages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/quik-tea/masala-chai",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "13454576",
+                  "serving_description": "1 pouch",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/quik-tea/masala-chai",
+                  "metric_serving_amount": "24.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "98",
+                  "carbohydrate": "19.20",
+                  "protein": "1.00",
+                  "fat": "2.00",
+                  "saturated_fat": "0",
+                  "cholesterol": "6",
+                  "sodium": "9",
+                  "sugar": "11.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "408",
+                  "carbohydrate": "80.00",
+                  "protein": "4.17",
+                  "fat": "8.33",
+                  "saturated_fat": "0",
+                  "cholesterol": "25",
+                  "sodium": "38",
+                  "sugar": "45.83"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "56545",
+            "food_name": "Chickpea Masala",
+            "brand_name": "Tandoor Chef",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/chickpea-masala",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "99043",
+                  "serving_description": "1 entree",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/chickpea-masala",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "190",
+                  "carbohydrate": "20.00",
+                  "protein": "6.00",
+                  "fat": "7.00",
+                  "saturated_fat": "0.500",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "250",
+                  "fiber": "5.0",
+                  "sugar": "4.00"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "status_code": 200
+}

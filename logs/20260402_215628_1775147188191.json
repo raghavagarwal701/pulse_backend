@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260402_215628",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=dosa&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "dosa",
+      "dosa bombay potato street wrap",
+      "dosa brussels sprout, butternut squash & paneer salad",
+      "dosa butter sauce",
+      "dosa cardamom mango lassi",
+      "dosa chick\u2019n tikka street wrap",
+      "dosa turmeric banana lassi",
+      "masala dosa",
+      "egg dosa",
+      "gits dosai"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

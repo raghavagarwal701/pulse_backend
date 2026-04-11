@@ -1,0 +1,16 @@
+{
+  "timestamp": "20260402_185810",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/search?query=masasala%20do&page_number=0&max_results=20",
+  "request": "",
+  "response": {
+    "status": "success",
+    "query": "masasala do",
+    "page_number": 0,
+    "max_results": 20,
+    "total_results": 0,
+    "results": [],
+    "error": null
+  },
+  "status_code": 200
+}

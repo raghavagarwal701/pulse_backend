@@ -1,0 +1,1056 @@
+{
+  "timestamp": "20260405_210724",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/search?query=biryani&page_number=0&max_results=20",
+  "request": "",
+  "response": {
+    "status": "success",
+    "query": "biryani",
+    "page_number": 0,
+    "max_results": 20,
+    "total_results": 24,
+    "results": [
+      {
+        "food_id": 1000640,
+        "food_name": "Mutton biryani/biriyani",
+        "brand_name": "indb",
+        "servings": [
+          {
+            "serving_description": "250 g",
+            "metric_serving_amount": 250.0,
+            "metric_serving_unit": "g",
+            "number_of_units": 1.0,
+            "measurement_description": "serving",
+            "calories": 476.9,
+            "protein": 18.45,
+            "fat": 19.3,
+            "carbohydrate": 56.25
+          }
+        ],
+        "food_type": "Generic",
+        "source_type": "csv",
+        "source_db": "indb",
+        "confidence_score": 0.9,
+        "normalized_name": "mutton biryanibiriyani",
+        "average_serving_size": 250.0,
+        "dish_id": 640,
+        "calories_per_100g": 190.76,
+        "protein_per_100g": 7.38,
+        "fat_per_100g": 7.72,
+        "carbs_per_100g": 22.5
+      },
+      {
+        "food_id": 1000641,
+        "food_name": "Vegetable biryani/biriyani",
+        "brand_name": "indb",
+        "servings": [
+          {
+            "serving_description": "250 g",
+            "metric_serving_amount": 250.0,
+            "metric_serving_unit": "g",
+            "number_of_units": 1.0,
+            "measurement_description": "serving",
+            "calories": 436.53,
+            "protein": 7.9,
+            "fat": 23.77,
+            "carbohydrate": 46.4
+          }
+        ],
+        "food_type": "Generic",
+        "source_type": "csv",
+        "source_db": "indb",
+        "confidence_score": 0.9,
+        "normalized_name": "vegetable biryanibiriyani",
+        "average_serving_size": 250.0,
+        "dish_id": 641,
+        "calories_per_100g": 174.61,
+        "protein_per_100g": 3.16,
+        "fat_per_100g": 9.51,
+        "carbs_per_100g": 18.56
+      },
+      {
+        "food_id": 1001118,
+        "food_name": "Chicken Biryani",
+        "brand_name": "other",
+        "servings": [
+          {
+            "serving_description": "250 g",
+            "metric_serving_amount": 250.0,
+            "metric_serving_unit": "g",
+            "number_of_units": 1.0,
+            "measurement_description": "serving",
+            "calories": 432.55,
+            "protein": 14.18,
+            "fat": 19.85,
+            "carbohydrate": 20.98
+          }
+        ],
+        "food_type": "Generic",
+        "source_type": "csv",
+        "source_db": "other",
+        "confidence_score": 0.6,
+        "normalized_name": "chicken biryani",
+        "average_serving_size": 250.0,
+        "dish_id": 1118,
+        "calories_per_100g": 173.02,
+        "protein_per_100g": 5.67,
+        "fat_per_100g": 7.94,
+        "carbs_per_100g": 8.39
+      },
+      {
+        "food_id": 23774653,
+        "food_name": "Chicken Biryani",
+        "brand_name": "Bombay Kitchen",
+        "servings": [
+          {
+            "serving_description": "5 oz",
+            "serving_id": "22181214",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/bombay-kitchen/chicken-biryani",
+            "metric_serving_amount": "142.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "255",
+            "carbohydrate": "23.00",
+            "protein": "13.00",
+            "fat": "13.00",
+            "saturated_fat": "1.750",
+            "trans_fat": "0",
+            "cholesterol": "28",
+            "sodium": "330",
+            "potassium": "145",
+            "fiber": "1.0",
+            "sugar": "1.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "180",
+            "carbohydrate": "16.20",
+            "protein": "9.16",
+            "fat": "9.16",
+            "saturated_fat": "1.232",
+            "trans_fat": "0",
+            "cholesterol": "20",
+            "sodium": "232",
+            "potassium": "102",
+            "fiber": "0.7",
+            "sugar": "0.70"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/bombay-kitchen/chicken-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 49682,
+        "food_name": "Vegetable Biryani Rice",
+        "brand_name": "Trader Joe's",
+        "servings": [
+          {
+            "serving_description": "1 cup",
+            "serving_id": "96899",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/vegetable-biryani-rice",
+            "metric_serving_amount": "142.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "210",
+            "carbohydrate": "36.00",
+            "protein": "5.00",
+            "fat": "6.00",
+            "saturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "690",
+            "potassium": "240",
+            "fiber": "6.0",
+            "sugar": "3.00",
+            "added_sugars": "1.00",
+            "calcium": "30",
+            "iron": "1.10"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "148",
+            "carbohydrate": "25.35",
+            "protein": "3.52",
+            "fat": "4.23",
+            "saturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "486",
+            "potassium": "169",
+            "fiber": "4.2",
+            "sugar": "2.11",
+            "added_sugars": "0.70",
+            "calcium": "21",
+            "iron": "0.78"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Curries",
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/vegetable-biryani-rice",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 108421699,
+        "food_name": "Chicken Biryani",
+        "brand_name": "Deep",
+        "servings": [
+          {
+            "serving_description": "1 serving",
+            "serving_id": "86068839",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/chicken-biryani",
+            "metric_serving_amount": "255.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "380",
+            "carbohydrate": "32.00",
+            "protein": "28.00",
+            "fat": "15.00",
+            "fiber": "7.0",
+            "sugar": "2.00",
+            "added_sugars": "0"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "149",
+            "carbohydrate": "12.55",
+            "protein": "10.98",
+            "fat": "5.88",
+            "fiber": "2.7",
+            "sugar": "0.78",
+            "added_sugars": "0"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Chicken"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/chicken-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 56540,
+        "food_name": "Chicken Biryani",
+        "brand_name": "Tandoor Chef",
+        "servings": [
+          {
+            "serving_description": "1 tray",
+            "serving_id": "99028",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/chicken-biryani",
+            "metric_serving_amount": "354.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "480",
+            "carbohydrate": "51.00",
+            "protein": "25.00",
+            "fat": "20.00",
+            "saturated_fat": "5.000",
+            "trans_fat": "0",
+            "cholesterol": "115",
+            "sodium": "810",
+            "fiber": "0",
+            "sugar": "0"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "136",
+            "carbohydrate": "14.41",
+            "protein": "7.06",
+            "fat": "5.65",
+            "saturated_fat": "1.412",
+            "trans_fat": "0",
+            "cholesterol": "32",
+            "sodium": "229",
+            "fiber": "0",
+            "sugar": "0"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Curries"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/chicken-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 1844450,
+        "food_name": "Chicken Biryani",
+        "brand_name": "Saffron Road",
+        "servings": [
+          {
+            "serving_description": "1 package",
+            "serving_id": "1812842",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/chicken-biryani",
+            "metric_serving_amount": "283.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "420",
+            "carbohydrate": "62.00",
+            "protein": "25.00",
+            "fat": "9.00",
+            "saturated_fat": "1.000",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "45",
+            "sodium": "490",
+            "potassium": "600",
+            "fiber": "4.0",
+            "sugar": "2.00",
+            "added_sugars": "0",
+            "vitamin_d": "0",
+            "calcium": "80",
+            "iron": "2.60"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "148",
+            "carbohydrate": "21.91",
+            "protein": "8.83",
+            "fat": "3.18",
+            "saturated_fat": "0.353",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "16",
+            "sodium": "173",
+            "potassium": "212",
+            "fiber": "1.4",
+            "sugar": "0.71",
+            "added_sugars": "0",
+            "vitamin_d": "0",
+            "calcium": "28",
+            "iron": "0.92"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Curries"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/chicken-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 67897641,
+        "food_name": "Biryani",
+        "brand_name": "The Ultimate High Protein Handbook",
+        "servings": [
+          {
+            "serving_description": "1 serving",
+            "serving_id": "55651275",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/the-ultimate-high-protein-handbook/biryani",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "482",
+            "carbohydrate": "68.00",
+            "protein": "39.00",
+            "fat": "6.00"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/the-ultimate-high-protein-handbook/biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 4216741,
+        "food_name": "Veg Biryani",
+        "brand_name": "Swad",
+        "servings": [
+          {
+            "serving_description": "1 cup",
+            "serving_id": "4104528",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/swad/veg-biryani",
+            "metric_serving_amount": "100.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "169",
+            "carbohydrate": "28.77",
+            "protein": "4.00",
+            "fat": "4.26",
+            "saturated_fat": "1.640",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "610",
+            "fiber": "0.5",
+            "sugar": "2.49"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "169",
+            "carbohydrate": "28.77",
+            "protein": "4.00",
+            "fat": "4.26",
+            "saturated_fat": "1.640",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "610",
+            "fiber": "0.5",
+            "sugar": "2.49"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/swad/veg-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 34390757,
+        "food_name": "Vegetable Biryani",
+        "brand_name": "Saffron Road",
+        "servings": [
+          {
+            "serving_description": "1 package",
+            "serving_id": "30879666",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/vegetable-biryani",
+            "metric_serving_amount": "283.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "360",
+            "carbohydrate": "64.00",
+            "protein": "8.00",
+            "fat": "8.00",
+            "saturated_fat": "1.000",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "710",
+            "potassium": "340",
+            "fiber": "6.0",
+            "sugar": "11.00",
+            "added_sugars": "5.00",
+            "calcium": "60",
+            "iron": "2.80"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "127",
+            "carbohydrate": "22.62",
+            "protein": "2.83",
+            "fat": "2.83",
+            "saturated_fat": "0.353",
+            "trans_fat": "0",
+            "cholesterol": "0",
+            "sodium": "251",
+            "potassium": "120",
+            "fiber": "2.1",
+            "sugar": "3.89",
+            "added_sugars": "1.77",
+            "calcium": "21",
+            "iron": "0.99"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/vegetable-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 71195671,
+        "food_name": "Chicken Biryani",
+        "brand_name": "Deep Indian Kitchen",
+        "servings": [
+          {
+            "serving_description": "1 tray",
+            "serving_id": "58069247",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep-indian-kitchen/chicken-biryani",
+            "metric_serving_amount": "255.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "380",
+            "carbohydrate": "32.00",
+            "protein": "28.00",
+            "fat": "15.00",
+            "saturated_fat": "4.000",
+            "trans_fat": "0",
+            "cholesterol": "95",
+            "sodium": "1110",
+            "potassium": "620",
+            "fiber": "7.0",
+            "sugar": "2.00",
+            "added_sugars": "0",
+            "calcium": "90",
+            "iron": "1.60"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "149",
+            "carbohydrate": "12.55",
+            "protein": "10.98",
+            "fat": "5.88",
+            "saturated_fat": "1.569",
+            "trans_fat": "0",
+            "cholesterol": "37",
+            "sodium": "435",
+            "potassium": "243",
+            "fiber": "2.7",
+            "sugar": "0.78",
+            "added_sugars": "0",
+            "calcium": "35",
+            "iron": "0.63"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/deep-indian-kitchen/chicken-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 618165,
+        "food_name": "Chicken Biryani",
+        "brand_name": "Ethnic Gourmet",
+        "servings": [
+          {
+            "serving_description": "1 container",
+            "serving_id": "639694",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/ethnic-gourmet/chicken-biryani",
+            "metric_serving_amount": "10.000",
+            "metric_serving_unit": "oz",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "390",
+            "carbohydrate": "54.00",
+            "protein": "16.00",
+            "fat": "12.00",
+            "saturated_fat": "1.500",
+            "trans_fat": "0",
+            "cholesterol": "20",
+            "sodium": "1080",
+            "fiber": "4.0",
+            "sugar": "7.00"
+          },
+          {
+            "serving_description": "1 oz",
+            "serving_id": "0",
+            "metric_serving_amount": "1.0",
+            "metric_serving_unit": "oz",
+            "number_of_units": "1.0",
+            "measurement_description": "oz",
+            "calories": "39",
+            "carbohydrate": "5.40",
+            "protein": "1.60",
+            "fat": "1.20",
+            "saturated_fat": "0.150",
+            "trans_fat": "0",
+            "cholesterol": "2",
+            "sodium": "108",
+            "fiber": "0.4",
+            "sugar": "0.70"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "138",
+            "carbohydrate": "19.05",
+            "protein": "5.64",
+            "fat": "4.23",
+            "saturated_fat": "0.529",
+            "trans_fat": "0",
+            "cholesterol": "7",
+            "sodium": "381",
+            "fiber": "1.4",
+            "sugar": "2.47"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Chicken",
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/ethnic-gourmet/chicken-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 66574,
+        "food_name": "Biryani Curried Rice Dish",
+        "brand_name": "Trader Joe's",
+        "servings": [
+          {
+            "serving_description": "1 cup",
+            "serving_id": "123353",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/biryani-curried-rice-dish",
+            "metric_serving_amount": "145.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "170",
+            "carbohydrate": "36.00",
+            "protein": "4.00",
+            "fat": "0",
+            "cholesterol": "0",
+            "sodium": "650",
+            "fiber": "2.0",
+            "sugar": "8.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "117",
+            "carbohydrate": "24.83",
+            "protein": "2.76",
+            "fat": "0",
+            "cholesterol": "0",
+            "sodium": "448",
+            "fiber": "1.4",
+            "sugar": "5.52"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Curries"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/biryani-curried-rice-dish",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 4869971,
+        "food_name": "Chicken Biryani",
+        "brand_name": "Sukhi's",
+        "servings": [
+          {
+            "serving_description": "1 package",
+            "serving_id": "4740574",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/sukhis/chicken-biryani",
+            "metric_serving_amount": "200.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "280",
+            "carbohydrate": "37.00",
+            "protein": "18.00",
+            "fat": "7.00",
+            "saturated_fat": "1.000",
+            "cholesterol": "60",
+            "sodium": "800",
+            "potassium": "320",
+            "fiber": "2.0",
+            "sugar": "5.00",
+            "added_sugars": "1.00",
+            "calcium": "120",
+            "iron": "0.60"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "140",
+            "carbohydrate": "18.50",
+            "protein": "9.00",
+            "fat": "3.50",
+            "saturated_fat": "0.500",
+            "cholesterol": "30",
+            "sodium": "400",
+            "potassium": "160",
+            "fiber": "1.0",
+            "sugar": "2.50",
+            "added_sugars": "0.50",
+            "calcium": "60",
+            "iron": "0.30"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/sukhis/chicken-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 37288191,
+        "food_name": "Chicken Biryani",
+        "brand_name": "Lidl",
+        "servings": [
+          {
+            "serving_description": "1 container",
+            "serving_id": "32964908",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/lidl/chicken-biryani",
+            "metric_serving_amount": "283.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "410",
+            "carbohydrate": "43.00",
+            "protein": "18.00",
+            "fat": "19.00",
+            "saturated_fat": "2.000",
+            "polyunsaturated_fat": "4.500",
+            "monounsaturated_fat": "9.000",
+            "trans_fat": "0",
+            "cholesterol": "35",
+            "sodium": "520",
+            "fiber": "2.0",
+            "sugar": "4.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "145",
+            "carbohydrate": "15.19",
+            "protein": "6.36",
+            "fat": "6.71",
+            "saturated_fat": "0.707",
+            "polyunsaturated_fat": "1.590",
+            "monounsaturated_fat": "3.180",
+            "trans_fat": "0",
+            "cholesterol": "12",
+            "sodium": "184",
+            "fiber": "0.7",
+            "sugar": "1.41"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/lidl/chicken-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 750295,
+        "food_name": "Table Shrimp, Vegetable & Brown Rice Biryani",
+        "brand_name": "Fresh Direct",
+        "servings": [
+          {
+            "serving_description": "1 container",
+            "serving_id": "766565",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/fresh-direct/table-shrimp-vegetable-and-brown-rice-biryani",
+            "metric_serving_amount": "284.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "290",
+            "carbohydrate": "35.00",
+            "protein": "20.00",
+            "fat": "8.00",
+            "saturated_fat": "4.000",
+            "polyunsaturated_fat": "1.000",
+            "monounsaturated_fat": "2.500",
+            "cholesterol": "120",
+            "sodium": "800",
+            "fiber": "5.0",
+            "sugar": "4.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "102",
+            "carbohydrate": "12.32",
+            "protein": "7.04",
+            "fat": "2.82",
+            "saturated_fat": "1.408",
+            "polyunsaturated_fat": "0.352",
+            "monounsaturated_fat": "0.880",
+            "cholesterol": "42",
+            "sodium": "282",
+            "fiber": "1.8",
+            "sugar": "1.41"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice",
+            "Seafood"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/fresh-direct/table-shrimp-vegetable-and-brown-rice-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 3271363,
+        "food_name": "Paneer Biryani",
+        "brand_name": "Kohinoor",
+        "servings": [
+          {
+            "serving_description": "1/2 package",
+            "serving_id": "3182648",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/kohinoor/paneer-biryani",
+            "metric_serving_amount": "125.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "210",
+            "carbohydrate": "32.00",
+            "protein": "7.00",
+            "fat": "6.00",
+            "saturated_fat": "3.000",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "5",
+            "sodium": "470",
+            "potassium": "0",
+            "fiber": "2.0",
+            "sugar": "0"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "168",
+            "carbohydrate": "25.60",
+            "protein": "5.60",
+            "fat": "4.80",
+            "saturated_fat": "2.400",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "4",
+            "sodium": "376",
+            "potassium": "0",
+            "fiber": "1.6",
+            "sugar": "0"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/kohinoor/paneer-biryani",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 80565,
+        "food_name": "Biryani Curry Paste",
+        "brand_name": "Patak's",
+        "servings": [
+          {
+            "serving_description": "3 tbsp",
+            "serving_id": "127781",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/pataks/biryani-curry-paste",
+            "metric_serving_amount": "45.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "170",
+            "carbohydrate": "6.00",
+            "protein": "2.00",
+            "fat": "15.00",
+            "saturated_fat": "1.500",
+            "cholesterol": "0",
+            "sodium": "1530",
+            "fiber": "4.0",
+            "sugar": "1.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "378",
+            "carbohydrate": "13.33",
+            "protein": "4.44",
+            "fat": "33.33",
+            "saturated_fat": "3.333",
+            "cholesterol": "0",
+            "sodium": "3400",
+            "fiber": "8.9",
+            "sugar": "2.22"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Curries",
+            "Sauces"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/pataks/biryani-curry-paste",
+        "source_type": "fatsecret"
+      },
+      {
+        "food_id": 17871913,
+        "food_name": "Brown Rice Biryani",
+        "brand_name": "Tasty Bite",
+        "servings": [
+          {
+            "serving_description": "1/2 pack",
+            "serving_id": "16852722",
+            "serving_url": "https://foods.fatsecret.com/calories-nutrition/tasty-bite/brown-rice-biryani",
+            "metric_serving_amount": "125.000",
+            "metric_serving_unit": "g",
+            "number_of_units": "1.000",
+            "measurement_description": "serving",
+            "is_default": "1",
+            "calories": "180",
+            "carbohydrate": "30.00",
+            "protein": "4.00",
+            "fat": "4.50",
+            "saturated_fat": "1.000",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "5",
+            "sodium": "480",
+            "potassium": "30000",
+            "sugar": "2.00"
+          },
+          {
+            "serving_description": "100 g",
+            "serving_id": "0",
+            "metric_serving_amount": "100.0",
+            "metric_serving_unit": "g",
+            "number_of_units": "100.0",
+            "measurement_description": "g",
+            "calories": "144",
+            "carbohydrate": "24.00",
+            "protein": "3.20",
+            "fat": "3.60",
+            "saturated_fat": "0.800",
+            "polyunsaturated_fat": "0",
+            "monounsaturated_fat": "0",
+            "trans_fat": "0",
+            "cholesterol": "4",
+            "sodium": "384",
+            "potassium": "24000",
+            "sugar": "1.60"
+          }
+        ],
+        "food_type": "Brand",
+        "food_sub_categories": {
+          "food_sub_category": [
+            "Brown Rice",
+            "Rice"
+          ]
+        },
+        "food_url": "https://foods.fatsecret.com/calories-nutrition/tasty-bite/brown-rice-biryani",
+        "source_type": "fatsecret"
+      }
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

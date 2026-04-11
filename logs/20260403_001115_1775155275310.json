@@ -1,0 +1,125 @@
+{
+  "timestamp": "20260403_001115",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/search?query=dosa&page_number=0&max_results=20",
+  "request": "",
+  "response": {
+    "status": "success",
+    "query": "dosa",
+    "page_number": 0,
+    "max_results": 6,
+    "total_results": 6,
+    "results": [
+      {
+        "food_id": 1518833,
+        "food_name": "Masala Dosa",
+        "brand_name": "Udupi",
+        "servings": [
+          {
+            "serving_id": 1501208,
+            "serving_description": "1 piece",
+            "metric_serving_amount": 86.0,
+            "metric_serving_unit": "g"
+          },
+          {
+            "serving_id": 0,
+            "serving_description": "100 g",
+            "metric_serving_amount": 100.0,
+            "metric_serving_unit": "g"
+          }
+        ]
+      },
+      {
+        "food_id": 4063369,
+        "food_name": "Masala Dosa",
+        "brand_name": "Trader Joe's",
+        "servings": [
+          {
+            "serving_id": 3954691,
+            "serving_description": "1 piece with chutney",
+            "metric_serving_amount": null,
+            "metric_serving_unit": null
+          }
+        ]
+      },
+      {
+        "food_id": 47486857,
+        "food_name": "Masala Dosa",
+        "brand_name": "Deep",
+        "servings": [
+          {
+            "serving_id": 40572681,
+            "serving_description": "1 piece",
+            "metric_serving_amount": 99.0,
+            "metric_serving_unit": "g"
+          },
+          {
+            "serving_id": 0,
+            "serving_description": "100 g",
+            "metric_serving_amount": 100.0,
+            "metric_serving_unit": "g"
+          }
+        ]
+      },
+      {
+        "food_id": 1849296,
+        "food_name": "Masala Dosa",
+        "brand_name": "Tandoor Chef",
+        "servings": [
+          {
+            "serving_id": 1817419,
+            "serving_description": "1 piece",
+            "metric_serving_amount": 86.0,
+            "metric_serving_unit": "g"
+          },
+          {
+            "serving_id": 0,
+            "serving_description": "100 g",
+            "metric_serving_amount": 100.0,
+            "metric_serving_unit": "g"
+          }
+        ]
+      },
+      {
+        "food_id": 22874110,
+        "food_name": "Dosa Batter",
+        "brand_name": "Priyems",
+        "servings": [
+          {
+            "serving_id": 21413178,
+            "serving_description": "1 dosa",
+            "metric_serving_amount": 65.0,
+            "metric_serving_unit": "g"
+          },
+          {
+            "serving_id": 0,
+            "serving_description": "100 g",
+            "metric_serving_amount": 100.0,
+            "metric_serving_unit": "g"
+          }
+        ]
+      },
+      {
+        "food_id": 98540995,
+        "food_name": "Onion Rava Masala Dosa",
+        "brand_name": "Deep",
+        "servings": [
+          {
+            "serving_id": 78531601,
+            "serving_description": "1 piece",
+            "metric_serving_amount": 99.0,
+            "metric_serving_unit": "g"
+          },
+          {
+            "serving_id": 0,
+            "serving_description": "100 g",
+            "metric_serving_amount": 100.0,
+            "metric_serving_unit": "g"
+          }
+        ]
+      }
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

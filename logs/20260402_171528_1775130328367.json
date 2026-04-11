@@ -1,0 +1,35 @@
+{
+  "timestamp": "20260402_171528",
+  "method": "POST",
+  "url": "http://localhost:8000/api/fatsecret/add-preview",
+  "request": {
+    "food_id": 1641,
+    "serving_id": 50321,
+    "quantity": 1.5
+  },
+  "response": {
+    "status": "success",
+    "food_id": 1641,
+    "food_name": "Chicken Breast",
+    "serving_description": "100 g",
+    "quantity": 1.5,
+    "totals": {
+      "calories": 292.5,
+      "carbohydrate": 0.0,
+      "protein": 44.325,
+      "fat": 11.58,
+      "saturated_fat": 3.258,
+      "fiber": 0.0,
+      "sugar": 0.0,
+      "sodium": 589.5,
+      "potassium": 364.5,
+      "cholesterol": 124.5,
+      "vitamin_a": 42.0,
+      "vitamin_c": 0.0,
+      "calcium": 21.0,
+      "iron": 1.59
+    },
+    "error": null
+  },
+  "status_code": 200
+}

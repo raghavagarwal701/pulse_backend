@@ -1,0 +1,736 @@
+{
+  "timestamp": "20260402_221100",
+  "api": "foods.search.v5",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.search.v5",
+      "search_expression": "dosa",
+      "page_number": 0,
+      "max_results": 50,
+      "region": "IN",
+      "include_sub_categories": "true",
+      "include_food_images": "true",
+      "include_food_attributes": "true",
+      "flag_default_serving": "true",
+      "format": "json"
+    }
+  },
+  "response": {
+    "foods_search": {
+      "max_results": "50",
+      "total_results": "12",
+      "page_number": "0",
+      "results": {
+        "food": [
+          {
+            "food_id": "81758654",
+            "food_name": "Butter Sauce",
+            "brand_name": "Dosa",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Sauces"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/dosa/butter-sauce",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "65977981",
+                  "serving_description": "1/2 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/dosa/butter-sauce",
+                  "metric_serving_amount": "120.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "120",
+                  "carbohydrate": "11.00",
+                  "protein": "2.00",
+                  "fat": "8.00",
+                  "saturated_fat": "5.000",
+                  "cholesterol": "25",
+                  "sodium": "530",
+                  "potassium": "280",
+                  "fiber": "2.0",
+                  "sugar": "7.00",
+                  "added_sugars": "3.00",
+                  "vitamin_d": "0",
+                  "vitamin_a": "280",
+                  "vitamin_c": "15.0",
+                  "calcium": "50",
+                  "iron": "1.40"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "100",
+                  "carbohydrate": "9.17",
+                  "protein": "1.67",
+                  "fat": "6.67",
+                  "saturated_fat": "4.167",
+                  "cholesterol": "21",
+                  "sodium": "442",
+                  "potassium": "233",
+                  "fiber": "1.7",
+                  "sugar": "5.83",
+                  "added_sugars": "2.50",
+                  "vitamin_d": "0",
+                  "vitamin_a": "233",
+                  "vitamin_c": "12.5",
+                  "calcium": "42",
+                  "iron": "1.17"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "42235284",
+            "food_name": "Bombay Potato Street Wrap",
+            "brand_name": "Dosa",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Wraps"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/dosa/bombay-potato-street-wrap",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "36742913",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/dosa/bombay-potato-street-wrap",
+                  "metric_serving_amount": "9.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "450",
+                  "carbohydrate": "45.00",
+                  "protein": "19.00",
+                  "fat": "22.00",
+                  "saturated_fat": "10.000",
+                  "trans_fat": "0",
+                  "cholesterol": "50",
+                  "sodium": "1050",
+                  "potassium": "320",
+                  "fiber": "3.0",
+                  "sugar": "7.00",
+                  "added_sugars": "2.00",
+                  "vitamin_d": "0",
+                  "calcium": "260",
+                  "iron": "1.40"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "50",
+                  "carbohydrate": "5.00",
+                  "protein": "2.11",
+                  "fat": "2.44",
+                  "saturated_fat": "1.111",
+                  "trans_fat": "0",
+                  "cholesterol": "6",
+                  "sodium": "117",
+                  "potassium": "36",
+                  "fiber": "0.3",
+                  "sugar": "0.78",
+                  "added_sugars": "0.22",
+                  "vitamin_d": "0",
+                  "calcium": "29",
+                  "iron": "0.16"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "176",
+                  "carbohydrate": "17.64",
+                  "protein": "7.45",
+                  "fat": "8.62",
+                  "saturated_fat": "3.919",
+                  "trans_fat": "0",
+                  "cholesterol": "20",
+                  "sodium": "412",
+                  "potassium": "125",
+                  "fiber": "1.2",
+                  "sugar": "2.74",
+                  "added_sugars": "0.78",
+                  "vitamin_d": "0",
+                  "calcium": "102",
+                  "iron": "0.55"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "83568120",
+            "food_name": "Cardamom Mango Lassi",
+            "brand_name": "Dosa",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Yogurt"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/dosa/cardamom-mango-lassi",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "67360876",
+                  "serving_description": "8 fl oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/dosa/cardamom-mango-lassi",
+                  "metric_serving_amount": "237.000",
+                  "metric_serving_unit": "ml",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "190",
+                  "carbohydrate": "25.00",
+                  "protein": "13.00",
+                  "fat": "4.00",
+                  "saturated_fat": "2.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "25",
+                  "sodium": "200",
+                  "potassium": "370",
+                  "fiber": "2.0",
+                  "sugar": "22.00",
+                  "added_sugars": "6.00",
+                  "vitamin_d": "1",
+                  "vitamin_a": "190",
+                  "vitamin_c": "9.0",
+                  "calcium": "390",
+                  "iron": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 ml",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "ml",
+                  "number_of_units": "100.0",
+                  "measurement_description": "ml",
+                  "calories": "80",
+                  "carbohydrate": "10.55",
+                  "protein": "5.49",
+                  "fat": "1.69",
+                  "saturated_fat": "0.844",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "11",
+                  "sodium": "84",
+                  "potassium": "156",
+                  "fiber": "0.8",
+                  "sugar": "9.28",
+                  "added_sugars": "2.53",
+                  "vitamin_d": "0",
+                  "vitamin_a": "80",
+                  "vitamin_c": "3.8",
+                  "calcium": "165",
+                  "iron": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "60504684",
+            "food_name": "Chick’N Tikka Street Wrap",
+            "brand_name": "Dosa",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Wraps"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/dosa/chick%E2%80%99n-tikka-street-wrap",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "50254586",
+                  "serving_description": "1 container",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/dosa/chick%E2%80%99n-tikka-street-wrap",
+                  "metric_serving_amount": "255.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "380",
+                  "carbohydrate": "49.00",
+                  "protein": "21.00",
+                  "fat": "12.00",
+                  "saturated_fat": "3.000",
+                  "trans_fat": "0",
+                  "cholesterol": "15",
+                  "sodium": "920",
+                  "potassium": "170",
+                  "fiber": "3.0",
+                  "sugar": "7.00",
+                  "calcium": "70",
+                  "iron": "1.10"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "149",
+                  "carbohydrate": "19.22",
+                  "protein": "8.24",
+                  "fat": "4.71",
+                  "saturated_fat": "1.176",
+                  "trans_fat": "0",
+                  "cholesterol": "6",
+                  "sodium": "361",
+                  "potassium": "67",
+                  "fiber": "1.2",
+                  "sugar": "2.75",
+                  "calcium": "27",
+                  "iron": "0.43"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68150449",
+            "food_name": "Brussels Sprout, Butternut Squash & Paneer Salad",
+            "brand_name": "Dosa",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Salads"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/dosa/brussels-sprout-butternut-squash-paneer-salad",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "55828394",
+                  "serving_description": "5 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/dosa/brussels-sprout-butternut-squash-paneer-salad",
+                  "metric_serving_amount": "142.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "210",
+                  "carbohydrate": "14.00",
+                  "protein": "7.00",
+                  "fat": "16.00",
+                  "saturated_fat": "7.000",
+                  "trans_fat": "0",
+                  "cholesterol": "15",
+                  "sodium": "690",
+                  "fiber": "4.0",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "148",
+                  "carbohydrate": "9.86",
+                  "protein": "4.93",
+                  "fat": "11.27",
+                  "saturated_fat": "4.930",
+                  "trans_fat": "0",
+                  "cholesterol": "11",
+                  "sodium": "486",
+                  "fiber": "2.8",
+                  "sugar": "3.52"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "90996268",
+            "food_name": "Turmeric Banana Lassi",
+            "brand_name": "Dosa",
+            "food_type": "Brand",
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/dosa/turmeric-banana-lassi",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "73016161",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/dosa/turmeric-banana-lassi",
+                  "metric_serving_amount": "237.000",
+                  "metric_serving_unit": "ml",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "190",
+                  "carbohydrate": "26.00",
+                  "protein": "12.00",
+                  "fat": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 ml",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "ml",
+                  "number_of_units": "100.0",
+                  "measurement_description": "ml",
+                  "calories": "80",
+                  "carbohydrate": "10.97",
+                  "protein": "5.06",
+                  "fat": "1.69"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1518833",
+            "food_name": "Masala Dosa",
+            "brand_name": "Udupi",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Snacks"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/udupi/masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1501208",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/udupi/masala-dosa",
+                  "metric_serving_amount": "86.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "162",
+                  "carbohydrate": "22.00",
+                  "protein": "5.00",
+                  "fat": "6.00",
+                  "saturated_fat": "1.500",
+                  "cholesterol": "0",
+                  "sodium": "520",
+                  "fiber": "2.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "188",
+                  "carbohydrate": "25.58",
+                  "protein": "5.81",
+                  "fat": "6.98",
+                  "saturated_fat": "1.744",
+                  "cholesterol": "0",
+                  "sodium": "605",
+                  "fiber": "2.3",
+                  "sugar": "1.16"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "4063369",
+            "food_name": "Masala Dosa",
+            "brand_name": "Trader Joe's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Crepes"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "3954691",
+                  "serving_description": "1 piece with chutney",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/masala-dosa",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "250",
+                  "carbohydrate": "30.00",
+                  "protein": "5.00",
+                  "fat": "7.00",
+                  "cholesterol": "0",
+                  "sodium": "240",
+                  "fiber": "2.0",
+                  "sugar": "1.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "47486857",
+            "food_name": "Masala Dosa",
+            "brand_name": "Deep",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Flatbread",
+                "Bread"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "40572681",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/masala-dosa",
+                  "metric_serving_amount": "99.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "230",
+                  "carbohydrate": "25.00",
+                  "protein": "3.00",
+                  "fat": "13.00",
+                  "saturated_fat": "4.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "550",
+                  "potassium": "140",
+                  "fiber": "3.0",
+                  "sugar": "3.00",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "vitamin_a": "0",
+                  "vitamin_c": "0",
+                  "calcium": "60",
+                  "iron": "2.20"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "232",
+                  "carbohydrate": "25.25",
+                  "protein": "3.03",
+                  "fat": "13.13",
+                  "saturated_fat": "4.040",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "556",
+                  "potassium": "141",
+                  "fiber": "3.0",
+                  "sugar": "3.03",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "vitamin_a": "0",
+                  "vitamin_c": "0",
+                  "calcium": "61",
+                  "iron": "2.22"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1849296",
+            "food_name": "Masala Dosa",
+            "brand_name": "Tandoor Chef",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Crepes"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1817419",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/masala-dosa",
+                  "metric_serving_amount": "86.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "162",
+                  "carbohydrate": "22.00",
+                  "protein": "5.00",
+                  "fat": "6.00",
+                  "saturated_fat": "1.500",
+                  "cholesterol": "0",
+                  "sodium": "520",
+                  "fiber": "2.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "188",
+                  "carbohydrate": "25.58",
+                  "protein": "5.81",
+                  "fat": "6.98",
+                  "saturated_fat": "1.744",
+                  "cholesterol": "0",
+                  "sodium": "605",
+                  "fiber": "2.3",
+                  "sugar": "1.16"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "22874110",
+            "food_name": "Dosa Batter",
+            "brand_name": "Priyems",
+            "food_type": "Brand",
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/priyems/dosa-batter",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "21413178",
+                  "serving_description": "1 dosa",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/priyems/dosa-batter",
+                  "metric_serving_amount": "65.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "120",
+                  "carbohydrate": "24.00",
+                  "protein": "3.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "160",
+                  "fiber": "3.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "185",
+                  "carbohydrate": "36.92",
+                  "protein": "4.62",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "246",
+                  "fiber": "4.6",
+                  "sugar": "1.54"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "98540995",
+            "food_name": "Onion Rava Masala Dosa",
+            "brand_name": "Deep",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Snacks"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/onion-rava-masala-dosa",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "78531601",
+                  "serving_description": "1 piece",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/onion-rava-masala-dosa",
+                  "metric_serving_amount": "99.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "230",
+                  "carbohydrate": "35.00",
+                  "protein": "3.00",
+                  "fat": "9.00",
+                  "saturated_fat": "3.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "590",
+                  "potassium": "130",
+                  "fiber": "2.0",
+                  "sugar": "2.00",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "vitamin_a": "0",
+                  "vitamin_c": "0",
+                  "calcium": "40",
+                  "iron": "1.90"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "232",
+                  "carbohydrate": "35.35",
+                  "protein": "3.03",
+                  "fat": "9.09",
+                  "saturated_fat": "3.030",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "596",
+                  "potassium": "131",
+                  "fiber": "2.0",
+                  "sugar": "2.02",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "vitamin_a": "0",
+                  "vitamin_c": "0",
+                  "calcium": "40",
+                  "iron": "1.92"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "status_code": 200
+}

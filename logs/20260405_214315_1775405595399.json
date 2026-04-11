@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260405_214315",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "veg bryani"
+  },
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The meal described is 'veg bryani,' which is commonly known as 'vegetable biryani,' a traditional Indian dish consisting of spiced rice and mixed vegetables. To estimate its nutritional content, I analyzed several sources that provide nutritional information for vegetable biryani. The serving sizes and nutritional values vary across sources, so I calculated an average serving size and corresponding nutritional values to provide a comprehensive estimate.\n\n**Serving Size:**\n- A typical serving size for vegetable biryani ranges from 100 grams to 350 grams, depending on the source. ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai))\n\n**Estimated Nutritional Breakdown per 100 grams:**\n- **Calories:** Approximately 174.6 kcal\n- **Total Fat:** 9.5 g\n- **Saturated Fat:** 1.5 g\n- **Cholesterol:** 15 mg\n- **Sodium:** 177 mg\n- **Total Carbohydrates:** 18.6 g\n- **Dietary Fiber:** 3.3 g\n- **Sugars:** 2.1 g\n- **Protein:** 3.2 g\n- **Vitamin A:** 110.08 mcg\n- **Vitamin C:** 39.35 mg\n- **Calcium:** 33.52 mg\n- **Iron:** 0.86 mg\n\n**Reasoning:**\n1. **Parsing the Meal Description:** The term 'veg bryani' was interpreted as 'vegetable biryani,' a spiced rice dish with mixed vegetables.\n2. **Identifying Meal Items:** The primary components are basmati rice, assorted vegetables (such as potatoes, carrots, peas, and beans), and a blend of spices.\n3. **Estimating Serving Size:** Considering typical serving sizes from various sources, an average of 100 grams per serving was chosen for this analysis.\n4. **Web Sources Used:** Nutritional data was gathered from multiple reputable sources, including NutritionAnt ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai)), FatSecret ([fatsecret.co.uk](https://www.fatsecret.co.uk/calories-nutrition/farmfoods/vegetable-biryani/1-meal?utm_source=openai)), and Shellel ([shellel.com](https://shellel.com/food/vegetable-biryanibiriyani?utm_source=openai)).\n5. **Confidence and Uncertainty:** The nutritional values provided are averages from multiple sources, offering a reasonable estimate. However, actual values can vary based on specific ingredients, preparation methods, and portion sizes.\n\n**Web Source Links:**\n- ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai))\n- ([fatsecret.co.uk](https://www.fatsecret.co.uk/calories-nutrition/farmfoods/vegetable-biryani/1-meal?utm_source=openai))\n- ([shellel.com](https://shellel.com/food/vegetable-biryanibiriyani?utm_source=openai))\n\n**Name of Meal:**\n- Vegetable Biryani\n\n**Serving Size:**\n- 100 grams\n\n**Nutritional Value:**\n- Calories: 174.6 kcal\n- Total Fat: 9.5 g\n- Saturated Fat: 1.5 g\n- Cholesterol: 15 mg\n- Sodium: 177 mg\n- Total Carbohydrates: 18.6 g\n- Dietary Fiber: 3.3 g\n- Sugars: 2.1 g\n- Protein: 3.2 g\n- Vitamin A: 110.08 mcg\n- Vitamin C: 39.35 mg\n- Calcium: 33.52 mg\n- Iron: 0.86 mg",
+      "web_source_links": [
+        "https://www.nutritionant.com/food/biryani-with-vegetables.html",
+        "https://www.fatsecret.co.uk/calories-nutrition/farmfoods/vegetable-biryani/1-meal",
+        "https://shellel.com/food/vegetable-biryanibiriyani"
+      ],
+      "name_of_meal": "Vegetable Biryani",
+      "serving_size": "100 grams",
+      "nutritional_value": {
+        "calories": 174.6,
+        "carbohydrate": 18.6,
+        "protein": 3.2,
+        "fat": 9.5,
+        "saturated_fat": 1.5,
+        "fiber": 3.3,
+        "sugar": 2.1,
+        "sodium": 177.0,
+        "potassium": null,
+        "cholesterol": 15.0,
+        "vitamin_a": 110.08,
+        "vitamin_c": 39.35,
+        "calcium": 33.52,
+        "iron": 0.86,
+        "trans_fat": null,
+        "added_sugars": null,
+        "vitamin_d": null
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "The meal described is 'veg bryani,' which is commonly known as 'vegetable biryani,' a traditional Indian dish consisting of spiced rice and mixed vegetables. To estimate its nutritional content, I analyzed several sources that provide nutritional information for vegetable biryani. The serving sizes and nutritional values vary across sources, so I calculated an average serving size and corresponding nutritional values to provide a comprehensive estimate.\n\n**Serving Size:**\n- A typical serving size for vegetable biryani ranges from 100 grams to 350 grams, depending on the source. ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai))\n\n**Estimated Nutritional Breakdown per 100 grams:**\n- **Calories:** Approximately 174.6 kcal\n- **Total Fat:** 9.5 g\n- **Saturated Fat:** 1.5 g\n- **Cholesterol:** 15 mg\n- **Sodium:** 177 mg\n- **Total Carbohydrates:** 18.6 g\n- **Dietary Fiber:** 3.3 g\n- **Sugars:** 2.1 g\n- **Protein:** 3.2 g\n- **Vitamin A:** 110.08 mcg\n- **Vitamin C:** 39.35 mg\n- **Calcium:** 33.52 mg\n- **Iron:** 0.86 mg\n\n**Reasoning:**\n1. **Parsing the Meal Description:** The term 'veg bryani' was interpreted as 'vegetable biryani,' a spiced rice dish with mixed vegetables.\n2. **Identifying Meal Items:** The primary components are basmati rice, assorted vegetables (such as potatoes, carrots, peas, and beans), and a blend of spices.\n3. **Estimating Serving Size:** Considering typical serving sizes from various sources, an average of 100 grams per serving was chosen for this analysis.\n4. **Web Sources Used:** Nutritional data was gathered from multiple reputable sources, including NutritionAnt ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai)), FatSecret ([fatsecret.co.uk](https://www.fatsecret.co.uk/calories-nutrition/farmfoods/vegetable-biryani/1-meal?utm_source=openai)), and Shellel ([shellel.com](https://shellel.com/food/vegetable-biryanibiriyani?utm_source=openai)).\n5. **Confidence and Uncertainty:** The nutritional values provided are averages from multiple sources, offering a reasonable estimate. However, actual values can vary based on specific ingredients, preparation methods, and portion sizes.\n\n**Web Source Links:**\n- ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai))\n- ([fatsecret.co.uk](https://www.fatsecret.co.uk/calories-nutrition/farmfoods/vegetable-biryani/1-meal?utm_source=openai))\n- ([shellel.com](https://shellel.com/food/vegetable-biryanibiriyani?utm_source=openai))\n\n**Name of Meal:**\n- Vegetable Biryani\n\n**Serving Size:**\n- 100 grams\n\n**Nutritional Value:**\n- Calories: 174.6 kcal\n- Total Fat: 9.5 g\n- Saturated Fat: 1.5 g\n- Cholesterol: 15 mg\n- Sodium: 177 mg\n- Total Carbohydrates: 18.6 g\n- Dietary Fiber: 3.3 g\n- Sugars: 2.1 g\n- Protein: 3.2 g\n- Vitamin A: 110.08 mcg\n- Vitamin C: 39.35 mg\n- Calcium: 33.52 mg\n- Iron: 0.86 mg"
+}

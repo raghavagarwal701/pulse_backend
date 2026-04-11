@@ -1,0 +1,16 @@
+{
+  "timestamp": "20260402_185812",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/search?query=dmsaasasala%20do&page_number=0&max_results=20",
+  "request": "",
+  "response": {
+    "status": "success",
+    "query": "dmsaasasala do",
+    "page_number": 0,
+    "max_results": 20,
+    "total_results": 0,
+    "results": [],
+    "error": null
+  },
+  "status_code": 200
+}

@@ -1,0 +1,2222 @@
+{
+  "timestamp": "20260405_210724",
+  "api": "foods.search.v5",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.search.v5",
+      "search_expression": "biryani",
+      "page_number": 0,
+      "max_results": 50,
+      "region": "IN",
+      "include_sub_categories": "true",
+      "include_food_images": "true",
+      "include_food_attributes": "true",
+      "flag_default_serving": "true",
+      "format": "json"
+    }
+  },
+  "response": {
+    "foods_search": {
+      "max_results": "50",
+      "total_results": "41",
+      "page_number": "0",
+      "results": {
+        "food": [
+          {
+            "food_id": "23774653",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Bombay Kitchen",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bombay-kitchen/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "22181214",
+                  "serving_description": "5 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bombay-kitchen/chicken-biryani",
+                  "metric_serving_amount": "142.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "255",
+                  "carbohydrate": "23.00",
+                  "protein": "13.00",
+                  "fat": "13.00",
+                  "saturated_fat": "1.750",
+                  "trans_fat": "0",
+                  "cholesterol": "28",
+                  "sodium": "330",
+                  "potassium": "145",
+                  "fiber": "1.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "180",
+                  "carbohydrate": "16.20",
+                  "protein": "9.16",
+                  "fat": "9.16",
+                  "saturated_fat": "1.232",
+                  "trans_fat": "0",
+                  "cholesterol": "20",
+                  "sodium": "232",
+                  "potassium": "102",
+                  "fiber": "0.7",
+                  "sugar": "0.70"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "49682",
+            "food_name": "Vegetable Biryani Rice",
+            "brand_name": "Trader Joe's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries",
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/vegetable-biryani-rice",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "96899",
+                  "serving_description": "1 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/vegetable-biryani-rice",
+                  "metric_serving_amount": "142.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "210",
+                  "carbohydrate": "36.00",
+                  "protein": "5.00",
+                  "fat": "6.00",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "690",
+                  "potassium": "240",
+                  "fiber": "6.0",
+                  "sugar": "3.00",
+                  "added_sugars": "1.00",
+                  "calcium": "30",
+                  "iron": "1.10"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "148",
+                  "carbohydrate": "25.35",
+                  "protein": "3.52",
+                  "fat": "4.23",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "486",
+                  "potassium": "169",
+                  "fiber": "4.2",
+                  "sugar": "2.11",
+                  "added_sugars": "0.70",
+                  "calcium": "21",
+                  "iron": "0.78"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "108421699",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Deep",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Chicken"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "86068839",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep/chicken-biryani",
+                  "metric_serving_amount": "255.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "380",
+                  "carbohydrate": "32.00",
+                  "protein": "28.00",
+                  "fat": "15.00",
+                  "fiber": "7.0",
+                  "sugar": "2.00",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "149",
+                  "carbohydrate": "12.55",
+                  "protein": "10.98",
+                  "fat": "5.88",
+                  "fiber": "2.7",
+                  "sugar": "0.78",
+                  "added_sugars": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "56540",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Tandoor Chef",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "99028",
+                  "serving_description": "1 tray",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tandoor-chef/chicken-biryani",
+                  "metric_serving_amount": "354.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "480",
+                  "carbohydrate": "51.00",
+                  "protein": "25.00",
+                  "fat": "20.00",
+                  "saturated_fat": "5.000",
+                  "trans_fat": "0",
+                  "cholesterol": "115",
+                  "sodium": "810",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "136",
+                  "carbohydrate": "14.41",
+                  "protein": "7.06",
+                  "fat": "5.65",
+                  "saturated_fat": "1.412",
+                  "trans_fat": "0",
+                  "cholesterol": "32",
+                  "sodium": "229",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "1844450",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Saffron Road",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "1812842",
+                  "serving_description": "1 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/chicken-biryani",
+                  "metric_serving_amount": "283.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "420",
+                  "carbohydrate": "62.00",
+                  "protein": "25.00",
+                  "fat": "9.00",
+                  "saturated_fat": "1.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "45",
+                  "sodium": "490",
+                  "potassium": "600",
+                  "fiber": "4.0",
+                  "sugar": "2.00",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "calcium": "80",
+                  "iron": "2.60"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "148",
+                  "carbohydrate": "21.91",
+                  "protein": "8.83",
+                  "fat": "3.18",
+                  "saturated_fat": "0.353",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "16",
+                  "sodium": "173",
+                  "potassium": "212",
+                  "fiber": "1.4",
+                  "sugar": "0.71",
+                  "added_sugars": "0",
+                  "vitamin_d": "0",
+                  "calcium": "28",
+                  "iron": "0.92"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "67897641",
+            "food_name": "Biryani",
+            "brand_name": "The Ultimate High Protein Handbook",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/the-ultimate-high-protein-handbook/biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "55651275",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/the-ultimate-high-protein-handbook/biryani",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "482",
+                  "carbohydrate": "68.00",
+                  "protein": "39.00",
+                  "fat": "6.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "4216741",
+            "food_name": "Veg Biryani",
+            "brand_name": "Swad",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/swad/veg-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "4104528",
+                  "serving_description": "1 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/swad/veg-biryani",
+                  "metric_serving_amount": "100.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "169",
+                  "carbohydrate": "28.77",
+                  "protein": "4.00",
+                  "fat": "4.26",
+                  "saturated_fat": "1.640",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "610",
+                  "fiber": "0.5",
+                  "sugar": "2.49"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "169",
+                  "carbohydrate": "28.77",
+                  "protein": "4.00",
+                  "fat": "4.26",
+                  "saturated_fat": "1.640",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "610",
+                  "fiber": "0.5",
+                  "sugar": "2.49"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "34390757",
+            "food_name": "Vegetable Biryani",
+            "brand_name": "Saffron Road",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/vegetable-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "30879666",
+                  "serving_description": "1 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/saffron-road/vegetable-biryani",
+                  "metric_serving_amount": "283.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "360",
+                  "carbohydrate": "64.00",
+                  "protein": "8.00",
+                  "fat": "8.00",
+                  "saturated_fat": "1.000",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "710",
+                  "potassium": "340",
+                  "fiber": "6.0",
+                  "sugar": "11.00",
+                  "added_sugars": "5.00",
+                  "calcium": "60",
+                  "iron": "2.80"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "127",
+                  "carbohydrate": "22.62",
+                  "protein": "2.83",
+                  "fat": "2.83",
+                  "saturated_fat": "0.353",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "251",
+                  "potassium": "120",
+                  "fiber": "2.1",
+                  "sugar": "3.89",
+                  "added_sugars": "1.77",
+                  "calcium": "21",
+                  "iron": "0.99"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "71195671",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Deep Indian Kitchen",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/deep-indian-kitchen/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "58069247",
+                  "serving_description": "1 tray",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/deep-indian-kitchen/chicken-biryani",
+                  "metric_serving_amount": "255.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "380",
+                  "carbohydrate": "32.00",
+                  "protein": "28.00",
+                  "fat": "15.00",
+                  "saturated_fat": "4.000",
+                  "trans_fat": "0",
+                  "cholesterol": "95",
+                  "sodium": "1110",
+                  "potassium": "620",
+                  "fiber": "7.0",
+                  "sugar": "2.00",
+                  "added_sugars": "0",
+                  "calcium": "90",
+                  "iron": "1.60"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "149",
+                  "carbohydrate": "12.55",
+                  "protein": "10.98",
+                  "fat": "5.88",
+                  "saturated_fat": "1.569",
+                  "trans_fat": "0",
+                  "cholesterol": "37",
+                  "sodium": "435",
+                  "potassium": "243",
+                  "fiber": "2.7",
+                  "sugar": "0.78",
+                  "added_sugars": "0",
+                  "calcium": "35",
+                  "iron": "0.63"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "187996",
+            "food_name": "Cooked Ham",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Ham"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/cooked-ham",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "229805",
+                  "serving_description": "3 slices",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/cooked-ham",
+                  "metric_serving_amount": "56.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "60",
+                  "carbohydrate": "2.00",
+                  "protein": "10.00",
+                  "fat": "2.50",
+                  "saturated_fat": "1.000",
+                  "trans_fat": "0",
+                  "cholesterol": "30",
+                  "sodium": "830",
+                  "fiber": "0",
+                  "sugar": "2.00",
+                  "added_sugars": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "107",
+                  "carbohydrate": "3.57",
+                  "protein": "17.86",
+                  "fat": "4.46",
+                  "saturated_fat": "1.786",
+                  "trans_fat": "0",
+                  "cholesterol": "54",
+                  "sodium": "1482",
+                  "fiber": "0",
+                  "sugar": "3.57",
+                  "added_sugars": "3.57"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73080",
+            "food_name": "Honey Ham",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Ham"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/honey-ham",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123045",
+                  "serving_description": "1 slice",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/honey-ham",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "30",
+                  "carbohydrate": "1.00",
+                  "protein": "5.00",
+                  "fat": "1.00",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "15",
+                  "sodium": "340",
+                  "fiber": "0",
+                  "sugar": "1.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "618165",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Ethnic Gourmet",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Chicken",
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/ethnic-gourmet/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "639694",
+                  "serving_description": "1 container",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/ethnic-gourmet/chicken-biryani",
+                  "metric_serving_amount": "10.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "390",
+                  "carbohydrate": "54.00",
+                  "protein": "16.00",
+                  "fat": "12.00",
+                  "saturated_fat": "1.500",
+                  "trans_fat": "0",
+                  "cholesterol": "20",
+                  "sodium": "1080",
+                  "fiber": "4.0",
+                  "sugar": "7.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "39",
+                  "carbohydrate": "5.40",
+                  "protein": "1.60",
+                  "fat": "1.20",
+                  "saturated_fat": "0.150",
+                  "trans_fat": "0",
+                  "cholesterol": "2",
+                  "sodium": "108",
+                  "fiber": "0.4",
+                  "sugar": "0.70"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "138",
+                  "carbohydrate": "19.05",
+                  "protein": "5.64",
+                  "fat": "4.23",
+                  "saturated_fat": "0.529",
+                  "trans_fat": "0",
+                  "cholesterol": "7",
+                  "sodium": "381",
+                  "fiber": "1.4",
+                  "sugar": "2.47"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73088",
+            "food_name": "Honey Cured Turkey Breast Slices",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Turkey Breast",
+                "Turkey"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/honey-cured-turkey-breast-slices",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123069",
+                  "serving_description": "1 slice",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/honey-cured-turkey-breast-slices",
+                  "metric_serving_amount": "28.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "30",
+                  "carbohydrate": "1.00",
+                  "protein": "5.00",
+                  "fat": "1.00",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "15",
+                  "sodium": "340",
+                  "fiber": "0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "107",
+                  "carbohydrate": "3.57",
+                  "protein": "17.86",
+                  "fat": "3.57",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "54",
+                  "sodium": "1214",
+                  "fiber": "0",
+                  "sugar": "3.57"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "66574",
+            "food_name": "Biryani Curried Rice Dish",
+            "brand_name": "Trader Joe's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/biryani-curried-rice-dish",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123353",
+                  "serving_description": "1 cup",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/biryani-curried-rice-dish",
+                  "metric_serving_amount": "145.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "170",
+                  "carbohydrate": "36.00",
+                  "protein": "4.00",
+                  "fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "650",
+                  "fiber": "2.0",
+                  "sugar": "8.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "117",
+                  "carbohydrate": "24.83",
+                  "protein": "2.76",
+                  "fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "448",
+                  "fiber": "1.4",
+                  "sugar": "5.52"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "106091",
+            "food_name": "Wieners",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Hot Dogs"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/wieners",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "148312",
+                  "serving_description": "1 wiener",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/wieners",
+                  "metric_serving_amount": "34.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "90",
+                  "carbohydrate": "2.00",
+                  "protein": "4.00",
+                  "fat": "8.00",
+                  "saturated_fat": "2.500",
+                  "polyunsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "25",
+                  "sodium": "340",
+                  "potassium": "220",
+                  "fiber": "0",
+                  "sugar": "1.00",
+                  "added_sugars": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "265",
+                  "carbohydrate": "5.88",
+                  "protein": "11.77",
+                  "fat": "23.53",
+                  "saturated_fat": "7.353",
+                  "polyunsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "74",
+                  "sodium": "1000",
+                  "potassium": "647",
+                  "fiber": "0",
+                  "sugar": "2.94",
+                  "added_sugars": "2.94"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73085",
+            "food_name": "Classic Deli Smoked Ham",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Ham"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/classic-deli-smoked-ham",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123060",
+                  "serving_description": "6 slices",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/classic-deli-smoked-ham",
+                  "metric_serving_amount": "51.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "50",
+                  "carbohydrate": "1.00",
+                  "protein": "9.00",
+                  "fat": "1.50",
+                  "saturated_fat": "0.500",
+                  "cholesterol": "20",
+                  "sodium": "550",
+                  "fiber": "0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "98",
+                  "carbohydrate": "1.96",
+                  "protein": "17.65",
+                  "fat": "2.94",
+                  "saturated_fat": "0.980",
+                  "cholesterol": "39",
+                  "sodium": "1078",
+                  "fiber": "0",
+                  "sugar": "1.96"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "2158429",
+            "food_name": "Bacon",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Bacon"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/bacon",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "2114044",
+                  "serving_description": "1 pan fried slice",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/bacon",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "70",
+                  "carbohydrate": "0",
+                  "protein": "4.00",
+                  "fat": "6.00",
+                  "saturated_fat": "2.500",
+                  "trans_fat": "0",
+                  "cholesterol": "15",
+                  "sodium": "220",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "583",
+                  "carbohydrate": "0",
+                  "protein": "33.33",
+                  "fat": "50.00",
+                  "saturated_fat": "20.833",
+                  "trans_fat": "0",
+                  "cholesterol": "125",
+                  "sodium": "1833",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73087",
+            "food_name": "Corn Dogs",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Corn Dogs",
+                "Hot Dogs"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/corn-dogs",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123066",
+                  "serving_description": "1 dog",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/corn-dogs",
+                  "metric_serving_amount": "56.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "140",
+                  "carbohydrate": "16.00",
+                  "protein": "5.00",
+                  "fat": "6.00",
+                  "saturated_fat": "3.500",
+                  "trans_fat": "0",
+                  "cholesterol": "20",
+                  "sodium": "380",
+                  "fiber": "0",
+                  "sugar": "5.00",
+                  "calcium": "4",
+                  "iron": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "250",
+                  "carbohydrate": "28.57",
+                  "protein": "8.93",
+                  "fat": "10.71",
+                  "saturated_fat": "6.250",
+                  "trans_fat": "0",
+                  "cholesterol": "36",
+                  "sodium": "679",
+                  "fiber": "0",
+                  "sugar": "8.93",
+                  "calcium": "7",
+                  "iron": "7.14"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "4869971",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Sukhi's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/sukhis/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "4740574",
+                  "serving_description": "1 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/sukhis/chicken-biryani",
+                  "metric_serving_amount": "200.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "280",
+                  "carbohydrate": "37.00",
+                  "protein": "18.00",
+                  "fat": "7.00",
+                  "saturated_fat": "1.000",
+                  "cholesterol": "60",
+                  "sodium": "800",
+                  "potassium": "320",
+                  "fiber": "2.0",
+                  "sugar": "5.00",
+                  "added_sugars": "1.00",
+                  "calcium": "120",
+                  "iron": "0.60"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "140",
+                  "carbohydrate": "18.50",
+                  "protein": "9.00",
+                  "fat": "3.50",
+                  "saturated_fat": "0.500",
+                  "cholesterol": "30",
+                  "sodium": "400",
+                  "potassium": "160",
+                  "fiber": "1.0",
+                  "sugar": "2.50",
+                  "added_sugars": "0.50",
+                  "calcium": "60",
+                  "iron": "0.30"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "276725",
+            "food_name": "Vienna Sausage",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Sausages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/vienna-sausage",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "312928",
+                  "serving_description": "3 links",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/vienna-sausage",
+                  "metric_serving_amount": "48.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "1.00",
+                  "protein": "5.00",
+                  "fat": "14.00",
+                  "saturated_fat": "5.000",
+                  "cholesterol": "55",
+                  "sodium": "410"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "313",
+                  "carbohydrate": "2.08",
+                  "protein": "10.42",
+                  "fat": "29.17",
+                  "saturated_fat": "10.417",
+                  "cholesterol": "115",
+                  "sodium": "854"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "37288191",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Lidl",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/lidl/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "32964908",
+                  "serving_description": "1 container",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/lidl/chicken-biryani",
+                  "metric_serving_amount": "283.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "410",
+                  "carbohydrate": "43.00",
+                  "protein": "18.00",
+                  "fat": "19.00",
+                  "saturated_fat": "2.000",
+                  "polyunsaturated_fat": "4.500",
+                  "monounsaturated_fat": "9.000",
+                  "trans_fat": "0",
+                  "cholesterol": "35",
+                  "sodium": "520",
+                  "fiber": "2.0",
+                  "sugar": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "145",
+                  "carbohydrate": "15.19",
+                  "protein": "6.36",
+                  "fat": "6.71",
+                  "saturated_fat": "0.707",
+                  "polyunsaturated_fat": "1.590",
+                  "monounsaturated_fat": "3.180",
+                  "trans_fat": "0",
+                  "cholesterol": "12",
+                  "sodium": "184",
+                  "fiber": "0.7",
+                  "sugar": "1.41"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "750295",
+            "food_name": "Table Shrimp, Vegetable & Brown Rice Biryani",
+            "brand_name": "Fresh Direct",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice",
+                "Seafood"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/fresh-direct/table-shrimp-vegetable-and-brown-rice-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "766565",
+                  "serving_description": "1 container",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/fresh-direct/table-shrimp-vegetable-and-brown-rice-biryani",
+                  "metric_serving_amount": "284.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "290",
+                  "carbohydrate": "35.00",
+                  "protein": "20.00",
+                  "fat": "8.00",
+                  "saturated_fat": "4.000",
+                  "polyunsaturated_fat": "1.000",
+                  "monounsaturated_fat": "2.500",
+                  "cholesterol": "120",
+                  "sodium": "800",
+                  "fiber": "5.0",
+                  "sugar": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "102",
+                  "carbohydrate": "12.32",
+                  "protein": "7.04",
+                  "fat": "2.82",
+                  "saturated_fat": "1.408",
+                  "polyunsaturated_fat": "0.352",
+                  "monounsaturated_fat": "0.880",
+                  "cholesterol": "42",
+                  "sodium": "282",
+                  "fiber": "1.8",
+                  "sugar": "1.41"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "3271363",
+            "food_name": "Paneer Biryani",
+            "brand_name": "Kohinoor",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/kohinoor/paneer-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "3182648",
+                  "serving_description": "1/2 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/kohinoor/paneer-biryani",
+                  "metric_serving_amount": "125.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "210",
+                  "carbohydrate": "32.00",
+                  "protein": "7.00",
+                  "fat": "6.00",
+                  "saturated_fat": "3.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "5",
+                  "sodium": "470",
+                  "potassium": "0",
+                  "fiber": "2.0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "168",
+                  "carbohydrate": "25.60",
+                  "protein": "5.60",
+                  "fat": "4.80",
+                  "saturated_fat": "2.400",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "4",
+                  "sodium": "376",
+                  "potassium": "0",
+                  "fiber": "1.6",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "183740",
+            "food_name": "Thick Sliced Bologna",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Bologna"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/thick-sliced-bologna",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "225742",
+                  "serving_description": "1 slice",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/thick-sliced-bologna",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "190",
+                  "carbohydrate": "5.00",
+                  "protein": "6.00",
+                  "fat": "16.00",
+                  "saturated_fat": "6.000",
+                  "cholesterol": "70",
+                  "sodium": "590",
+                  "fiber": "0",
+                  "sugar": "2.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73090",
+            "food_name": "Beef Cocktail Smokies",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Hot Dogs"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/beef-cocktail-smokies",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123075",
+                  "serving_description": "5 links",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/beef-cocktail-smokies",
+                  "metric_serving_amount": "53.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "160",
+                  "carbohydrate": "2.00",
+                  "protein": "7.00",
+                  "fat": "14.00",
+                  "saturated_fat": "6.000",
+                  "trans_fat": "1.000",
+                  "cholesterol": "35",
+                  "sodium": "510",
+                  "fiber": "0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "302",
+                  "carbohydrate": "3.77",
+                  "protein": "13.21",
+                  "fat": "26.42",
+                  "saturated_fat": "11.321",
+                  "trans_fat": "1.887",
+                  "cholesterol": "66",
+                  "sodium": "962",
+                  "fiber": "0",
+                  "sugar": "1.89"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73083",
+            "food_name": "Smoked Sausage",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Sausages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/smoked-sausage",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123054",
+                  "serving_description": "2 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/smoked-sausage",
+                  "metric_serving_amount": "56.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "190",
+                  "carbohydrate": "2.00",
+                  "protein": "7.00",
+                  "fat": "17.00",
+                  "saturated_fat": "6.000",
+                  "trans_fat": "0",
+                  "cholesterol": "35",
+                  "sodium": "540",
+                  "fiber": "1.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "339",
+                  "carbohydrate": "3.57",
+                  "protein": "12.50",
+                  "fat": "30.36",
+                  "saturated_fat": "10.714",
+                  "trans_fat": "0",
+                  "cholesterol": "63",
+                  "sodium": "964",
+                  "fiber": "1.8",
+                  "sugar": "1.79"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "525657",
+            "food_name": "Smoked Turkey Breast",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Turkey Breast",
+                "Turkey"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/smoked-turkey-breast",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "550781",
+                  "serving_description": "2 slices",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/smoked-turkey-breast",
+                  "metric_serving_amount": "56.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "50",
+                  "carbohydrate": "2.00",
+                  "protein": "9.00",
+                  "fat": "1.00",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "10",
+                  "sodium": "530",
+                  "fiber": "0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "89",
+                  "carbohydrate": "3.57",
+                  "protein": "16.07",
+                  "fat": "1.79",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "18",
+                  "sodium": "946",
+                  "fiber": "0",
+                  "sugar": "1.79"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "80565",
+            "food_name": "Biryani Curry Paste",
+            "brand_name": "Patak's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries",
+                "Sauces"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/pataks/biryani-curry-paste",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "127781",
+                  "serving_description": "3 tbsp",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/pataks/biryani-curry-paste",
+                  "metric_serving_amount": "45.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "170",
+                  "carbohydrate": "6.00",
+                  "protein": "2.00",
+                  "fat": "15.00",
+                  "saturated_fat": "1.500",
+                  "cholesterol": "0",
+                  "sodium": "1530",
+                  "fiber": "4.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "378",
+                  "carbohydrate": "13.33",
+                  "protein": "4.44",
+                  "fat": "33.33",
+                  "saturated_fat": "3.333",
+                  "cholesterol": "0",
+                  "sodium": "3400",
+                  "fiber": "8.9",
+                  "sugar": "2.22"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "14076749",
+            "food_name": "Potted Meat",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Chicken",
+                "Beef",
+                "Pork"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/potted-meat",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "13329321",
+                  "serving_description": "1 can",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/potted-meat",
+                  "metric_serving_amount": "85.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "140",
+                  "carbohydrate": "0",
+                  "protein": "11.00",
+                  "fat": "11.00",
+                  "saturated_fat": "4.000",
+                  "trans_fat": "0",
+                  "cholesterol": "90",
+                  "sodium": "770",
+                  "potassium": "11"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "165",
+                  "carbohydrate": "0",
+                  "protein": "12.94",
+                  "fat": "12.94",
+                  "saturated_fat": "4.706",
+                  "trans_fat": "0",
+                  "cholesterol": "106",
+                  "sodium": "906",
+                  "potassium": "13"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73084",
+            "food_name": "Roast Beef Slices",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Roast Beef",
+                "Beef"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/roast-beef-slices",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123057",
+                  "serving_description": "2 slices",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/roast-beef-slices",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "40",
+                  "carbohydrate": "1.00",
+                  "protein": "8.00",
+                  "fat": "0.50",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "5",
+                  "sodium": "520",
+                  "fiber": "0",
+                  "sugar": "1.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73086",
+            "food_name": "Classic Deli Smoked Turkey Breast",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Turkey Breast",
+                "Turkey"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/classic-deli-smoked-turkey-breast",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123063",
+                  "serving_description": "6 slices",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/classic-deli-smoked-turkey-breast",
+                  "metric_serving_amount": "51.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "50",
+                  "carbohydrate": "2.00",
+                  "protein": "9.00",
+                  "fat": "0.50",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "25",
+                  "sodium": "540",
+                  "fiber": "0",
+                  "sugar": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "98",
+                  "carbohydrate": "3.92",
+                  "protein": "17.65",
+                  "fat": "0.98",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "49",
+                  "sodium": "1059",
+                  "fiber": "0",
+                  "sugar": "3.92"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "17871913",
+            "food_name": "Brown Rice Biryani",
+            "brand_name": "Tasty Bite",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Brown Rice",
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tasty-bite/brown-rice-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "16852722",
+                  "serving_description": "1/2 pack",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tasty-bite/brown-rice-biryani",
+                  "metric_serving_amount": "125.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "30.00",
+                  "protein": "4.00",
+                  "fat": "4.50",
+                  "saturated_fat": "1.000",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "5",
+                  "sodium": "480",
+                  "potassium": "30000",
+                  "sugar": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "144",
+                  "carbohydrate": "24.00",
+                  "protein": "3.20",
+                  "fat": "3.60",
+                  "saturated_fat": "0.800",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "4",
+                  "sodium": "384",
+                  "potassium": "24000",
+                  "sugar": "1.60"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "6670251",
+            "food_name": "Vegetable Biryani with Vegetable Dumplings",
+            "brand_name": "Trader Joe's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Dumplings",
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/vegetable-biryani-with-vegetable-dumplings",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "6453495",
+                  "serving_description": "1/2 tray",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/vegetable-biryani-with-vegetable-dumplings",
+                  "metric_serving_amount": "142.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "210",
+                  "carbohydrate": "36.00",
+                  "protein": "5.00",
+                  "fat": "6.00",
+                  "saturated_fat": "0.500",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "690",
+                  "potassium": "240",
+                  "fiber": "6.0",
+                  "sugar": "3.00",
+                  "added_sugars": "1.00",
+                  "vitamin_d": "0",
+                  "calcium": "30",
+                  "iron": "1.10"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "148",
+                  "carbohydrate": "25.35",
+                  "protein": "3.52",
+                  "fat": "4.23",
+                  "saturated_fat": "0.352",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "486",
+                  "potassium": "169",
+                  "fiber": "4.2",
+                  "sugar": "2.11",
+                  "added_sugars": "0.70",
+                  "vitamin_d": "0",
+                  "calcium": "21",
+                  "iron": "0.78"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73092",
+            "food_name": "Beefy Jumbos Beef Franks",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Hot Dogs"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/beefy-jumbos-beef-franks",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123083",
+                  "serving_description": "1 frank",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/beefy-jumbos-beef-franks",
+                  "metric_serving_amount": "53.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "6.00",
+                  "protein": "6.00",
+                  "fat": "15.00",
+                  "saturated_fat": "6.000",
+                  "trans_fat": "0.500",
+                  "cholesterol": "30",
+                  "sodium": "510",
+                  "fiber": "0",
+                  "sugar": "2.00",
+                  "added_sugars": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "340",
+                  "carbohydrate": "11.32",
+                  "protein": "11.32",
+                  "fat": "28.30",
+                  "saturated_fat": "11.321",
+                  "trans_fat": "0.943",
+                  "cholesterol": "57",
+                  "sodium": "962",
+                  "fiber": "0",
+                  "sugar": "3.77",
+                  "added_sugars": "3.77"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73089",
+            "food_name": "Beef Bologna",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Bologna"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/beef-bologna",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123072",
+                  "serving_description": "1 slice",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/beef-bologna",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "120",
+                  "carbohydrate": "1.00",
+                  "protein": "4.00",
+                  "fat": "11.00",
+                  "saturated_fat": "5.000",
+                  "trans_fat": "0.500",
+                  "cholesterol": "20",
+                  "sodium": "390",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "94583",
+            "food_name": "Lentil Rice Biryani",
+            "brand_name": "Trader Joe's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Curries"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/lentil-rice-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "138594",
+                  "serving_description": "1/2 package",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/trader-joes/lentil-rice-biryani",
+                  "metric_serving_amount": "128.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "210",
+                  "carbohydrate": "35.00",
+                  "protein": "5.00",
+                  "fat": "6.00",
+                  "saturated_fat": "1.500",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "600",
+                  "fiber": "2.0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "164",
+                  "carbohydrate": "27.34",
+                  "protein": "3.91",
+                  "fat": "4.69",
+                  "saturated_fat": "1.172",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "469",
+                  "fiber": "1.6",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73081",
+            "food_name": "Juicy Jumbos",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Hot Dogs"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/juicy-jumbos",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123048",
+                  "serving_description": "1 frank",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/juicy-jumbos",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "2.00",
+                  "protein": "6.00",
+                  "fat": "16.00",
+                  "saturated_fat": "6.000",
+                  "trans_fat": "0",
+                  "cholesterol": "35",
+                  "sodium": "600",
+                  "fiber": "0",
+                  "sugar": "2.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "7918893",
+            "food_name": "Chicken Biryani",
+            "brand_name": "Seven Spoons",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/seven-spoons/chicken-biryani",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "7623987",
+                  "serving_description": "1/2 packet",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/seven-spoons/chicken-biryani",
+                  "metric_serving_amount": "328.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "460",
+                  "carbohydrate": "61.00",
+                  "protein": "18.00",
+                  "fat": "15.00",
+                  "saturated_fat": "4.000",
+                  "sodium": "780",
+                  "fiber": "3.0",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "140",
+                  "carbohydrate": "18.60",
+                  "protein": "5.49",
+                  "fat": "4.57",
+                  "saturated_fat": "1.220",
+                  "sodium": "238",
+                  "fiber": "0.9",
+                  "sugar": "1.52"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "525655",
+            "food_name": "Bologna made with Chicken, Pork and Beef",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Bologna"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/bologna-made-with-chicken-pork-and-beef",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "550779",
+                  "serving_description": "1 slice",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/bologna-made-with-chicken-pork-and-beef",
+                  "metric_serving_amount": "37.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "4.00",
+                  "protein": "4.00",
+                  "fat": "11.00",
+                  "saturated_fat": "4.000",
+                  "cholesterol": "45",
+                  "sodium": "390",
+                  "fiber": "0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "351",
+                  "carbohydrate": "10.81",
+                  "protein": "10.81",
+                  "fat": "29.73",
+                  "saturated_fat": "10.811",
+                  "cholesterol": "122",
+                  "sodium": "1054",
+                  "fiber": "0",
+                  "sugar": "2.70"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73091",
+            "food_name": "Beef Smoked Sausage",
+            "brand_name": "Bryan",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Sausages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/bryan/beef-smoked-sausage",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "123079",
+                  "serving_description": "2 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/bryan/beef-smoked-sausage",
+                  "metric_serving_amount": "56.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "2.00",
+                  "protein": "7.00",
+                  "fat": "17.00",
+                  "saturated_fat": "7.000",
+                  "trans_fat": "1.500",
+                  "cholesterol": "40",
+                  "sodium": "510",
+                  "fiber": "0",
+                  "sugar": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "321",
+                  "carbohydrate": "3.57",
+                  "protein": "12.50",
+                  "fat": "30.36",
+                  "saturated_fat": "12.500",
+                  "trans_fat": "2.679",
+                  "cholesterol": "71",
+                  "sodium": "911",
+                  "fiber": "0",
+                  "sugar": "3.57"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "84146000",
+            "food_name": "Smoky Paneer Biryani Rice Bowl",
+            "brand_name": "Tasty Bite",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Rice"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tasty-bite/smoky-paneer-biryani-rice-bowl",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "67808185",
+                  "serving_description": "1 bowl",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tasty-bite/smoky-paneer-biryani-rice-bowl",
+                  "metric_serving_amount": "200.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "290",
+                  "carbohydrate": "53.00",
+                  "protein": "7.00",
+                  "fat": "5.00",
+                  "saturated_fat": "1.500",
+                  "trans_fat": "0",
+                  "cholesterol": "5",
+                  "sodium": "640",
+                  "potassium": "200",
+                  "fiber": "0.8",
+                  "sugar": "3.00",
+                  "added_sugars": "1.00",
+                  "vitamin_d": "0",
+                  "calcium": "130",
+                  "iron": "0.90"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "145",
+                  "carbohydrate": "26.50",
+                  "protein": "3.50",
+                  "fat": "2.50",
+                  "saturated_fat": "0.750",
+                  "trans_fat": "0",
+                  "cholesterol": "3",
+                  "sodium": "320",
+                  "potassium": "100",
+                  "fiber": "0.4",
+                  "sugar": "1.50",
+                  "added_sugars": "0.50",
+                  "vitamin_d": "0",
+                  "calcium": "65",
+                  "iron": "0.45"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "status_code": 200
+}

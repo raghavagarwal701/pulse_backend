@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260405_214302",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "veg br",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "vegetable broth",
+        "veggie breakfast sausage",
+        "veggie burgers",
+        "vegetable biryani",
+        "veg-all broccoli, cauliflower & carrots with 3 cheese sauce",
+        "vegetable bread",
+        "vegan rob's brussel sprout puffs",
+        "veggie patch broccoli bites with cheese",
+        "panera bread vegetarian autumn squash soup",
+        "bush's best vegetarian baked beans"
+      ]
+    }
+  },
+  "status_code": 200
+}

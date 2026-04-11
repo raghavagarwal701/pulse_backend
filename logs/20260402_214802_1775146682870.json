@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260402_214802",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=mos&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "moscato",
+      "moscato wine",
+      "moser roth",
+      "moscow mule",
+      "mostaccioli",
+      "moser roth premium dark chocolate 85% cocoa",
+      "moser roth premium dark chocolate 70% cocoa",
+      "moser roth chili chocolate",
+      "moser roth dark chili",
+      "moser roth dark mint"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

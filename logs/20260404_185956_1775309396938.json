@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260404_185956",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/food/1000489",
+  "request": "",
+  "response": {
+    "status": "success",
+    "food": {
+      "food_id": 1000489,
+      "food_name": "Masala dosa",
+      "brand_name": "indb",
+      "servings": [
+        {
+          "serving_description": "99 g",
+          "metric_serving_amount": 99.0,
+          "metric_serving_unit": "g",
+          "number_of_units": 1.0,
+          "measurement_description": "serving",
+          "calories": 162.93,
+          "protein": 3.26,
+          "fat": 7.76,
+          "carbohydrate": 19.37
+        }
+      ],
+      "food_type": "Generic",
+      "source_type": "csv",
+      "source_db": "indb",
+      "confidence_score": 0.9,
+      "normalized_name": "masala dosa",
+      "average_serving_size": 99.0,
+      "dish_id": 489,
+      "calories_per_100g": 164.58,
+      "protein_per_100g": 3.29,
+      "fat_per_100g": 7.84,
+      "carbs_per_100g": 19.57
+    },
+    "error": null
+  },
+  "status_code": 200
+}

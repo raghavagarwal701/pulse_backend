@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260405_213838",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "bri",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "brisket",
+        "brie",
+        "brie cheese",
+        "brioche bun",
+        "brisket sandwich",
+        "briannas",
+        "brioche",
+        "brisk iced tea",
+        "briannas poppyseed dressing",
+        "brisket taco"
+      ]
+    }
+  },
+  "status_code": 200
+}

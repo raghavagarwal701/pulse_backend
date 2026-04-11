@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260405_213838",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "briya",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "biryani",
+        "bryan smoked sausage",
+        "bryan bacon",
+        "bryan beef bologna",
+        "bryan beef cocktail smokies",
+        "bryan beef smoked sausage",
+        "bryan beefy jumbos beef franks",
+        "bryan bologna made with chicken, pork and beef",
+        "bryan classic deli smoked ham",
+        "bryan classic deli smoked turkey breast"
+      ]
+    }
+  },
+  "status_code": 200
+}

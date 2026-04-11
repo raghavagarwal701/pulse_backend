@@ -1,0 +1,17 @@
+{
+  "timestamp": "20260402_171441",
+  "method": "GET",
+  "url": "http://localhost:8000/api/fatsecret/autocomplete?expression=chic&max_results=4",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "chicken",
+      "chicken breast",
+      "chick-fil-a",
+      "chicken wings"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

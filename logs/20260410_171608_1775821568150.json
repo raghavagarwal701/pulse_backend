@@ -1,0 +1,44 @@
+{
+  "timestamp": "20260410_171608",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "chana jor garam chat"
+  },
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The meal described is 'Chana Jor Garam Chat,' a popular Indian street snack made from roasted and spiced chickpeas, often served with additional ingredients like tomatoes, onions, coriander, and lemon juice. To estimate its nutritional content, I analyzed data from various sources, including Haldiram's Chana Jor Garam and SnapCalorie. A typical serving size for this snack is approximately 30 grams, which is about 1 cup. The nutritional values per 100 grams are as follows: 380 kcal, 18g protein, 58g carbohydrates, 9g fat, 1.5g saturated fat, 14g fiber, 2g sugars, and 720mg sodium. Considering the additional ingredients in the 'Chat' version, such as vegetables and lemon juice, the calorie count may increase slightly, but the overall nutritional profile remains similar. The data sources used are NutriScan App ([nutriscan.app](https://nutriscan.app/calories-nutrition/haldirams-chana-jor-garam?utm_source=openai)) and SnapCalorie ([snapcalorie.com](https://www.snapcalorie.com/nutrition/chana_jor_garam_nutrition.html?utm_source=openai)). Confidence in these estimates is high, as they are based on reputable sources and standard serving sizes.",
+      "web_source_links": [
+        "https://nutriscan.app/calories-nutrition/haldirams-chana-jor-garam",
+        "https://www.snapcalorie.com/nutrition/chana_jor_garam_nutrition.html"
+      ],
+      "name_of_meal": "Chana Jor Garam Chat",
+      "serving_size": "30 grams (1 cup)",
+      "nutritional_value": {
+        "calories": 114.0,
+        "carbohydrate": 17.4,
+        "protein": 5.4,
+        "fat": 2.7,
+        "saturated_fat": 0.45,
+        "fiber": 4.2,
+        "sugar": 0.6,
+        "sodium": 216.0,
+        "potassium": 0.0,
+        "cholesterol": 0.0,
+        "vitamin_a": 0.0,
+        "vitamin_c": 0.0,
+        "calcium": 0.0,
+        "iron": 0.0,
+        "trans_fat": 0.0,
+        "added_sugars": 0.0,
+        "vitamin_d": 0.0
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "The meal described is 'Chana Jor Garam Chat,' a popular Indian street snack made from roasted and spiced chickpeas, often served with additional ingredients like tomatoes, onions, coriander, and lemon juice. To estimate its nutritional content, I analyzed data from various sources, including Haldiram's Chana Jor Garam and SnapCalorie. A typical serving size for this snack is approximately 30 grams, which is about 1 cup. The nutritional values per 100 grams are as follows: 380 kcal, 18g protein, 58g carbohydrates, 9g fat, 1.5g saturated fat, 14g fiber, 2g sugars, and 720mg sodium. Considering the additional ingredients in the 'Chat' version, such as vegetables and lemon juice, the calorie count may increase slightly, but the overall nutritional profile remains similar. The data sources used are NutriScan App ([nutriscan.app](https://nutriscan.app/calories-nutrition/haldirams-chana-jor-garam?utm_source=openai)) and SnapCalorie ([snapcalorie.com](https://www.snapcalorie.com/nutrition/chana_jor_garam_nutrition.html?utm_source=openai)). Confidence in these estimates is high, as they are based on reputable sources and standard serving sizes."
+}

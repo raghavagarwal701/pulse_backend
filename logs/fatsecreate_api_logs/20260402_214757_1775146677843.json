@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260402_214757",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "ma",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "mashed",
+        "mashed potatoes",
+        "macaroni and cheese",
+        "mayonnaise",
+        "mayo",
+        "mango",
+        "mashed potato",
+        "maple syrup",
+        "mashed potatoes (whole milk and butter added)",
+        "marinara sauce"
+      ]
+    }
+  },
+  "status_code": 200
+}

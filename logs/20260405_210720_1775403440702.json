@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260405_210720",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=briyani&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "biryani",
+      "bryan smoked sausage",
+      "bryan bacon",
+      "bryan beef bologna",
+      "bryan beef cocktail smokies",
+      "bryan beef smoked sausage",
+      "bryan beefy jumbos beef franks",
+      "bryan bologna made with chicken, pork and beef",
+      "bryan classic deli smoked ham",
+      "bryan classic deli smoked turkey breast"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

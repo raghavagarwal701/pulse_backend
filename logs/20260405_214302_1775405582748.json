@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260405_214302",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=veg%20br&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "vegetable broth",
+      "veggie breakfast sausage",
+      "veggie burgers",
+      "vegetable biryani",
+      "veg-all broccoli, cauliflower & carrots with 3 cheese sauce",
+      "vegetable bread",
+      "vegan rob's brussel sprout puffs",
+      "veggie patch broccoli bites with cheese",
+      "panera bread vegetarian autumn squash soup",
+      "bush's best vegetarian baked beans"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

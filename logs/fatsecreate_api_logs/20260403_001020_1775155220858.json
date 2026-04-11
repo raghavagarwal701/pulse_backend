@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260403_001020",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "dos",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "dos",
+        "dos equis",
+        "dosa",
+        "dos equis xx lager",
+        "dos equis dos equis amber",
+        "dos coyotes chicken & rice plate",
+        "dos coyotes southwest lite chicken burrito",
+        "dos coyotes yucatan chicken salad",
+        "dos equis classic lime margarita",
+        "dos mamacitas chorizo"
+      ]
+    }
+  },
+  "status_code": 200
+}

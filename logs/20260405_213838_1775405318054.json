@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260405_213838",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=bri&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "Sesame chickpeas brittle",
+      "Peas brinjal bhartha",
+      "Brinjal pickle",
+      "Brinjal bhartha",
+      "Stuffed brinjal",
+      "Baked brinjal in tomato sauce",
+      "Eggplant/Brinjal rice",
+      "Peanut brittle",
+      "Brinjal Vegetable",
+      "brisket"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

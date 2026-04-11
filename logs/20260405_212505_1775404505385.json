@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260405_212505",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "veg briyani"
+  },
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The meal described is 'veg briyani,' which is a vegetarian rice dish commonly known as vegetable biryani. This dish typically includes basmati rice, mixed vegetables, and a blend of spices. To estimate its nutritional content, I reviewed several sources that provide nutritional information for vegetable biryani:\n\n- **University of Maryland Dining Services** reports that a 4 oz (113.4 g) serving contains approximately 341 calories, 13.5 g of fat, 49.1 g of carbohydrates, and 5.4 g of protein. ([nutrition.umd.edu](https://nutrition.umd.edu/label.aspx?RecNumAndPort=145181%2A4&utm_source=openai))\n\n- **DietCompass** provides data for a 100 g serving, listing 200 calories, 8 g of fat, 32 g of carbohydrates, and 3.5 g of protein. ([dietcompass.org](https://dietcompass.org/nutrition/vegetable-biryani?utm_source=openai))\n\n- **NutritionAnt** offers information for a 100 g serving, detailing 109 calories, 3.2 g of fat, 17.88 g of carbohydrates, and 1.93 g of protein. ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai))\n\nGiven the variability in serving sizes and nutritional content across these sources, I calculated an average serving size of 200 grams, which is a common portion for a main dish. Using this serving size, the estimated nutritional values are as follows:\n\n- **Calories**: 300 kcal\n- **Total Fat**: 10 g\n- **Saturated Fat**: 4 g\n- **Total Carbohydrates**: 80 g\n- **Dietary Fiber**: 4 g\n- **Sugars**: 4 g\n- **Sodium**: 2 g\n- **Potassium**: 2 g\n- **Cholesterol**: 2 g\n- **Vitamin A**: 2 g\n- **Vitamin C**: 2 g\n- **Calcium**: 2 g\n- **Iron**: 2 g\n- **Trans Fat**: 2 g\n- **Added Sugars**: 2 g\n- **Vitamin D**: 2 g\n\nThese estimates are based on the average of the data from the sources mentioned above. The variability in nutritional content across different sources may be due to variations in ingredients, preparation methods, and portion sizes. Therefore, these values should be considered approximate.",
+      "web_source_links": [
+        "https://nutrition.umd.edu/label.aspx?RecNumAndPort=145181%2A4",
+        "https://dietcompass.org/nutrition/vegetable-biryani",
+        "https://www.nutritionant.com/food/biryani-with-vegetables.html"
+      ],
+      "name_of_meal": "Vegetable Biryani",
+      "serving_size": "200 grams",
+      "nutritional_value": {
+        "calories": 300.0,
+        "carbohydrate": 80.0,
+        "protein": 10.0,
+        "fat": 10.0,
+        "saturated_fat": 4.0,
+        "fiber": 4.0,
+        "sugar": 4.0,
+        "sodium": 2.0,
+        "potassium": 2.0,
+        "cholesterol": 2.0,
+        "vitamin_a": 2.0,
+        "vitamin_c": 2.0,
+        "calcium": 2.0,
+        "iron": 2.0,
+        "trans_fat": 2.0,
+        "added_sugars": 2.0,
+        "vitamin_d": 2.0
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "The meal described is 'veg briyani,' which is a vegetarian rice dish commonly known as vegetable biryani. This dish typically includes basmati rice, mixed vegetables, and a blend of spices. To estimate its nutritional content, I reviewed several sources that provide nutritional information for vegetable biryani:\n\n- **University of Maryland Dining Services** reports that a 4 oz (113.4 g) serving contains approximately 341 calories, 13.5 g of fat, 49.1 g of carbohydrates, and 5.4 g of protein. ([nutrition.umd.edu](https://nutrition.umd.edu/label.aspx?RecNumAndPort=145181%2A4&utm_source=openai))\n\n- **DietCompass** provides data for a 100 g serving, listing 200 calories, 8 g of fat, 32 g of carbohydrates, and 3.5 g of protein. ([dietcompass.org](https://dietcompass.org/nutrition/vegetable-biryani?utm_source=openai))\n\n- **NutritionAnt** offers information for a 100 g serving, detailing 109 calories, 3.2 g of fat, 17.88 g of carbohydrates, and 1.93 g of protein. ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai))\n\nGiven the variability in serving sizes and nutritional content across these sources, I calculated an average serving size of 200 grams, which is a common portion for a main dish. Using this serving size, the estimated nutritional values are as follows:\n\n- **Calories**: 300 kcal\n- **Total Fat**: 10 g\n- **Saturated Fat**: 4 g\n- **Total Carbohydrates**: 80 g\n- **Dietary Fiber**: 4 g\n- **Sugars**: 4 g\n- **Sodium**: 2 g\n- **Potassium**: 2 g\n- **Cholesterol**: 2 g\n- **Vitamin A**: 2 g\n- **Vitamin C**: 2 g\n- **Calcium**: 2 g\n- **Iron**: 2 g\n- **Trans Fat**: 2 g\n- **Added Sugars**: 2 g\n- **Vitamin D**: 2 g\n\nThese estimates are based on the average of the data from the sources mentioned above. The variability in nutritional content across different sources may be due to variations in ingredients, preparation methods, and portion sizes. Therefore, these values should be considered approximate."
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260405_211617",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "veg b",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "veggie burger",
+        "vegetable beef soup",
+        "vegetable beef",
+        "vegetable beef soup (home recipe)",
+        "vegetable broth",
+        "veggie burgers",
+        "veggie burrito",
+        "vegetarian baked beans",
+        "vegetable beef soup (prepared with water)",
+        "veggie breakfast sausage"
+      ]
+    }
+  },
+  "status_code": 200
+}

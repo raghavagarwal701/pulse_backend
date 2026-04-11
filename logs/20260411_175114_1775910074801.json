@@ -1,0 +1,44 @@
+{
+  "timestamp": "20260411_175114",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "Paneer patties and doritos"
+  },
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The meal consists of two items: paneer patties and Doritos. Paneer patties are a vegetarian dish made from paneer (Indian cottage cheese) and various vegetables, often spiced and deep-fried. Doritos are flavored tortilla chips produced by Frito-Lay.\n\n**Paneer Patties:**\n\nA standard serving size for paneer patties is typically 5 pieces. According to a recipe from SelfCare India, this serving provides approximately 290 kcal, 10 grams of protein, 13 grams of fat, 33 grams of carbohydrates, 193 mg of calcium, 4 grams of fiber, and 1.5 mg of iron. ([selfcareindia.com](https://www.selfcareindia.com/blogs/news/quinoa-paneer-patties?utm_source=openai))\n\n**Doritos:**\n\nA standard serving size for Doritos is 1 ounce (28 grams), which is about 11 chips. This serving contains approximately 150 calories, 2 grams of protein, 8 grams of fat, 18 grams of carbohydrates, 1 gram of dietary fiber, and 1 gram of sugar. ([tools.myfooddata.com](https://tools.myfooddata.com/nutrition-facts/100063064/wt1?utm_source=openai))\n\n**Combined Nutritional Breakdown:**\n\n- **Calories:** 290 kcal (paneer patties) + 150 kcal (Doritos) = 440 kcal\n- **Protein:** 10 g (paneer patties) + 2 g (Doritos) = 12 g\n- **Fat:** 13 g (paneer patties) + 8 g (Doritos) = 21 g\n- **Carbohydrates:** 33 g (paneer patties) + 18 g (Doritos) = 51 g\n- **Saturated Fat:** Not specified for paneer patties; 1 g (Doritos)\n- **Fiber:** 4 g (paneer patties) + 1 g (Doritos) = 5 g\n- **Sugar:** Not specified for paneer patties; 1 g (Doritos)\n- **Sodium:** Not specified for paneer patties; 210 mg (Doritos)\n- **Calcium:** 193 mg (paneer patties)\n- **Iron:** 1.5 mg (paneer patties)\n\n**Reasoning:**\n\n1. **Parsing the Meal Description:** The meal consists of two items: paneer patties and Doritos.\n2. **Identifying Each Meal Item:** Paneer patties are identified as a vegetarian dish made from paneer and vegetables, often spiced and deep-fried. Doritos are identified as flavored tortilla chips produced by Frito-Lay.\n3. **Estimating Serving Sizes:** A standard serving size for paneer patties is typically 5 pieces. A standard serving size for Doritos is 1 ounce (28 grams), which is about 11 chips.\n4. **Web Sources Used:** The nutritional information for paneer patties was obtained from a recipe on SelfCare India. The nutritional information for Doritos was obtained from the U.S. Department of Agriculture's comprehensive food database.\n5. **Confidence and Uncertainty:** The nutritional values provided are based on standard serving sizes and may vary depending on specific recipes and product formulations. The absence of certain nutritional details for paneer patties (e.g., saturated fat, sugar, sodium) indicates that these values were not specified in the available source.\n\n([selfcareindia.com](https://www.selfcareindia.com/blogs/news/quinoa-paneer-patties?utm_source=openai))",
+      "web_source_links": [
+        "https://www.selfcareindia.com/blogs/news/quinoa-paneer-patties",
+        "https://tools.myfooddata.com/nutrition-facts/100063064/wt1"
+      ],
+      "name_of_meal": "Paneer Patties and Doritos",
+      "serving_size": "5 paneer patties and 1 ounce (28 grams) of Doritos",
+      "nutritional_value": {
+        "calories": 440.0,
+        "carbohydrate": 51.0,
+        "protein": 12.0,
+        "fat": 21.0,
+        "saturated_fat": 1.0,
+        "fiber": 5.0,
+        "sugar": 1.0,
+        "sodium": 210.0,
+        "potassium": null,
+        "cholesterol": null,
+        "vitamin_a": null,
+        "vitamin_c": null,
+        "calcium": 193.0,
+        "iron": 1.5,
+        "trans_fat": null,
+        "added_sugars": null,
+        "vitamin_d": null
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "The meal consists of two items: paneer patties and Doritos. Paneer patties are a vegetarian dish made from paneer (Indian cottage cheese) and various vegetables, often spiced and deep-fried. Doritos are flavored tortilla chips produced by Frito-Lay.\n\n**Paneer Patties:**\n\nA standard serving size for paneer patties is typically 5 pieces. According to a recipe from SelfCare India, this serving provides approximately 290 kcal, 10 grams of protein, 13 grams of fat, 33 grams of carbohydrates, 193 mg of calcium, 4 grams of fiber, and 1.5 mg of iron. ([selfcareindia.com](https://www.selfcareindia.com/blogs/news/quinoa-paneer-patties?utm_source=openai))\n\n**Doritos:**\n\nA standard serving size for Doritos is 1 ounce (28 grams), which is about 11 chips. This serving contains approximately 150 calories, 2 grams of protein, 8 grams of fat, 18 grams of carbohydrates, 1 gram of dietary fiber, and 1 gram of sugar. ([tools.myfooddata.com](https://tools.myfooddata.com/nutrition-facts/100063064/wt1?utm_source=openai))\n\n**Combined Nutritional Breakdown:**\n\n- **Calories:** 290 kcal (paneer patties) + 150 kcal (Doritos) = 440 kcal\n- **Protein:** 10 g (paneer patties) + 2 g (Doritos) = 12 g\n- **Fat:** 13 g (paneer patties) + 8 g (Doritos) = 21 g\n- **Carbohydrates:** 33 g (paneer patties) + 18 g (Doritos) = 51 g\n- **Saturated Fat:** Not specified for paneer patties; 1 g (Doritos)\n- **Fiber:** 4 g (paneer patties) + 1 g (Doritos) = 5 g\n- **Sugar:** Not specified for paneer patties; 1 g (Doritos)\n- **Sodium:** Not specified for paneer patties; 210 mg (Doritos)\n- **Calcium:** 193 mg (paneer patties)\n- **Iron:** 1.5 mg (paneer patties)\n\n**Reasoning:**\n\n1. **Parsing the Meal Description:** The meal consists of two items: paneer patties and Doritos.\n2. **Identifying Each Meal Item:** Paneer patties are identified as a vegetarian dish made from paneer and vegetables, often spiced and deep-fried. Doritos are identified as flavored tortilla chips produced by Frito-Lay.\n3. **Estimating Serving Sizes:** A standard serving size for paneer patties is typically 5 pieces. A standard serving size for Doritos is 1 ounce (28 grams), which is about 11 chips.\n4. **Web Sources Used:** The nutritional information for paneer patties was obtained from a recipe on SelfCare India. The nutritional information for Doritos was obtained from the U.S. Department of Agriculture's comprehensive food database.\n5. **Confidence and Uncertainty:** The nutritional values provided are based on standard serving sizes and may vary depending on specific recipes and product formulations. The absence of certain nutritional details for paneer patties (e.g., saturated fat, sugar, sodium) indicates that these values were not specified in the available source.\n\n([selfcareindia.com](https://www.selfcareindia.com/blogs/news/quinoa-paneer-patties?utm_source=openai))"
+}

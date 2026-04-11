@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260402_214759",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "moa",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "real appeal moambe chicken (congo pullet moambe)"
+      ]
+    }
+  },
+  "status_code": 200
+}

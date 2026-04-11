@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260403_004104",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "dosa",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "dosa",
+        "dosa bombay potato street wrap",
+        "dosa brussels sprout, butternut squash & paneer salad",
+        "dosa butter sauce",
+        "dosa cardamom mango lassi",
+        "dosa chick’n tikka street wrap",
+        "dosa turmeric banana lassi",
+        "masala dosa",
+        "egg dosa",
+        "gits dosai"
+      ]
+    }
+  },
+  "status_code": 200
+}

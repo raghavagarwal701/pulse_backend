@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260402_214808",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=moo&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "moose tracks ice cream",
+      "moon",
+      "moose",
+      "moon pie",
+      "moon cake",
+      "moong dal",
+      "moo goo gai pan",
+      "moo shu (mu shi) pork",
+      "mooncake",
+      "moon pie mini moon pie chocolate flavor"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

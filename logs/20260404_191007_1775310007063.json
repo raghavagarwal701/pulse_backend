@@ -1,0 +1,62 @@
+{
+  "timestamp": "20260404_191007",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/food/1518833",
+  "request": "",
+  "response": {
+    "status": "success",
+    "food": {
+      "food_id": 1518833,
+      "food_name": "Masala Dosa",
+      "brand_name": "Udupi",
+      "servings": [
+        {
+          "serving_description": "1 piece",
+          "serving_id": "1501208",
+          "serving_url": "https://foods.fatsecret.com/calories-nutrition/udupi/masala-dosa",
+          "metric_serving_amount": "86.000",
+          "metric_serving_unit": "g",
+          "number_of_units": "1.000",
+          "measurement_description": "serving",
+          "is_default": "1",
+          "calories": "162",
+          "carbohydrate": "22.00",
+          "protein": "5.00",
+          "fat": "6.00",
+          "saturated_fat": "1.500",
+          "cholesterol": "0",
+          "sodium": "520",
+          "fiber": "2.0",
+          "sugar": "1.00"
+        },
+        {
+          "serving_description": "100 g",
+          "serving_id": "0",
+          "metric_serving_amount": "100.0",
+          "metric_serving_unit": "g",
+          "number_of_units": "100.0",
+          "measurement_description": "g",
+          "calories": "188",
+          "carbohydrate": "25.58",
+          "protein": "5.81",
+          "fat": "6.98",
+          "saturated_fat": "1.744",
+          "cholesterol": "0",
+          "sodium": "605",
+          "fiber": "2.3",
+          "sugar": "1.16"
+        }
+      ],
+      "food_type": "Brand",
+      "food_sub_categories": {
+        "food_sub_category": [
+          "Snacks"
+        ]
+      },
+      "food_url": "https://foods.fatsecret.com/calories-nutrition/udupi/masala-dosa",
+      "source_type": "fatsecret"
+    },
+    "error": null
+  },
+  "status_code": 200
+}

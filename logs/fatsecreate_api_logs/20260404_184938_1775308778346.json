@@ -1,0 +1,31 @@
+{
+  "timestamp": "20260404_184938",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "rajma",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "rajma",
+        "rajma masala",
+        "mtr rajma masala",
+        "priya rajma masala",
+        "deep shahi rajma",
+        "kohinoor kashmiri rajma",
+        "kitchens of india rajma masala - red kidney beans curry",
+        "truly indian shahi rajma",
+        "kohinoor rice & curry - kashmiri rajma with steamed basmati"
+      ]
+    }
+  },
+  "status_code": 200
+}

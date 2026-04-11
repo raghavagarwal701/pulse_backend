@@ -1,0 +1,24 @@
+{
+  "timestamp": "20260403_003028",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/food/1518833",
+  "request": "",
+  "response": {
+    "status": "success",
+    "food": {
+      "food_id": 1518833,
+      "food_name": "Masala Dosa",
+      "brand_name": "Udupi",
+      "servings": [
+        {
+          "serving_description": "1 piece"
+        },
+        {
+          "serving_description": "100 g"
+        }
+      ]
+    },
+    "error": null
+  },
+  "status_code": 200
+}

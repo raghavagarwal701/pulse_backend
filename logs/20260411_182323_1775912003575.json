@@ -1,0 +1,106 @@
+{
+  "timestamp": "20260411_182323",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/chat",
+  "request": {
+    "context": {
+      "context_hints": {
+        "avoid": [],
+        "meal_type": "dinner",
+        "priority": [
+          "increase calories intake",
+          "increase protein intake",
+          "increase carbs intake"
+        ]
+      },
+      "nutrition_targets": {
+        "daily_targets": {
+          "calories_kcal": 2559.44,
+          "carbs_g": 367.88,
+          "fat_g": 71.1,
+          "fiber_g": 25.0,
+          "protein_g": 112.0
+        }
+      },
+      "recent_day_summary": {
+        "yesterday": {
+          "activity_level": "high",
+          "calories_kcal": 536.0,
+          "insight": "low intake compared to activity",
+          "protein_g": 29.15
+        }
+      },
+      "today": {
+        "activity": {
+          "activity_level": "low",
+          "calories_burned_kcal": 1229.06,
+          "steps": 1146
+        },
+        "intake": {
+          "calories_kcal": 461.0,
+          "carbs_g": 21.6,
+          "fat_g": 32.0,
+          "fiber_g": 0.0,
+          "protein_g": 23.4
+        },
+        "remaining_budget": {
+          "calories_kcal": 2098.44,
+          "carbs_g": 346.28,
+          "fat_g": 39.1,
+          "protein_g": 88.6
+        }
+      },
+      "user_profile": {
+        "activity_level": "moderate",
+        "goal": "to increase endurance",
+        "height_cm": 169.0,
+        "weight_kg": 70.0
+      },
+      "weekly_insights": {
+        "avg_daily_intake": {
+          "calories_kcal": 269.58,
+          "carbs_g": 27.41,
+          "fat_g": 14.39,
+          "fiber_g": 2.33,
+          "protein_g": 10.65
+        },
+        "data_quality": "medium",
+        "deficiencies": [
+          {
+            "nutrient": "calories",
+            "severity": "high"
+          },
+          {
+            "nutrient": "protein",
+            "severity": "high"
+          },
+          {
+            "nutrient": "carbs",
+            "severity": "high"
+          },
+          {
+            "nutrient": "fat",
+            "severity": "high"
+          },
+          {
+            "nutrient": "fiber",
+            "severity": "high"
+          }
+        ],
+        "excesses": [],
+        "patterns": [
+          "low meal frequency",
+          "high activity but inconsistent intake",
+          "chronic calorie deficit"
+        ]
+      }
+    },
+    "conversation_history": [],
+    "query": "what should i have for snacks "
+  },
+  "response": {
+    "response": "For snacks, you should focus on options that help you increase your calorie, protein, and carbohydrate intake, given your current deficiencies and activity level. Here are some practical snack ideas:\n\n1. **Greek Yogurt with Honey and Berries**: High in protein and carbs. A serving can provide around 150-200 calories, 10-15g protein, and 20-30g carbs.\n\n2. **Nut Butter on Whole Grain Toast**: A slice of whole grain bread with 1-2 tablespoons of nut butter can give you about 200-300 calories, 8-10g protein, and 15-20g carbs.\n\n3. **Trail Mix**: A mix of nuts, seeds, and dried fruit can be calorie-dense. A small handful (about 1 oz) can provide around 150-200 calories, 5-6g protein, and 15-20g carbs.\n\n4. **Protein Smoothie**: Blend a scoop of protein powder with a banana and some milk or a milk alternative. This can yield around 200-300 calories, 20-25g protein, and 30-40g carbs.\n\n5. **Hummus with Veggies or Whole Grain Crackers**: Hummus is a good source of protein and healthy fats. A serving with veggies can provide around 100-150 calories, 5g protein, and 15g carbs.\n\nGiven your remaining budget of 2098.44 calories, you can incorporate these snacks throughout the day to help meet your targets. Aim for a mix of these options to balance your nutrient intake effectively.",
+    "tool_calls": []
+  },
+  "status_code": 200
+}

@@ -1,0 +1,10 @@
+{
+  "timestamp": "20260402_171442",
+  "method": "GET",
+  "url": "http://localhost:8000/api/fatsecret/search?query=chicken&page_number=0&max_results=3",
+  "request": "",
+  "response": {
+    "detail": "Error searching foods: 3 validation errors for FatSecretSearchResponse\nresults.0.servings\n  Input should be a valid list [type=list_type, input_value={'serving': [{'serving_id... '14', 'iron': '1.04'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/list_type\nresults.1.servings\n  Input should be a valid list [type=list_type, input_value={'serving': [{'serving_id...: '2', 'iron': '0.20'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/list_type\nresults.2.servings\n  Input should be a valid list [type=list_type, input_value={'serving': [{'serving_id...: '0', 'iron': '0.51'}]}, input_type=dict]\n    For further information visit https://errors.pydantic.dev/2.12/v/list_type"
+  },
+  "status_code": 500
+}

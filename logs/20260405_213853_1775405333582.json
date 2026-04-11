@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260405_213853",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "briyani"
+  },
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The meal described is 'biryani,' a traditional South Asian dish consisting of spiced rice and meat or vegetables. The nutritional content of biryani varies based on its ingredients and portion size. For a standard serving size of 1 cup (approximately 200 grams), the nutritional breakdown is as follows:\n\n- **Calories**: Approximately 300 calories\n- **Total Fat**: Around 15 grams\n- **Saturated Fat**: Approximately 4 grams\n- **Cholesterol**: About 30 milligrams\n- **Sodium**: Approximately 600 milligrams\n- **Total Carbohydrates**: Around 50 grams\n- **Dietary Fiber**: Approximately 2 grams\n- **Sugars**: About 4 grams\n- **Protein**: Approximately 15 grams\n- **Calcium**: Around 40 milligrams\n- **Iron**: Approximately 1.5 milligrams\n- **Potassium**: About 250 milligrams\n\nThese values are approximate and can vary based on the specific ingredients and preparation methods used. ([snapcalorie.com](https://www.snapcalorie.com/nutrition/biryani_nutrition.html?utm_source=openai))",
+      "web_source_links": [
+        "https://www.snapcalorie.com/nutrition/biryani_nutrition.html"
+      ],
+      "name_of_meal": "Biryani",
+      "serving_size": "1 cup (200 grams)",
+      "nutritional_value": {
+        "calories": 300.0,
+        "carbohydrate": 50.0,
+        "protein": 15.0,
+        "fat": 15.0,
+        "saturated_fat": 4.0,
+        "fiber": 2.0,
+        "sugar": 4.0,
+        "sodium": 600.0,
+        "potassium": 250.0,
+        "cholesterol": 30.0,
+        "vitamin_a": null,
+        "vitamin_c": null,
+        "calcium": 40.0,
+        "iron": 1.5,
+        "trans_fat": null,
+        "added_sugars": null,
+        "vitamin_d": null
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "The meal described is 'biryani,' a traditional South Asian dish consisting of spiced rice and meat or vegetables. The nutritional content of biryani varies based on its ingredients and portion size. For a standard serving size of 1 cup (approximately 200 grams), the nutritional breakdown is as follows:\n\n- **Calories**: Approximately 300 calories\n- **Total Fat**: Around 15 grams\n- **Saturated Fat**: Approximately 4 grams\n- **Cholesterol**: About 30 milligrams\n- **Sodium**: Approximately 600 milligrams\n- **Total Carbohydrates**: Around 50 grams\n- **Dietary Fiber**: Approximately 2 grams\n- **Sugars**: About 4 grams\n- **Protein**: Approximately 15 grams\n- **Calcium**: Around 40 milligrams\n- **Iron**: Approximately 1.5 milligrams\n- **Potassium**: About 250 milligrams\n\nThese values are approximate and can vary based on the specific ingredients and preparation methods used. ([snapcalorie.com](https://www.snapcalorie.com/nutrition/biryani_nutrition.html?utm_source=openai))"
+}

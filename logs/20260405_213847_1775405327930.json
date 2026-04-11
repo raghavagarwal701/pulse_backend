@@ -1,0 +1,46 @@
+{
+  "timestamp": "20260405_213847",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "briyani"
+  },
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The meal described is 'biryani,' a traditional South Asian dish consisting of spiced rice and meat or vegetables. The nutritional content of biryani varies based on its ingredients and preparation methods. To provide an accurate analysis, I examined several sources detailing the nutritional values of different biryani variants:\n\n- **Vegetable Biryani**: A 4 oz (113.4 g) serving contains approximately 341 calories, 13.5g of total fat, 49.1g of carbohydrates, and 5.4g of protein. ([nutrition.umd.edu](https://nutrition.umd.edu/label.aspx?RecNumAndPort=145181%2A4&utm_source=openai))\n\n- **Chicken Biryani**: A 4 oz (113.4 g) serving contains about 186 calories, 7.4g of total fat, 17.8g of carbohydrates, and 12.4g of protein. ([nutrition.umd.edu](https://nutrition.umd.edu/label.aspx?RecNumAndPort=145223%2A4&utm_source=openai))\n\n- **Biryani with Meat**: A 100g serving provides 145 calories, 6.79g of total fat, 12.19g of carbohydrates, and 8.5g of protein. ([nutritionant.com](https://www.nutritionant.com/food/biryani-meat.html?utm_source=openai))\n\n- **Biryani with Vegetables**: A 100g serving offers 109 calories, 3.2g of total fat, 17.88g of carbohydrates, and 1.93g of protein. ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai))\n\nGiven the variations in biryani recipes, I estimated the nutritional content for a standard serving size of 1 cup (approximately 200g), which is a common portion size for this dish. Based on the data from the sources above, a 200g serving of biryani typically contains around 400-500 calories, 12-15g of total fat, 50-70g of carbohydrates, and 15-20g of protein.\n\nPlease note that these values are approximate and can vary based on specific ingredients and preparation methods.",
+      "web_source_links": [
+        "https://nutrition.umd.edu/label.aspx?RecNumAndPort=145181%2A4",
+        "https://nutrition.umd.edu/label.aspx?RecNumAndPort=145223%2A4",
+        "https://www.nutritionant.com/food/biryani-meat.html",
+        "https://www.nutritionant.com/food/biryani-with-vegetables.html"
+      ],
+      "name_of_meal": "Biryani",
+      "serving_size": "1 cup (200g)",
+      "nutritional_value": {
+        "calories": 450.0,
+        "carbohydrate": 60.0,
+        "protein": 17.0,
+        "fat": 13.0,
+        "saturated_fat": 4.0,
+        "fiber": 2.0,
+        "sugar": 3.0,
+        "sodium": 600.0,
+        "potassium": 300.0,
+        "cholesterol": 50.0,
+        "vitamin_a": 100.0,
+        "vitamin_c": 5.0,
+        "calcium": 50.0,
+        "iron": 2.0,
+        "trans_fat": 0.0,
+        "added_sugars": 0.0,
+        "vitamin_d": 0.0
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "The meal described is 'biryani,' a traditional South Asian dish consisting of spiced rice and meat or vegetables. The nutritional content of biryani varies based on its ingredients and preparation methods. To provide an accurate analysis, I examined several sources detailing the nutritional values of different biryani variants:\n\n- **Vegetable Biryani**: A 4 oz (113.4 g) serving contains approximately 341 calories, 13.5g of total fat, 49.1g of carbohydrates, and 5.4g of protein. ([nutrition.umd.edu](https://nutrition.umd.edu/label.aspx?RecNumAndPort=145181%2A4&utm_source=openai))\n\n- **Chicken Biryani**: A 4 oz (113.4 g) serving contains about 186 calories, 7.4g of total fat, 17.8g of carbohydrates, and 12.4g of protein. ([nutrition.umd.edu](https://nutrition.umd.edu/label.aspx?RecNumAndPort=145223%2A4&utm_source=openai))\n\n- **Biryani with Meat**: A 100g serving provides 145 calories, 6.79g of total fat, 12.19g of carbohydrates, and 8.5g of protein. ([nutritionant.com](https://www.nutritionant.com/food/biryani-meat.html?utm_source=openai))\n\n- **Biryani with Vegetables**: A 100g serving offers 109 calories, 3.2g of total fat, 17.88g of carbohydrates, and 1.93g of protein. ([nutritionant.com](https://www.nutritionant.com/food/biryani-with-vegetables.html?utm_source=openai))\n\nGiven the variations in biryani recipes, I estimated the nutritional content for a standard serving size of 1 cup (approximately 200g), which is a common portion size for this dish. Based on the data from the sources above, a 200g serving of biryani typically contains around 400-500 calories, 12-15g of total fat, 50-70g of carbohydrates, and 15-20g of protein.\n\nPlease note that these values are approximate and can vary based on specific ingredients and preparation methods."
+}

@@ -1,0 +1,12 @@
+{
+  "timestamp": "20260405_212400",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "veg briyani"
+  },
+  "response": {
+    "detail": "Error analysing meal description: Error code: 400 - {'error': {'message': \"Invalid schema for response_format 'meal_analysis': In context=(), 'additionalProperties' is required to be supplied and to be false.\", 'type': 'invalid_request_error', 'param': 'text.format.schema', 'code': 'invalid_json_schema'}}"
+  },
+  "status_code": 500
+}

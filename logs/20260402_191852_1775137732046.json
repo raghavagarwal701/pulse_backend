@@ -1,0 +1,23 @@
+{
+  "timestamp": "20260402_191852",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=do&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "doritos",
+      "domino's",
+      "donut",
+      "domino's pizza",
+      "doritos nacho cheese tortilla chips (28g)",
+      "dole romaine lettuce",
+      "hot dog",
+      "dole bananas",
+      "donuts",
+      "domino's pizza 12\" hand tossed pepperoni pizza"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

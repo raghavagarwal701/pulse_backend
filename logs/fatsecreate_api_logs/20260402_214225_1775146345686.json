@@ -1,0 +1,2844 @@
+{
+  "timestamp": "20260402_214225",
+  "api": "foods.search.v5",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.search.v5",
+      "search_expression": "dos",
+      "page_number": 0,
+      "max_results": 50,
+      "region": "IN",
+      "include_sub_categories": "true",
+      "include_food_images": "true",
+      "include_food_attributes": "true",
+      "flag_default_serving": "true",
+      "format": "json"
+    }
+  },
+  "response": {
+    "foods_search": {
+      "max_results": "50",
+      "total_results": "1000",
+      "page_number": "0",
+      "results": {
+        "food": [
+          {
+            "food_id": "92908145",
+            "food_name": "Duos",
+            "brand_name": "Jack Link's",
+            "food_type": "Brand",
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/jack-links/duos",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "74455355",
+                  "serving_description": "1 oz",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/jack-links/duos",
+                  "metric_serving_amount": "28.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "70",
+                  "carbohydrate": "5.00",
+                  "protein": "8.00",
+                  "fat": "2.50",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "30",
+                  "sodium": "400",
+                  "fiber": "0",
+                  "sugar": "2.00",
+                  "added_sugars": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "250",
+                  "carbohydrate": "17.86",
+                  "protein": "28.57",
+                  "fat": "8.93",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "107",
+                  "sodium": "1429",
+                  "fiber": "0",
+                  "sugar": "7.14",
+                  "added_sugars": "7.14"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "3084145",
+            "food_name": "Dots",
+            "brand_name": "Tootsie Roll",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Candies"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tootsie-roll/dots",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "3002408",
+                  "serving_description": "8 dots",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tootsie-roll/dots",
+                  "metric_serving_amount": "29.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "100",
+                  "carbohydrate": "24.00",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "10",
+                  "potassium": "0",
+                  "fiber": "0",
+                  "sugar": "15.00",
+                  "added_sugars": "15.00",
+                  "vitamin_d": "0",
+                  "calcium": "0",
+                  "iron": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "345",
+                  "carbohydrate": "82.76",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "34",
+                  "potassium": "0",
+                  "fiber": "0",
+                  "sugar": "51.72",
+                  "added_sugars": "51.72",
+                  "vitamin_d": "0",
+                  "calcium": "0",
+                  "iron": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "50503459",
+            "food_name": "Duos",
+            "brand_name": "Clif Bar",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Nutrition Bars"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/clif-bar/duos",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "42852794",
+                  "serving_description": "1 bar",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/clif-bar/duos",
+                  "metric_serving_amount": "47.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "30.00",
+                  "protein": "6.00",
+                  "fat": "5.00",
+                  "saturated_fat": "1.000",
+                  "polyunsaturated_fat": "1.000",
+                  "monounsaturated_fat": "2.500",
+                  "cholesterol": "0",
+                  "sodium": "100",
+                  "potassium": "155",
+                  "fiber": "2.0",
+                  "sugar": "11.00",
+                  "added_sugars": "10.00",
+                  "calcium": "35",
+                  "iron": "2.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "383",
+                  "carbohydrate": "63.83",
+                  "protein": "12.77",
+                  "fat": "10.64",
+                  "saturated_fat": "2.128",
+                  "polyunsaturated_fat": "2.128",
+                  "monounsaturated_fat": "5.319",
+                  "cholesterol": "0",
+                  "sodium": "213",
+                  "potassium": "330",
+                  "fiber": "4.3",
+                  "sugar": "23.40",
+                  "added_sugars": "21.28",
+                  "calcium": "74",
+                  "iron": "4.26"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "927522",
+            "food_name": "Dos Equis Amber",
+            "brand_name": "Dos Equis",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/dos-equis/dos-equis-amber",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "936445",
+                  "serving_description": "1 bottle",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/dos-equis/dos-equis-amber",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "146",
+                  "carbohydrate": "11.60",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "potassium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "12",
+                  "carbohydrate": "0.97",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "potassium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "43",
+                  "carbohydrate": "3.41",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "potassium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73141260",
+            "food_name": "Dos Tacos",
+            "brand_name": "Tijuana Flats",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Tacos"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tijuana-flats/dos-tacos",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59554957",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tijuana-flats/dos-tacos",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "300",
+                  "carbohydrate": "36.00",
+                  "protein": "10.00",
+                  "fat": "16.00",
+                  "saturated_fat": "8.000",
+                  "cholesterol": "28",
+                  "sodium": "490",
+                  "fiber": "0",
+                  "sugar": "2.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "85542349",
+            "food_name": "Dos Equis",
+            "brand_name": "Perkins Restaurant",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Beverages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/perkins-restaurant/dos-equis",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "68891577",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/perkins-restaurant/dos-equis",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "9.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.75",
+                  "protein": "0.08",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "38",
+                  "carbohydrate": "2.65",
+                  "protein": "0.29",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68754779",
+            "food_name": "Dos Equis - Bottled",
+            "brand_name": "Chili's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Beverages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/chilis/dos-equis-bottled",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "56260209",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/chilis/dos-equis-bottled",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "11.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "3.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.92",
+                  "protein": "0.08",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.25"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "38",
+                  "carbohydrate": "3.23",
+                  "protein": "0.29",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.88"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "69868869",
+            "food_name": "Dos Equis Lager",
+            "brand_name": "Pizza Hut",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/pizza-hut/dos-equis-lager",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "57083396",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/pizza-hut/dos-equis-lager",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "12.00",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "15",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "70398866",
+            "food_name": "Dos Equis Lager",
+            "brand_name": "California Pizza Kitchen",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Beverages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/california-pizza-kitchen/dos-equis-lager",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "57475660",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/california-pizza-kitchen/dos-equis-lager",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "11.00",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "10",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "74657349",
+            "food_name": "Dos XX Ambar",
+            "brand_name": "Chevy's Fresh Mex",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/chevys-fresh-mex/dos-xx-ambar",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "60711044",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/chevys-fresh-mex/dos-xx-ambar",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "14.00",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68757338",
+            "food_name": "Dos Equis Draft - Medium",
+            "brand_name": "Chili's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Beverages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/chilis/dos-equis-draft-medium",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "56262227",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/chilis/dos-equis-draft-medium",
+                  "metric_serving_amount": "16.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "170",
+                  "carbohydrate": "15.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.94",
+                  "protein": "0.06",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.25"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "37",
+                  "carbohydrate": "3.31",
+                  "protein": "0.22",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.88"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "74657344",
+            "food_name": "Dos XX Lager Especial",
+            "brand_name": "Chevy's Fresh Mex",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/chevys-fresh-mex/dos-xx-lager-especial",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "60711040",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/chevys-fresh-mex/dos-xx-lager-especial",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "11.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "30",
+                  "fiber": "1.0",
+                  "sugar": "3.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655754",
+            "food_name": "Dos Equis Ambar - Pitcher",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ambar-pitcher",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459783",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ambar-pitcher",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "710",
+                  "carbohydrate": "68.00",
+                  "protein": "5.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "200",
+                  "fiber": "0",
+                  "sugar": "19.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "119254837",
+            "food_name": "Dos Equis - 14 oz",
+            "brand_name": "Miller's Ale House",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/millers-ale-house/dos-equis-14-oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "93973540",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/millers-ale-house/dos-equis-14-oz",
+                  "metric_serving_amount": "14.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "13.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "35",
+                  "fiber": "0",
+                  "sugar": "3.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.93",
+                  "protein": "0.07",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "3",
+                  "fiber": "0",
+                  "sugar": "0.21"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "38",
+                  "carbohydrate": "3.28",
+                  "protein": "0.25",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "9",
+                  "fiber": "0",
+                  "sugar": "0.76"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "25300978",
+            "food_name": "Dos Tacos Shredded Chicken",
+            "brand_name": "Jose Ole",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Tacos"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/jose-ole/dos-tacos-shredded-chicken",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "23465157",
+                  "serving_description": "2 rolled tacos",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/jose-ole/dos-tacos-shredded-chicken",
+                  "metric_serving_amount": "113.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "230",
+                  "carbohydrate": "30.00",
+                  "protein": "9.00",
+                  "fat": "9.00",
+                  "saturated_fat": "1.500",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "25",
+                  "sodium": "590",
+                  "potassium": "0",
+                  "fiber": "5.0",
+                  "sugar": "1.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "204",
+                  "carbohydrate": "26.55",
+                  "protein": "7.97",
+                  "fat": "7.97",
+                  "saturated_fat": "1.327",
+                  "polyunsaturated_fat": "0",
+                  "monounsaturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "22",
+                  "sodium": "522",
+                  "potassium": "0",
+                  "fiber": "4.4",
+                  "sugar": "0.89"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68757335",
+            "food_name": "Dos Equis Draft - Small",
+            "brand_name": "Chili's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Beverages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/chilis/dos-equis-draft-small",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "56262225",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/chilis/dos-equis-draft-small",
+                  "metric_serving_amount": "10.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "110",
+                  "carbohydrate": "9.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "3.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.90",
+                  "protein": "0.10",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.30"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "39",
+                  "carbohydrate": "3.18",
+                  "protein": "0.35",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "1.06"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68757342",
+            "food_name": "Dos Equis Draft - Large",
+            "brand_name": "Chili's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Beverages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/chilis/dos-equis-draft-large",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "56262229",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/chilis/dos-equis-draft-large",
+                  "metric_serving_amount": "22.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "240",
+                  "carbohydrate": "20.00",
+                  "protein": "2.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "6.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.91",
+                  "protein": "0.09",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.27"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "38",
+                  "carbohydrate": "3.21",
+                  "protein": "0.32",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.96"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68997243",
+            "food_name": "Dos Equis Lager Especial - 16oz",
+            "brand_name": "Taco Bell",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/taco-bell/dos-equis-lager-especial-16oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "56439132",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/taco-bell/dos-equis-lager-especial-16oz",
+                  "metric_serving_amount": "16.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "170",
+                  "carbohydrate": "15.00",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.94",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "37",
+                  "carbohydrate": "3.31",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73584023",
+            "food_name": "Dos Equis Lager - Cervezas Bottle",
+            "brand_name": "on The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-lager-cervezas-bottle",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59895634",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-lager-cervezas-bottle",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "11.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655598",
+            "food_name": "Dos Equis Ambar - 14 fl",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ambar-14-fl",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459654",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ambar-14-fl",
+                  "metric_serving_amount": "14.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "14.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "40",
+                  "fiber": "0",
+                  "sugar": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "1.00",
+                  "protein": "0.07",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "3",
+                  "fiber": "0",
+                  "sugar": "0.29"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "38",
+                  "carbohydrate": "3.53",
+                  "protein": "0.25",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "10",
+                  "fiber": "0",
+                  "sugar": "1.01"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655600",
+            "food_name": "Dos Equis Ambar - 16 fl",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ambar-16-fl",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459656",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ambar-16-fl",
+                  "metric_serving_amount": "16.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "170",
+                  "carbohydrate": "16.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "50",
+                  "fiber": "0",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "1.00",
+                  "protein": "0.06",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "3",
+                  "fiber": "0",
+                  "sugar": "0.31"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "37",
+                  "carbohydrate": "3.53",
+                  "protein": "0.22",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "11",
+                  "fiber": "0",
+                  "sugar": "1.10"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655642",
+            "food_name": "Dos Equis Ambar - Big Daddy",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ambar-big-daddy",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459685",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ambar-big-daddy",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "280",
+                  "carbohydrate": "27.00",
+                  "protein": "2.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "80",
+                  "fiber": "0",
+                  "sugar": "8.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655786",
+            "food_name": "Dos Equis Lager Especial - Pitcher",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lager-especial-pitcher",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459808",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lager-especial-pitcher",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "630",
+                  "carbohydrate": "53.00",
+                  "protein": "5.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "210",
+                  "fiber": "0",
+                  "sugar": "19.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68997231",
+            "food_name": "Dos Equis Lager Especial - 12oz",
+            "brand_name": "Taco Bell",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/taco-bell/dos-equis-lager-especial-12oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "56439122",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/taco-bell/dos-equis-lager-especial-12oz",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "11.00",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.92",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "38",
+                  "carbohydrate": "3.23",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73584010",
+            "food_name": "Dos Equis Ambar - Cervezas Bottle",
+            "brand_name": "on The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-ambar-cervezas-bottle",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59895625",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-ambar-cervezas-bottle",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "14.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68997258",
+            "food_name": "Dos Equis Mexican Pale Ale - 12oz",
+            "brand_name": "Taco Bell",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/taco-bell/dos-equis-mexican-pale-ale-12oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "56439143",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/taco-bell/dos-equis-mexican-pale-ale-12oz",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "180",
+                  "carbohydrate": "15.00",
+                  "protein": "2.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "15",
+                  "carbohydrate": "1.25",
+                  "protein": "0.17",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "53",
+                  "carbohydrate": "4.41",
+                  "protein": "0.59",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "68997264",
+            "food_name": "Dos Equis Mexican Pale Ale - 16oz",
+            "brand_name": "Taco Bell",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/taco-bell/dos-equis-mexican-pale-ale-16oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "56439148",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/taco-bell/dos-equis-mexican-pale-ale-16oz",
+                  "metric_serving_amount": "16.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "230",
+                  "carbohydrate": "20.00",
+                  "protein": "3.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "14",
+                  "carbohydrate": "1.25",
+                  "protein": "0.19",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "51",
+                  "carbohydrate": "4.41",
+                  "protein": "0.66",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0",
+                  "added_sugars": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73583872",
+            "food_name": "Dos Equis Amber - Grande - Cervezas Draft",
+            "brand_name": "on The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-amber-grande-cervezas-draft",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59895507",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-amber-grande-cervezas-draft",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "230",
+                  "carbohydrate": "22.00",
+                  "protein": "2.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73583876",
+            "food_name": "Dos Equis Amber - Regular - Cervezas Draft",
+            "brand_name": "on The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-amber-regular-cervezas-draft",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59895511",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-amber-regular-cervezas-draft",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "13.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73583884",
+            "food_name": "Dos Equis Lager - Regular - Cervezas Draft",
+            "brand_name": "on The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-lager-regular-cervezas-draft",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59895517",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-lager-regular-cervezas-draft",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "120",
+                  "carbohydrate": "10.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655763",
+            "food_name": "Dos Equis Lager Especial - Big Daddy",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lager-especial-big-daddy",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459790",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lager-especial-big-daddy",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "250",
+                  "carbohydrate": "21.00",
+                  "protein": "2.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "80",
+                  "fiber": "0",
+                  "sugar": "8.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655767",
+            "food_name": "Dos Equis Lager Especial - 14 fl",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lager-especial-14-fl",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459792",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lager-especial-14-fl",
+                  "metric_serving_amount": "14.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "11.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "45",
+                  "fiber": "0",
+                  "sugar": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "9",
+                  "carbohydrate": "0.79",
+                  "protein": "0.07",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "3",
+                  "fiber": "0",
+                  "sugar": "0.29"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "33",
+                  "carbohydrate": "2.77",
+                  "protein": "0.25",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "11",
+                  "fiber": "0",
+                  "sugar": "1.01"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "86811730",
+            "food_name": "Dos Equis Lager - Bottle - 12 oz",
+            "brand_name": "On The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-lager-bottle-12-oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "69863884",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-lager-bottle-12-oz",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "11.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.92",
+                  "protein": "0.08",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "38",
+                  "carbohydrate": "3.23",
+                  "protein": "0.29",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73583883",
+            "food_name": "Dos Equis Lager - Grande - Cervezas Draft",
+            "brand_name": "on The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-lager-grande-cervezas-draft",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59895516",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-lager-grande-cervezas-draft",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "200",
+                  "carbohydrate": "17.00",
+                  "protein": "2.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73711269",
+            "food_name": "Dos XX Fish Tacos - 2 Pieces",
+            "brand_name": "On The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Tacos"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-xx-fish-tacos-2-pieces",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59992213",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-xx-fish-tacos-2-pieces",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "1040",
+                  "carbohydrate": "64.00",
+                  "protein": "26.00",
+                  "fat": "76.00",
+                  "saturated_fat": "20.000",
+                  "trans_fat": "0",
+                  "cholesterol": "105",
+                  "sodium": "2420",
+                  "fiber": "1.0",
+                  "sugar": "4.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73711287",
+            "food_name": "Dos XX Fish Tacos - 3 Pieces",
+            "brand_name": "On The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Tacos"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-xx-fish-tacos-3-pieces",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "59992227",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-xx-fish-tacos-3-pieces",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "1440",
+                  "carbohydrate": "95.00",
+                  "protein": "39.00",
+                  "fat": "101.00",
+                  "saturated_fat": "28.000",
+                  "trans_fat": "0.500",
+                  "cholesterol": "145",
+                  "sodium": "3490",
+                  "fiber": "2.0",
+                  "sugar": "6.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "73745450",
+            "food_name": "Dos Equis Amber - Bottle - 12 oz",
+            "brand_name": "On The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-amber-bottle-12-oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "60018660",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-equis-amber-bottle-12-oz",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "14.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "13",
+                  "carbohydrate": "1.17",
+                  "protein": "0.08",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "44",
+                  "carbohydrate": "4.12",
+                  "protein": "0.29",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655771",
+            "food_name": "Dos Equis Lager Especial - 16 fl",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lager-especial-16-fl",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459795",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lager-especial-16-fl",
+                  "metric_serving_amount": "16.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "13.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "50",
+                  "fiber": "0",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "9",
+                  "carbohydrate": "0.81",
+                  "protein": "0.06",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "3",
+                  "fiber": "0",
+                  "sugar": "0.31"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "33",
+                  "carbohydrate": "2.87",
+                  "protein": "0.22",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "11",
+                  "fiber": "0",
+                  "sugar": "1.10"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655887",
+            "food_name": "Dos Equis Mexican Pale Ale - Pitcher",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-mexican-pale-ale-pitcher",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459900",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-mexican-pale-ale-pitcher",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "820",
+                  "carbohydrate": "73.00",
+                  "protein": "5.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "100",
+                  "fiber": "0",
+                  "sugar": "19.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655843",
+            "food_name": "Dos Equis Mexican Pale Ale - Big Daddy",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-mexican-pale-ale-big-daddy",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459861",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-mexican-pale-ale-big-daddy",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "330",
+                  "carbohydrate": "29.00",
+                  "protein": "2.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "40",
+                  "fiber": "0",
+                  "sugar": "8.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75687998",
+            "food_name": "Dos Equis Lime & Salt (12 fl Can)",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lime-salt-(12-fl-can)",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61484317",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-lime-salt-(12-fl-can)",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "140",
+                  "carbohydrate": "12.00",
+                  "protein": "0",
+                  "fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "12",
+                  "carbohydrate": "1.00",
+                  "protein": "0",
+                  "fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "41",
+                  "carbohydrate": "3.53",
+                  "protein": "0",
+                  "fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "663774",
+            "food_name": "Do-Si-Dos Cookies",
+            "brand_name": "Little Brownie Bakers",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Cookies"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/little-brownie-bakers/do-si-dos-cookies",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "683512",
+                  "serving_description": "2 cookies",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/little-brownie-bakers/do-si-dos-cookies",
+                  "metric_serving_amount": "24.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "110",
+                  "carbohydrate": "16.00",
+                  "protein": "2.00",
+                  "fat": "5.00",
+                  "saturated_fat": "1.500",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "75",
+                  "fiber": "0.9",
+                  "sugar": "7.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "458",
+                  "carbohydrate": "66.67",
+                  "protein": "8.33",
+                  "fat": "20.83",
+                  "saturated_fat": "6.250",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "313",
+                  "fiber": "3.8",
+                  "sugar": "29.17"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "70829481",
+            "food_name": "Dos Equis Lager XX, Bottle, 12 oz",
+            "brand_name": "Outback Steakhouse",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Beverages"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/outback-steakhouse/dos-equis-lager-xx-bottle-12-oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "57795770",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/outback-steakhouse/dos-equis-lager-xx-bottle-12-oz",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "150",
+                  "carbohydrate": "12.00",
+                  "protein": "2.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "15",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "13",
+                  "carbohydrate": "1.00",
+                  "protein": "0.17",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "1",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "44",
+                  "carbohydrate": "3.53",
+                  "protein": "0.59",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "4",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655837",
+            "food_name": "Dos Equis Mexican Pale Ale - 14 fl",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-mexican-pale-ale-14-fl",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459855",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-mexican-pale-ale-14-fl",
+                  "metric_serving_amount": "14.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "170",
+                  "carbohydrate": "15.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "20",
+                  "fiber": "0",
+                  "sugar": "4.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "12",
+                  "carbohydrate": "1.07",
+                  "protein": "0.07",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "1",
+                  "fiber": "0",
+                  "sugar": "0.29"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "43",
+                  "carbohydrate": "3.78",
+                  "protein": "0.25",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "5",
+                  "fiber": "0",
+                  "sugar": "1.01"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75655841",
+            "food_name": "Dos Equis Mexican Pale Ale - 16 fl",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-mexican-pale-ale-16-fl",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61459859",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-mexican-pale-ale-16-fl",
+                  "metric_serving_amount": "16.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "200",
+                  "carbohydrate": "18.00",
+                  "protein": "1.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "25",
+                  "fiber": "0",
+                  "sugar": "5.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "13",
+                  "carbohydrate": "1.13",
+                  "protein": "0.06",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "2",
+                  "fiber": "0",
+                  "sugar": "0.31"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "44",
+                  "carbohydrate": "3.97",
+                  "protein": "0.22",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "6",
+                  "fiber": "0",
+                  "sugar": "1.10"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "87909524",
+            "food_name": "Dos Equis Lager Especial - 12 fl oz",
+            "brand_name": "TGI Friday's",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/tgi-fridays/dos-equis-lager-especial-12-fl-oz",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "70701268",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/tgi-fridays/dos-equis-lager-especial-12-fl-oz",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "130",
+                  "carbohydrate": "11.00",
+                  "protein": "4.00",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "3.00"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "11",
+                  "carbohydrate": "0.92",
+                  "protein": "0.33",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.25"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "38",
+                  "carbohydrate": "3.23",
+                  "protein": "1.18",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0.88"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "113817078",
+            "food_name": "Dos XX Fish with Creamy Red Chile Sauce",
+            "brand_name": "On The Border",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Tacos"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-xx-fish-with-creamy-red-chile-sauce",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "90084742",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/on-the-border/dos-xx-fish-with-creamy-red-chile-sauce",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "400",
+                  "carbohydrate": "31.00",
+                  "protein": "13.00",
+                  "fat": "25.00",
+                  "saturated_fat": "8.000",
+                  "trans_fat": "0",
+                  "cholesterol": "40",
+                  "sodium": "1060",
+                  "fiber": "1.0",
+                  "sugar": "2.00"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "75688001",
+            "food_name": "Dos Equis Ranch Water Hard Seltzer (12 fl Can)",
+            "brand_name": "Hooters",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Beer",
+                "Alcohol"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ranch-water-hard-seltzer-(12-fl-can)",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "61484319",
+                  "serving_description": "1 serving",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/hooters/dos-equis-ranch-water-hard-seltzer-(12-fl-can)",
+                  "metric_serving_amount": "12.000",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "90",
+                  "carbohydrate": "0",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "1 oz",
+                  "metric_serving_amount": "1.0",
+                  "metric_serving_unit": "oz",
+                  "number_of_units": "1.0",
+                  "measurement_description": "oz",
+                  "calories": "8",
+                  "carbohydrate": "0",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "26",
+                  "carbohydrate": "0",
+                  "protein": "0",
+                  "fat": "0",
+                  "saturated_fat": "0",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "0",
+                  "fiber": "0",
+                  "sugar": "0"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "74132401",
+            "food_name": "Do-Si-Dos Cookies (34g)",
+            "brand_name": "Little Brownie Bakers",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Cookies"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/little-brownie-bakers/do-si-dos-cookies-(34g)",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "60314994",
+                  "serving_description": "3 cookies",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/little-brownie-bakers/do-si-dos-cookies-(34g)",
+                  "metric_serving_amount": "34.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "160",
+                  "carbohydrate": "22.00",
+                  "protein": "3.00",
+                  "fat": "7.00",
+                  "saturated_fat": "2.000",
+                  "polyunsaturated_fat": "2.500",
+                  "monounsaturated_fat": "2.500",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "100",
+                  "potassium": "70",
+                  "fiber": "1.0",
+                  "sugar": "11.00",
+                  "added_sugars": "10.00",
+                  "calcium": "15",
+                  "iron": "0.80"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "471",
+                  "carbohydrate": "64.71",
+                  "protein": "8.82",
+                  "fat": "20.59",
+                  "saturated_fat": "5.882",
+                  "polyunsaturated_fat": "7.353",
+                  "monounsaturated_fat": "7.353",
+                  "trans_fat": "0",
+                  "cholesterol": "0",
+                  "sodium": "294",
+                  "potassium": "206",
+                  "fiber": "2.9",
+                  "sugar": "32.35",
+                  "added_sugars": "29.41",
+                  "calcium": "44",
+                  "iron": "2.35"
+                }
+              ]
+            }
+          },
+          {
+            "food_id": "5206561",
+            "food_name": "Do-si-dos Oatmeal Peanut Butter Cremes",
+            "brand_name": "Girl Scout Cookies",
+            "food_type": "Brand",
+            "food_sub_categories": {
+              "food_sub_category": [
+                "Cookies"
+              ]
+            },
+            "food_url": "https://foods.fatsecret.com/calories-nutrition/girl-scout-cookies/do-si-dos-oatmeal-peanut-butter-cremes",
+            "servings": {
+              "serving": [
+                {
+                  "serving_id": "5064644",
+                  "serving_description": "3 cookies",
+                  "serving_url": "https://foods.fatsecret.com/calories-nutrition/girl-scout-cookies/do-si-dos-oatmeal-peanut-butter-cremes",
+                  "metric_serving_amount": "34.000",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "1.000",
+                  "measurement_description": "serving",
+                  "is_default": "1",
+                  "calories": "160",
+                  "carbohydrate": "22.00",
+                  "protein": "3.00",
+                  "fat": "7.00",
+                  "saturated_fat": "2.000",
+                  "polyunsaturated_fat": "2.500",
+                  "monounsaturated_fat": "2.500",
+                  "cholesterol": "0",
+                  "sodium": "100",
+                  "potassium": "70",
+                  "fiber": "1.0",
+                  "sugar": "11.00",
+                  "added_sugars": "10.00",
+                  "calcium": "15",
+                  "iron": "0.80"
+                },
+                {
+                  "serving_id": "0",
+                  "serving_description": "100 g",
+                  "metric_serving_amount": "100.0",
+                  "metric_serving_unit": "g",
+                  "number_of_units": "100.0",
+                  "measurement_description": "g",
+                  "calories": "471",
+                  "carbohydrate": "64.71",
+                  "protein": "8.82",
+                  "fat": "20.59",
+                  "saturated_fat": "5.882",
+                  "polyunsaturated_fat": "7.353",
+                  "monounsaturated_fat": "7.353",
+                  "cholesterol": "0",
+                  "sodium": "294",
+                  "potassium": "206",
+                  "fiber": "2.9",
+                  "sugar": "32.35",
+                  "added_sugars": "29.41",
+                  "calcium": "44",
+                  "iron": "2.35"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  },
+  "status_code": 200
+}

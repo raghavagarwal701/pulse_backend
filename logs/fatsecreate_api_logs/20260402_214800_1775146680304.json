@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260402_214800",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "mosa",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "mosaic",
+        "mosaic black-eyed pea & sweet potato ndambe",
+        "mosaic spicy",
+        "mosaic brussels & squash harvest bowl",
+        "mosaic butternut squash & sage pasta",
+        "mosaic coconut chickpea curry",
+        "mosaic creamy pesto cavatappi",
+        "mosaic curried lentil soup",
+        "mosaic ginger sesame noodles",
+        "mosaic green curry noodles"
+      ]
+    }
+  },
+  "status_code": 200
+}

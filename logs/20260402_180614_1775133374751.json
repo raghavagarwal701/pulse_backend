@@ -1,0 +1,22 @@
+{
+  "timestamp": "20260402_180614",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=rajm&max_results=10",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "rajma",
+      "rajma masala",
+      "mtr rajma masala",
+      "priya rajma masala",
+      "deep shahi rajma",
+      "kohinoor kashmiri rajma",
+      "kitchens of india rajma masala - red kidney beans curry",
+      "truly indian shahi rajma",
+      "kohinoor rice & curry - kashmiri rajma with steamed basmati"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

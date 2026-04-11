@@ -1,0 +1,17 @@
+{
+  "timestamp": "20260402_180014",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/autocomplete?expression=do&max_results=4",
+  "request": "",
+  "response": {
+    "status": "success",
+    "suggestions": [
+      "doritos",
+      "domino's",
+      "donut",
+      "domino's pizza"
+    ],
+    "error": null
+  },
+  "status_code": 200
+}

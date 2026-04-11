@@ -1,0 +1,45 @@
+{
+  "timestamp": "20260410_171628",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze-text",
+  "request": {
+    "description": "6 pani puri"
+  },
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The meal consists of 6 pani puri, a popular Indian street food comprising crispy puri shells filled with spiced water, potatoes, and chickpeas. Nutritional values can vary based on preparation methods and ingredients used. ([caloriesfit.com](https://caloriesfit.com/how-much-calories-in-pani-puri/?utm_source=openai))\n\n**Serving Size and Nutritional Content:**\n\n- **Per Piece:**\n  - *Calories:* Approximately 25\u201340 kcal per piece. ([caloriesfit.com](https://caloriesfit.com/how-much-calories-in-pani-puri/?utm_source=openai))\n  - *Carbohydrates:* 5\u20138 g per piece. ([foods.fatsecret.com](https://foods.fatsecret.com/calories-nutrition/royal/pani-puri?utm_source=openai))\n  - *Protein:* 1\u20132 g per piece. ([foods.fatsecret.com](https://foods.fatsecret.com/calories-nutrition/royal/pani-puri?utm_source=openai))\n  - *Fat:* 1\u20133 g per piece. ([foods.fatsecret.com](https://foods.fatsecret.com/calories-nutrition/royal/pani-puri?utm_source=openai))\n\n- **For 6 Pieces:**\n  - *Calories:* Approximately 150\u2013240 kcal.\n  - *Carbohydrates:* 30\u201348 g.\n  - *Protein:* 6\u201312 g.\n  - *Fat:* 6\u201318 g.\n\n**Reasoning:**\n\n- **Meal Description:** The meal consists of 6 pani puri, each typically containing a crispy puri shell filled with spiced water, potatoes, and chickpeas.\n\n- **Nutritional Estimates:** Nutritional values per piece can vary based on preparation methods and ingredients used. For instance, one source estimates approximately 25\u201340 kcal per piece, while another provides values of 70 calories for 5 pieces (14 g), equating to 14 g per piece. ([caloriesfit.com](https://caloriesfit.com/how-much-calories-in-pani-puri/?utm_source=openai))\n\n- **Serving Size:** A typical serving of pani puri consists of 6 pieces. ([caloriesfit.com](https://caloriesfit.com/how-much-calories-in-pani-puri/?utm_source=openai))\n\n- **Web Sources:** The nutritional estimates are based on various sources, including Clearcals, MyFoodDiary, and FatSecret.\n\n- **Confidence and Uncertainty:** The nutritional values provided are estimates and can vary based on specific ingredients and preparation methods. The range accounts for variations in recipes and serving sizes.",
+      "web_source_links": [
+        "https://clearcals.com/recipes/pani-puri/",
+        "https://www.myfooddiary.com/foods/7527867/pani-puri",
+        "https://foods.fatsecret.com/calories-nutrition/royal/pani-puri"
+      ],
+      "name_of_meal": "Pani Puri",
+      "serving_size": "6 pieces",
+      "nutritional_value": {
+        "calories": 180.0,
+        "carbohydrate": 36.0,
+        "protein": 8.0,
+        "fat": 12.0,
+        "saturated_fat": 2.0,
+        "fiber": 4.0,
+        "sugar": 1.0,
+        "sodium": 400.0,
+        "potassium": 300.0,
+        "cholesterol": 0.0,
+        "vitamin_a": 0.0,
+        "vitamin_c": 5.0,
+        "calcium": 20.0,
+        "iron": 2.0,
+        "trans_fat": 0.0,
+        "added_sugars": 0.0,
+        "vitamin_d": 0.0
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "llm_reasoning": "The meal consists of 6 pani puri, a popular Indian street food comprising crispy puri shells filled with spiced water, potatoes, and chickpeas. Nutritional values can vary based on preparation methods and ingredients used. ([caloriesfit.com](https://caloriesfit.com/how-much-calories-in-pani-puri/?utm_source=openai))\n\n**Serving Size and Nutritional Content:**\n\n- **Per Piece:**\n  - *Calories:* Approximately 25\u201340 kcal per piece. ([caloriesfit.com](https://caloriesfit.com/how-much-calories-in-pani-puri/?utm_source=openai))\n  - *Carbohydrates:* 5\u20138 g per piece. ([foods.fatsecret.com](https://foods.fatsecret.com/calories-nutrition/royal/pani-puri?utm_source=openai))\n  - *Protein:* 1\u20132 g per piece. ([foods.fatsecret.com](https://foods.fatsecret.com/calories-nutrition/royal/pani-puri?utm_source=openai))\n  - *Fat:* 1\u20133 g per piece. ([foods.fatsecret.com](https://foods.fatsecret.com/calories-nutrition/royal/pani-puri?utm_source=openai))\n\n- **For 6 Pieces:**\n  - *Calories:* Approximately 150\u2013240 kcal.\n  - *Carbohydrates:* 30\u201348 g.\n  - *Protein:* 6\u201312 g.\n  - *Fat:* 6\u201318 g.\n\n**Reasoning:**\n\n- **Meal Description:** The meal consists of 6 pani puri, each typically containing a crispy puri shell filled with spiced water, potatoes, and chickpeas.\n\n- **Nutritional Estimates:** Nutritional values per piece can vary based on preparation methods and ingredients used. For instance, one source estimates approximately 25\u201340 kcal per piece, while another provides values of 70 calories for 5 pieces (14 g), equating to 14 g per piece. ([caloriesfit.com](https://caloriesfit.com/how-much-calories-in-pani-puri/?utm_source=openai))\n\n- **Serving Size:** A typical serving of pani puri consists of 6 pieces. ([caloriesfit.com](https://caloriesfit.com/how-much-calories-in-pani-puri/?utm_source=openai))\n\n- **Web Sources:** The nutritional estimates are based on various sources, including Clearcals, MyFoodDiary, and FatSecret.\n\n- **Confidence and Uncertainty:** The nutritional values provided are estimates and can vary based on specific ingredients and preparation methods. The range accounts for variations in recipes and serving sizes."
+}

@@ -1,0 +1,32 @@
+{
+  "timestamp": "20260402_214804",
+  "api": "foods.autocomplete.v2",
+  "request": {
+    "method": "GET",
+    "url": "https://platform.fatsecret.com/rest/",
+    "params": {
+      "method": "foods.autocomplete.v2",
+      "expression": "moos",
+      "max_results": 10,
+      "region": "IN",
+      "format": "json"
+    }
+  },
+  "response": {
+    "suggestions": {
+      "suggestion": [
+        "moose",
+        "moose tracks",
+        "moose tracks ice cream",
+        "moose meat",
+        "moose stew (alaska native)",
+        "mini moos half & half creamers",
+        "mayfield moose tracks ice cream",
+        "mini moos",
+        "blue moose of boulder smoked gouda cheese spread",
+        "belmont moose tracks ice cream"
+      ]
+    }
+  },
+  "status_code": 200
+}

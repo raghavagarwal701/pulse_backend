@@ -1,0 +1,442 @@
+{
+  "timestamp": "20260410_165040",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/chat",
+  "request": {
+    "chat_context": {
+      "history_today": {
+        "activity": {
+          "calories_burned": 1306.5423167962574,
+          "distance_km": 3.0361956756943145,
+          "steps": 3532,
+          "workout_minutes": 51.0
+        },
+        "exercise_session": [
+          {
+            "duration_minutes": 51,
+            "end_time": "2026-04-09T20:09:06.067Z",
+            "exercise_name": "Walking",
+            "start_time": "2026-04-09T19:17:58.289Z"
+          }
+        ],
+        "meals": [
+          {
+            "calories": 242.0,
+            "macros": {
+              "carbs_g": 18.45,
+              "fat_g": 9.2,
+              "protein_g": 15.75
+            },
+            "micronutrients": {
+              "fiber_g": 2.8,
+              "sugar_g": 1.4,
+              "sodium_mg": 56.00000000000001
+            },
+            "name": "Curd and Vegetable Patty"
+          }
+        ],
+        "sleep_session": "no logs present"
+      },
+      "past_7_day_average": {
+        "average_activity": {
+          "avg_calories_burned": 1873.28,
+          "avg_distance_km": 5.3,
+          "avg_steps": 9679.14,
+          "avg_workout_minutes": 43.86
+        },
+        "meals": {
+          "avg_calories_consumed_kcal": 161.73,
+          "avg_macros": {
+            "carbs_g": 16.7,
+            "fat_g": 7.71,
+            "protein_g": 5.39
+          },
+          "avg_meals_logged_per_day": 0.57,
+          "avg_micronutrients": {
+            "fiber_g": 1.16,
+            "sugar_g": 0.79,
+            "sodium_mg": 63.86
+          }
+        },
+        "sleep_detail": {
+          "awake_hours": 0.36,
+          "deep_sleep_hours": 1.22,
+          "light_sleep_hours": 3.82,
+          "rem_sleep_hours": 1.79,
+          "total_sleep_hours": 7.05
+        }
+      },
+      "user_profile": {
+        "activity_level": "moderately_active",
+        "goal": "to increase endurance",
+        "height_cm": 169.0,
+        "weight_kg": 70.0
+      },
+      "yesterday_history": {
+        "activity": {
+          "calories_burned": 2047.0909188942055,
+          "distance_km": 6.707312513118485,
+          "steps": 12758,
+          "workout_minutes": 59.0
+        },
+        "exercise_session": [
+          {
+            "duration_minutes": 50,
+            "end_time": "2026-04-09T13:00:30.074Z",
+            "exercise_name": "Walking",
+            "start_time": "2026-04-09T12:10:02.684Z"
+          },
+          {
+            "duration_minutes": 9,
+            "end_time": "2026-04-09T16:31:54.634Z",
+            "exercise_name": "Cycling",
+            "start_time": "2026-04-09T16:22:30.854Z"
+          }
+        ],
+        "meals": "no logs present",
+        "sleep_session": {
+          "awake_hours": 0.43,
+          "deep_sleep_hours": 0.93,
+          "light_sleep_hours": 5.52,
+          "rem_sleep_hours": 2.32,
+          "total_sleep_hours": 9.07
+        }
+      }
+    },
+    "conversation_history": [],
+    "health_data": {
+      "activity_summary_for_llm": {
+        "daily_averages": {
+          "steps": 10205,
+          "distance_km": 5.7228942224883355,
+          "calories_burned": 1958.408027107163
+        },
+        "past_seven_days_activity": [
+          {
+            "date": "2026-04-09T18:30:00Z",
+            "steps": 5032,
+            "distance_km": 3.0361956756943145,
+            "calories": 1759.2744195088899
+          },
+          {
+            "date": "2026-04-08T18:30:00Z",
+            "steps": 12758,
+            "distance_km": 6.707312513118485,
+            "calories": 2047.0909188942055
+          },
+          {
+            "date": "2026-04-07T18:30:00Z",
+            "steps": 11843,
+            "distance_km": 7.7932559685814855,
+            "calories": 2049.287542617272
+          },
+          {
+            "date": "2026-04-06T18:30:00Z",
+            "steps": 11889,
+            "distance_km": 6.421186479263854,
+            "calories": 1862.8955770733946
+          },
+          {
+            "date": "2026-04-05T18:30:00Z",
+            "steps": 11862,
+            "distance_km": 6.314947888341181,
+            "calories": 2072.341516182853
+          },
+          {
+            "date": "2026-04-04T18:30:00Z",
+            "steps": 5548,
+            "distance_km": 2.044497579121663,
+            "calories": 1825.905752118133
+          },
+          {
+            "date": "2026-04-03T18:30:00Z",
+            "steps": 10322,
+            "distance_km": 4.762554782731732,
+            "calories": 1948.8675899228974
+          }
+        ]
+      },
+      "exercise_summary_for_llm": {
+        "exercise_types": [
+          "Walking",
+          "Cycling"
+        ],
+        "sessions": [
+          {
+            "name": "Unnamed",
+            "exercise_type": "Walking",
+            "start_time": "2026-04-03T16:22:08.141Z",
+            "duration_minutes": 12,
+            "distance_meters": 745.1699829101562,
+            "calories": 67.0,
+            "hr_stats": {
+              "min": 81,
+              "max": 140,
+              "avg": 101
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Cycling",
+            "start_time": "2026-04-05T10:04:33.101Z",
+            "duration_minutes": 9,
+            "distance_meters": 0.0,
+            "calories": 54.0099983215332,
+            "hr_stats": {
+              "min": 61,
+              "max": 118,
+              "avg": 82
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Cycling",
+            "start_time": "2026-04-05T10:25:48.739Z",
+            "duration_minutes": 4,
+            "distance_meters": 0.0,
+            "calories": 35.27000045776367,
+            "hr_stats": {
+              "min": 83,
+              "max": 92,
+              "avg": 87
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Cycling",
+            "start_time": "2026-04-06T07:59:59.916Z",
+            "duration_minutes": 5,
+            "distance_meters": 0.0,
+            "calories": 46.90999984741211,
+            "hr_stats": {
+              "min": 95,
+              "max": 122,
+              "avg": 111
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Walking",
+            "start_time": "2026-04-06T13:26:50.140Z",
+            "duration_minutes": 31,
+            "distance_meters": 1824.699951171875,
+            "calories": 154.0,
+            "hr_stats": {
+              "min": 82,
+              "max": 122,
+              "avg": 101
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Walking",
+            "start_time": "2026-04-07T11:36:53.121Z",
+            "duration_minutes": 27,
+            "distance_meters": 1658.6099853515625,
+            "calories": 134.0,
+            "hr_stats": {
+              "min": 80,
+              "max": 119,
+              "avg": 101
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Walking",
+            "start_time": "2026-04-07T12:06:10.143Z",
+            "duration_minutes": 22,
+            "distance_meters": 1637.97998046875,
+            "calories": 119.0,
+            "hr_stats": {
+              "min": 72,
+              "max": 118,
+              "avg": 103
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Walking",
+            "start_time": "2026-04-08T15:48:59.176Z",
+            "duration_minutes": 35,
+            "distance_meters": 1904.3199462890625,
+            "calories": 167.0,
+            "hr_stats": {
+              "min": 79,
+              "max": 128,
+              "avg": 106
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Walking",
+            "start_time": "2026-04-08T16:25:54.191Z",
+            "duration_minutes": 64,
+            "distance_meters": 3689.820068359375,
+            "calories": 305.0,
+            "hr_stats": {
+              "min": 69,
+              "max": 132,
+              "avg": 100
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Walking",
+            "start_time": "2026-04-09T12:10:02.684Z",
+            "duration_minutes": 50,
+            "distance_meters": 3010.820068359375,
+            "calories": 245.0,
+            "hr_stats": {
+              "min": 58,
+              "max": 122,
+              "avg": 99
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Cycling",
+            "start_time": "2026-04-09T16:22:30.854Z",
+            "duration_minutes": 9,
+            "distance_meters": 0.0,
+            "calories": 69.68000030517578,
+            "hr_stats": {
+              "min": 74,
+              "max": 133,
+              "avg": 103
+            }
+          },
+          {
+            "name": "Unnamed",
+            "exercise_type": "Walking",
+            "start_time": "2026-04-09T19:17:58.289Z",
+            "duration_minutes": 51,
+            "distance_meters": 2439.570068359375,
+            "calories": 260.0,
+            "hr_stats": {
+              "min": 93,
+              "max": 131,
+              "avg": 113
+            }
+          }
+        ],
+        "total_sessions": 12
+      },
+      "heart_rate_summary_for_llm": {
+        "average_hr": 92.65058422317884,
+        "max_hr": 166.0,
+        "min_hr": 41.0
+      },
+      "hrv_summary_for_llm": {
+        "hrv_trend": "insufficient_data",
+        "measurements": []
+      },
+      "sleep_summary_for_llm": {
+        "sleep_quality": {
+          "average_duration_minutes": 327.22222222222223,
+          "total_sessions": 9
+        },
+        "sleep_sessions": [
+          {
+            "start_time": "2026-04-08T21:13:00Z",
+            "end_time": "2026-04-09T07:04:00Z",
+            "duration_minutes": 544,
+            "deep_sleep_minutes": 56,
+            "light_sleep_minutes": 331,
+            "awake_minutes": 26,
+            "rem_sleep_minutes": 139
+          },
+          {
+            "start_time": "2026-04-08T09:40:00Z",
+            "end_time": "2026-04-08T11:59:00Z",
+            "duration_minutes": 124,
+            "deep_sleep_minutes": 14,
+            "light_sleep_minutes": 78,
+            "awake_minutes": 12,
+            "rem_sleep_minutes": 25
+          },
+          {
+            "start_time": "2026-04-07T20:43:00Z",
+            "end_time": "2026-04-08T07:01:00Z",
+            "duration_minutes": 570,
+            "deep_sleep_minutes": 98,
+            "light_sleep_minutes": 315,
+            "awake_minutes": 29,
+            "rem_sleep_minutes": 140
+          },
+          {
+            "start_time": "2026-04-07T02:38:00Z",
+            "end_time": "2026-04-07T07:14:00Z",
+            "duration_minutes": 250,
+            "deep_sleep_minutes": 43,
+            "light_sleep_minutes": 136,
+            "awake_minutes": 16,
+            "rem_sleep_minutes": 60
+          },
+          {
+            "start_time": "2026-04-05T23:12:00Z",
+            "end_time": "2026-04-06T05:28:00Z",
+            "duration_minutes": 356,
+            "deep_sleep_minutes": 79,
+            "light_sleep_minutes": 172,
+            "awake_minutes": 10,
+            "rem_sleep_minutes": 96
+          },
+          {
+            "start_time": "2026-04-05T20:30:00Z",
+            "end_time": "2026-04-05T21:53:00Z",
+            "duration_minutes": 76,
+            "deep_sleep_minutes": 30,
+            "light_sleep_minutes": 45,
+            "awake_minutes": 6,
+            "rem_sleep_minutes": 0
+          },
+          {
+            "start_time": "2026-04-04T22:44:00Z",
+            "end_time": "2026-04-05T06:44:30Z",
+            "duration_minutes": 448,
+            "deep_sleep_minutes": 82,
+            "light_sleep_minutes": 209,
+            "awake_minutes": 23,
+            "rem_sleep_minutes": 144
+          },
+          {
+            "start_time": "2026-04-04T09:30:00Z",
+            "end_time": "2026-04-04T12:30:00Z",
+            "duration_minutes": 168,
+            "deep_sleep_minutes": 35,
+            "light_sleep_minutes": 88,
+            "awake_minutes": 7,
+            "rem_sleep_minutes": 41
+          },
+          {
+            "start_time": "2026-04-02T22:56:00Z",
+            "end_time": "2026-04-03T06:31:00Z",
+            "duration_minutes": 409,
+            "deep_sleep_minutes": 79,
+            "light_sleep_minutes": 203,
+            "awake_minutes": 33,
+            "rem_sleep_minutes": 115
+          }
+        ]
+      },
+      "user_data": {
+        "age": 22,
+        "goals": {
+          "primary_goal": "to increase endurance"
+        },
+        "height_cm": 169.0,
+        "location": {
+          "country": "India"
+        },
+        "name": "Raghav Agarwal",
+        "weight_kg": 70.0
+      }
+    },
+    "query": "What should I have for an evening snack"
+  },
+  "response": {
+    "response": "For an evening snack, consider something that complements your activity level and nutritional needs. \n\n### Recent Context:\n- **Today**: You consumed 242 calories from a meal (Curd and Vegetable Patty) and burned approximately 1307 calories through activity.\n- **Yesterday**: You burned about 2047 calories and did not log any meals.\n\n### Seven-Day Averages:\n- **Average Calories Consumed**: 161.73 kcal\n- **Average Calories Burned**: 1873.28 kcal\n\n### Recommendations:\nGiven your activity levels and calorie burn, a snack around **150-200 calories** would be suitable. Here are some options:\n1. **Greek Yogurt with Berries**: High in protein and antioxidants.\n2. **A Handful of Nuts**: Provides healthy fats and protein.\n3. **Hummus with Veggies**: A good source of fiber and protein.\n4. **Rice Cakes with Peanut Butter**: Offers carbs and healthy fats.\n\n### Next Steps:\n- Choose a snack that fits within the 150-200 calorie range.\n- Aim to include protein and fiber to keep you satisfied.\n\nThis approach will help maintain your energy balance and support your goal of increasing endurance.",
+    "tool_calls": []
+  },
+  "status_code": 200
+}

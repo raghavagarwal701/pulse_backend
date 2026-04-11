@@ -1,0 +1,40 @@
+{
+  "timestamp": "20260405_210728",
+  "method": "GET",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/fatsecret/food/1000641",
+  "request": "",
+  "response": {
+    "status": "success",
+    "food": {
+      "food_id": 1000641,
+      "food_name": "Vegetable biryani/biriyani",
+      "brand_name": "indb",
+      "servings": [
+        {
+          "serving_description": "250 g",
+          "metric_serving_amount": 250.0,
+          "metric_serving_unit": "g",
+          "number_of_units": 1.0,
+          "measurement_description": "serving",
+          "calories": 436.53,
+          "protein": 7.9,
+          "fat": 23.77,
+          "carbohydrate": 46.4
+        }
+      ],
+      "food_type": "Generic",
+      "source_type": "csv",
+      "source_db": "indb",
+      "confidence_score": 0.9,
+      "normalized_name": "vegetable biryanibiriyani",
+      "average_serving_size": 250.0,
+      "dish_id": 641,
+      "calories_per_100g": 174.61,
+      "protein_per_100g": 3.16,
+      "fat_per_100g": 9.51,
+      "carbs_per_100g": 18.56
+    },
+    "error": null
+  },
+  "status_code": 200
+}

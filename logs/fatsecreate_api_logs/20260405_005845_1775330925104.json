@@ -1,0 +1,21 @@
+{
+  "timestamp": "20260405_005845",
+  "api": "connect.token",
+  "request": {
+    "method": "POST",
+    "url": "https://oauth.fatsecret.com/connect/token",
+    "data": {
+      "grant_type": "client_credentials",
+      "client_id": "da563819822348a19e73e7541a506a4f",
+      "client_secret": "[redacted]",
+      "scope": "premier"
+    }
+  },
+  "response": {
+    "access_token": "[redacted]",
+    "expires_in": 86400,
+    "token_type": "Bearer",
+    "scope": "premier"
+  },
+  "status_code": 200
+}

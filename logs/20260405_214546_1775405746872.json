@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260405_214546",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze",
+  "request": "<binary upload: 2907022 bytes>",
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "The image clearly depicts a tuna mayonnaise sandwich\u2014triangular white bread sandwich with visible tuna\u2013mayo filling. I estimate this to be one half of a standard sandwich (approx. 140\u202fg). Typical nutritional values for a whole tuna mayo sandwich vary:\n\u2022 MyNetDiary lists ~295\u202fkcal for 138\u202fg sandwich with 17\u202fg protein, 8.8\u202fg fat, 39\u202fg carbs, 4\u202fg fiber, 4\u202fg sugar, 428\u202fmg sodium ([mynetdiary.com](https://www.mynetdiary.com/food/calories-in-tuna-mayo-sandwich-sandwich-29918254-0.html?utm_source=openai)).\n\u2022 OpenNutrition reports for 150\u202fg serving: 336\u202fkcal, 19\u202fg protein, 17\u202fg fat, 27\u202fg carbs, 3\u202fg fiber, 4\u202fg sugar, 592\u202fmg sodium, plus cholesterol, vitamins and minerals ([opennutrition.app](https://www.opennutrition.app/search/tuna-salad-sandwich-Grg5Py3ibMVi?utm_source=openai)).\nGiven the appearance, a basic tuna\u2013mayo without extra veggies, I lean toward the MyNetDiary data. Since the photo shows roughly half a sandwich (~70\u202fg), I scale nutrients by 0.5.\nThus estimated values:\nCalories ~148\u202fkcal, Carbs ~19.5\u202fg, Protein ~8.5\u202fg, Fat ~4.4\u202fg, Fiber ~2\u202fg, Sugars ~2\u202fg, Sodium ~214\u202fmg. Other micronutrients (saturated fat, cholesterol, potassium, vitamins) are less certain; OpenNutrition gives some values per whole sandwich (150\u202fg): saturated fat 3\u202fg, cholesterol 28\u202fmg, potassium 235\u202fmg, calcium 145\u202fmg, iron 3\u202fmg, vitamin\u202fD 11\u202f\u00b5g ([opennutrition.app](https://www.opennutrition.app/search/tuna-salad-sandwich-Grg5Py3ibMVi?utm_source=openai)). Scaling by half yields saturated fat ~1.5\u202fg, cholesterol ~14\u202fmg, potassium ~117\u202fmg, calcium ~72\u202fmg, iron ~1.5\u202fmg, vitamin\u202fD ~5.5\u202f\u00b5g.\nConfidence: moderate. Visual estimation of portion is approximate; nutrient variability by mayo amount and bread type.\n",
+      "web_source_links": [
+        "https://www.mynetdiary.com/food/calories-in-tuna-mayo-sandwich-sandwich-29918254-0.html",
+        "https://www.opennutrition.app/search/tuna-salad-sandwich-Grg5Py3ibMVi"
+      ],
+      "name_of_meal": "Tuna mayonnaise sandwich (half)",
+      "serving_size": "~70\u202fg (half sandwich)",
+      "nutritional_value": {
+        "calories": 148.0,
+        "carbohydrate": 19.5,
+        "protein": 8.5,
+        "fat": 4.4,
+        "saturated_fat": 1.5,
+        "fiber": 2.0,
+        "sugar": 2.0,
+        "sodium": 214.0,
+        "potassium": 117.0,
+        "cholesterol": 14.0,
+        "vitamin_a": null,
+        "vitamin_c": null,
+        "calcium": 72.0,
+        "iron": 1.5,
+        "trans_fat": null,
+        "added_sugars": null,
+        "vitamin_d": 5.5
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "image_path": "logs/images/20260405_214529_1775405729582.jpg",
+  "llm_reasoning": "The image clearly depicts a tuna mayonnaise sandwich\u2014triangular white bread sandwich with visible tuna\u2013mayo filling. I estimate this to be one half of a standard sandwich (approx. 140\u202fg). Typical nutritional values for a whole tuna mayo sandwich vary:\n\u2022 MyNetDiary lists ~295\u202fkcal for 138\u202fg sandwich with 17\u202fg protein, 8.8\u202fg fat, 39\u202fg carbs, 4\u202fg fiber, 4\u202fg sugar, 428\u202fmg sodium ([mynetdiary.com](https://www.mynetdiary.com/food/calories-in-tuna-mayo-sandwich-sandwich-29918254-0.html?utm_source=openai)).\n\u2022 OpenNutrition reports for 150\u202fg serving: 336\u202fkcal, 19\u202fg protein, 17\u202fg fat, 27\u202fg carbs, 3\u202fg fiber, 4\u202fg sugar, 592\u202fmg sodium, plus cholesterol, vitamins and minerals ([opennutrition.app](https://www.opennutrition.app/search/tuna-salad-sandwich-Grg5Py3ibMVi?utm_source=openai)).\nGiven the appearance, a basic tuna\u2013mayo without extra veggies, I lean toward the MyNetDiary data. Since the photo shows roughly half a sandwich (~70\u202fg), I scale nutrients by 0.5.\nThus estimated values:\nCalories ~148\u202fkcal, Carbs ~19.5\u202fg, Protein ~8.5\u202fg, Fat ~4.4\u202fg, Fiber ~2\u202fg, Sugars ~2\u202fg, Sodium ~214\u202fmg. Other micronutrients (saturated fat, cholesterol, potassium, vitamins) are less certain; OpenNutrition gives some values per whole sandwich (150\u202fg): saturated fat 3\u202fg, cholesterol 28\u202fmg, potassium 235\u202fmg, calcium 145\u202fmg, iron 3\u202fmg, vitamin\u202fD 11\u202f\u00b5g ([opennutrition.app](https://www.opennutrition.app/search/tuna-salad-sandwich-Grg5Py3ibMVi?utm_source=openai)). Scaling by half yields saturated fat ~1.5\u202fg, cholesterol ~14\u202fmg, potassium ~117\u202fmg, calcium ~72\u202fmg, iron ~1.5\u202fmg, vitamin\u202fD ~5.5\u202f\u00b5g.\nConfidence: moderate. Visual estimation of portion is approximate; nutrient variability by mayo amount and bread type.\n"
+}

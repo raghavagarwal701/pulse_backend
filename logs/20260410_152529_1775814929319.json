@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260410_152529",
+  "method": "POST",
+  "url": "https://57a5-203-110-247-86.ngrok-free.app/api/meal/analyze",
+  "request": "<binary upload: 1848679 bytes>",
+  "response": {
+    "status": "analyzed",
+    "meal": {
+      "reasoning": "I observe a pizza in a box with a variety of toppings\u2014peppers, onions, possibly olives and meat\u2014consistent with a \"supreme pizza\". The image shows roughly half the pizza (about 4 slices out of 8). I\u2019ll estimate nutrition based on standard values for a slice of Supreme or Super Supreme pizza.\n\nI located nutrition data for a single slice of Pizza Hut Super Supreme (regular crust): approximately 309 kcal, 13\u202fg fat, 32\u202fg carbs, 14\u202fg protein, saturated fat ~5\u202fg, cholesterol ~14\u202fmg, sodium ~875\u202fmg, calcium ~164\u202fmg, iron ~2.5\u202fmg, potassium ~296\u202fmg, vitamin A ~45\u202f\u00b5g (retinol), vitamin C negligible, vitamin D not listed ([healthlibrary.osfhealthcare.org](https://healthlibrary.osfhealthcare.org/library/NutritionFacts/76%2C21276-1?utm_source=openai)). \n\nSince the image suggests half a pizza (4 slices), I multiply these values by 4 to estimate the meal\u2019s totals. The result: calories ~1236 kcal; fat ~54\u202fg; saturated fat ~20\u202fg; carbs ~130\u202fg; fiber (using slice fiber ~2.5\u202fg) ~10\u202fg; sugars slice ~4.7\u202fg so total ~19\u202fg; protein ~56\u202fg; cholesterol ~57\u202fmg; sodium ~3500\u202fmg; calcium ~656\u202fmg; iron ~10\u202fmg; potassium ~1184\u202fmg; vitamin A ~178\u202f\u00b5g (retinol); vitamin C ~0\u202fmg; vitamin D ~0\u202f\u00b5g.\n\nConfidence: moderate. Topping composition may differ\u2014some supreme pizzas vary\u2014but Pizza Hut Super Supreme is a reasonable proxy. Serving estimate is based on visual half pizza (4 slices). Uncertainty arises from variations in pizza size, thickness, and toppings.\n\nCited sources provide values per slice which were scaled.\n\n",
+      "web_source_links": [
+        "https://healthlibrary.osfhealthcare.org/library/NutritionFacts/76%2C21276-1",
+        "https://aakp.org/wp-content/uploads/2020/08/NutritionCounter_English_080618_digital.pdf"
+      ],
+      "name_of_meal": "Supreme (Super Supreme\u2011style) pizza, approximately half a 12\" pizza (4 slices)",
+      "serving_size": "4 slices (approx. half pizza)",
+      "nutritional_value": {
+        "calories": 1236.0,
+        "carbohydrate": 130.0,
+        "protein": 56.0,
+        "fat": 54.0,
+        "saturated_fat": 20.0,
+        "fiber": 10.0,
+        "sugar": 19.0,
+        "sodium": 3500.0,
+        "potassium": 1184.0,
+        "cholesterol": 57.0,
+        "vitamin_a": 178.0,
+        "vitamin_c": 0.0,
+        "calcium": 656.0,
+        "iron": 10.0,
+        "trans_fat": null,
+        "added_sugars": null,
+        "vitamin_d": 0.0
+      }
+    },
+    "asked_question": null,
+    "question_answer": null,
+    "error": null
+  },
+  "status_code": 200,
+  "image_path": "logs/images/20260410_152514_1775814914672.jpg",
+  "llm_reasoning": "I observe a pizza in a box with a variety of toppings\u2014peppers, onions, possibly olives and meat\u2014consistent with a \"supreme pizza\". The image shows roughly half the pizza (about 4 slices out of 8). I\u2019ll estimate nutrition based on standard values for a slice of Supreme or Super Supreme pizza.\n\nI located nutrition data for a single slice of Pizza Hut Super Supreme (regular crust): approximately 309 kcal, 13\u202fg fat, 32\u202fg carbs, 14\u202fg protein, saturated fat ~5\u202fg, cholesterol ~14\u202fmg, sodium ~875\u202fmg, calcium ~164\u202fmg, iron ~2.5\u202fmg, potassium ~296\u202fmg, vitamin A ~45\u202f\u00b5g (retinol), vitamin C negligible, vitamin D not listed ([healthlibrary.osfhealthcare.org](https://healthlibrary.osfhealthcare.org/library/NutritionFacts/76%2C21276-1?utm_source=openai)). \n\nSince the image suggests half a pizza (4 slices), I multiply these values by 4 to estimate the meal\u2019s totals. The result: calories ~1236 kcal; fat ~54\u202fg; saturated fat ~20\u202fg; carbs ~130\u202fg; fiber (using slice fiber ~2.5\u202fg) ~10\u202fg; sugars slice ~4.7\u202fg so total ~19\u202fg; protein ~56\u202fg; cholesterol ~57\u202fmg; sodium ~3500\u202fmg; calcium ~656\u202fmg; iron ~10\u202fmg; potassium ~1184\u202fmg; vitamin A ~178\u202f\u00b5g (retinol); vitamin C ~0\u202fmg; vitamin D ~0\u202f\u00b5g.\n\nConfidence: moderate. Topping composition may differ\u2014some supreme pizzas vary\u2014but Pizza Hut Super Supreme is a reasonable proxy. Serving estimate is based on visual half pizza (4 slices). Uncertainty arises from variations in pizza size, thickness, and toppings.\n\nCited sources provide values per slice which were scaled.\n\n"
+}
