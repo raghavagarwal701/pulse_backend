@@ -1,20 +1,28 @@
+import os
 import re
 import pandas as pd
 from spellchecker import SpellChecker
 from typing import Set
 
 class PulseSpellChecker:
-    def __init__(self, dataset_path: str = "final_dataset.csv"):
+    def __init__(self, dataset_path: str = None):
         """
         Initializes the spell checker and loads food-specific terms
         from the nutrition dataset.
         """
         self.spell = SpellChecker()
-        self.dataset_path = dataset_path
+        if dataset_path is None:
+            self.dataset_path = os.path.abspath(
+                os.path.join(os.path.dirname(__file__), "final_dataset.csv")
+            )
+        else:
+            self.dataset_path = os.path.abspath(dataset_path)
         self._load_custom_words()
 
     def _load_custom_words(self):
         try:
+            if not os.path.exists(self.dataset_path):
+                raise FileNotFoundError(f"Dataset file does not exist: {self.dataset_path}")
             df = pd.read_csv(self.dataset_path)
             dish_names = df['dish_name'].dropna().tolist()
             custom_words: Set[str] = set()
