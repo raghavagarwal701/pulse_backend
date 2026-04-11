@@ -23,8 +23,8 @@ class PulseSpellChecker:
         try:
             if not os.path.exists(self.dataset_path):
                 raise FileNotFoundError(f"Dataset file does not exist: {self.dataset_path}")
-            df = pd.read_csv(self.dataset_path)
-            dish_names = df['dish_name'].dropna().tolist()
+            df = pd.read_csv(self.dataset_path, usecols=["dish_name"])
+            dish_names = df["dish_name"].dropna()
             custom_words: Set[str] = set()
             
             # Extract all words from dish names in dataset
