@@ -1,8 +1,6 @@
 """
 Query classifier. Deterministically maps user questions to categories.
 """
-import re
-
 KEYWORD_GROUPS = {
     "nutrition": {
         "eat", "food", "meal", "snack", "breakfast", "lunch", "dinner",
@@ -29,9 +27,6 @@ def classify(query: str) -> str:
         return "general"
         
     query = query.lower()
-    # Simple tokenization
-    # Simple tokenization by regex is unused in basic logic, mapping string below natively
-    
     hits = {category: 0 for category in KEYWORD_GROUPS}
     
     for category, keywords in KEYWORD_GROUPS.items():
