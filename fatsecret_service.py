@@ -9,7 +9,7 @@ import os
 import time
 import csv
 from typing import Optional, Dict, Any, List
-from datetime import datetime, timedelta
+
 import logging
 
 logger = logging.getLogger(__name__)
@@ -356,7 +356,7 @@ class FatSecretClient:
         csv_suggestions = self._autocomplete_csv_foods(expression, max_results)
 
         async with httpx.AsyncClient() as client:
-            token = await self._ensure_token(client)
+            await self._ensure_token(client)
             
             params = {
                 "method": "foods.autocomplete.v2",
@@ -437,7 +437,7 @@ class FatSecretClient:
             csv_results = self._search_csv_foods(normalized_query)
 
         async with httpx.AsyncClient() as client:
-            token = await self._ensure_token(client)
+            await self._ensure_token(client)
             
             params = {
                 "method": "foods.search.v5",
@@ -516,7 +516,7 @@ class FatSecretClient:
             return dict(csv_food)
 
         async with httpx.AsyncClient() as client:
-            token = await self._ensure_token(client)
+            await self._ensure_token(client)
             
             params = {
                 "method": "food.get.v5",

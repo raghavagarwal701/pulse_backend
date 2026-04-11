@@ -3,7 +3,7 @@ Rule engine for the Health Copilot Chat Pipeline.
 Converts signals into structured constraints and explicit decision hints.
 """
 from typing import Tuple
-from models import HealthSignals, Constraints, DecisionHints
+from schemas.chat import HealthSignals, Constraints, DecisionHints
 
 def evaluate(signals: HealthSignals) -> Tuple[Constraints, DecisionHints]:
     # Base states

@@ -2,8 +2,8 @@
 Feature Engineering module for the Health Copilot Chat Pipeline.
 Computes 5 core signals from raw chat context.
 """
-from typing import Dict, Any, List, Optional
-from models import ChatContext, HealthSignals
+from typing import Any, Optional
+from schemas.chat import ChatContext, HealthSignals
 
 def _safe_float(value: Any, default: Optional[float] = None) -> Optional[float]:
     if value is None:

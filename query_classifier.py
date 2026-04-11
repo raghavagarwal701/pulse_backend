@@ -30,7 +30,7 @@ def classify(query: str) -> str:
         
     query = query.lower()
     # Simple tokenization
-    tokens = set(re.findall(r'\b\w+\b', query))
+    # Simple tokenization by regex is unused in basic logic, mapping string below natively
     
     hits = {category: 0 for category in KEYWORD_GROUPS}
     

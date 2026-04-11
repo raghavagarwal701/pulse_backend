@@ -5,7 +5,6 @@ Backend decisions and constraints act as hard guidelines.
 import json
 from typing import Dict, Any, List, Optional
 from openai import AsyncOpenAI
-import logging
 
 from prompts import (
     CHAT_SYSTEM_PROMPT_V2,
@@ -14,7 +13,7 @@ from prompts import (
     RECOVERY_INSTRUCTIONS,
     GENERAL_INSTRUCTIONS
 )
-from models import ConversationMessage, StructuredLLMResponse
+from schemas.chat import ConversationMessage, StructuredLLMResponse
 
 async def generate_response(
     query: str,
