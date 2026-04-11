@@ -73,5 +73,17 @@ class PulseSpellChecker:
         # Find all words (alphabetical only) and apply replacement
         return re.sub(r'\b[a-zA-Z]+\b', replace_word, query)
 
-# Singleton instance to be imported by other modules
-pulse_spell_checker = PulseSpellChecker()
+class _LazyPulseSpellChecker:
+    def __init__(self):
+        self._instance = None
+
+    def _get_instance(self) -> PulseSpellChecker:
+        if self._instance is None:
+            self._instance = PulseSpellChecker()
+        return self._instance
+
+    def __getattr__(self, name):
+        return getattr(self._get_instance(), name)
+
+# Lazy singleton proxy to avoid CSV I/O and pandas parsing during import
+pulse_spell_checker = _LazyPulseSpellChecker()
