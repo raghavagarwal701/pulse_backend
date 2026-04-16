@@ -3,6 +3,7 @@ Pulse Backend - FastAPI server for Health Copilot
 Provides API endpoints via modular routers.
 """
 from fastapi import FastAPI
+from fastapi.responses import RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
 from core.middleware import log_requests
 from routers import health, chat, product, meal, fatsecret
@@ -31,6 +32,11 @@ app.include_router(chat.router)
 app.include_router(product.router)
 app.include_router(meal.router)
 app.include_router(fatsecret.router)
+
+@app.get("/api/docs", include_in_schema=False)
+def docs_redirect():
+    """Redirect to the API documentation."""
+    return RedirectResponse(url="/docs")
 
 if __name__ == "__main__":
     import uvicorn
