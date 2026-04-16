@@ -126,6 +126,13 @@ Main chat endpoint - accepts the structured chat context from the mobile app and
 }
 ```
 
+### API Documentation
+
+FastAPI automatically generates interactive API documentation. You can view all endpoints, request schemas, and response formats directly from your browser.
+
+- **Swagger UI (Interactive):** `http://localhost:8000/docs` (or via the redirect `http://localhost:8000/api/docs`)
+- **ReDoc (Static):** `http://localhost:8000/redoc`
+
 ## Testing
 
 Test with curl:
@@ -406,16 +413,20 @@ curl -X POST "http://localhost:8000/api/fatsecret/add-preview" \
 
 ```
 pulse_backend/
-├── main.py                        # FastAPI app and all endpoints
-├── models.py                      # Pydantic models for request/response
+├── main.py                        # FastAPI app entrypoint
+├── routers/                       # API route declarations (chat, fatsecret, health, meal, product)
+├── schemas/                       # Pydantic models for request/response bodies
+├── services/                      # Additional business logic services
+├── core/                          # Configuration and middleware
+├── fatsecret_service.py           # FatSecret API integration (OAuth2, search, food detail)
 ├── meal_analysis_service.py       # GPT-4o vision + text meal analysis
 ├── product_service.py             # OpenFoodFacts barcode lookup
-├── fatsecret_service.py           # FatSecret API integration (OAuth2, search, food detail)
-├── copilot_tools/                 # Health, nutrition, and workout tools
-│   ├── health_data_tools.py
-│   ├── nutrition_tools.py
-│   └── workout_tools.py
-├── ifct2017/                      # IFCT2017 nutrition database (cloned from GitHub)
+├── llm_service.py                 # Core LLM prompt building and API interaction
+├── feature_engineering.py         # Transforms raw health data to structured features
+├── query_classifier.py            # Determines intent of user messages
+├── rule_engine.py                 # Applies constraints and deterministic logic
+├── prompts.py                     # Holds the system prompts
+├── final_dataset.csv              # Underlying core generic nutrition dataset
 ├── logs/                          # Request/response logs (JSON files)
 ├── requirements.txt
 ├── .env.example                   # Environment variables template
@@ -425,9 +436,9 @@ pulse_backend/
 
 ## Project Files
 
-- **main.py**: FastAPI application with all endpoints
+- **main.py**: FastAPI application mounting all routers
   - `/api/health` – Health check
-  - `/api/chat` – Chat endpoint (deprecated)
+  - `/api/chat` – Chat endpoint
   - `/api/product/{barcode}` – OpenFoodFacts barcode lookup
   - `/api/meal/analyze` – GPT-4o photo analysis
   - `/api/meal/analyze-text` – GPT-4o text analysis
@@ -435,10 +446,14 @@ pulse_backend/
   - `/api/fatsecret/search` – Food search with pagination
   - `/api/fatsecret/food/{food_id}` – Food details
   - `/api/fatsecret/add-preview` – Calculate meal totals
-- **models.py**: Pydantic models for all requests/responses (includes ProductInfo, MealAnalysisResponse, FatSecretFood, etc.)
+  - `/api/docs` – Redirect to interactive Swagger documentation
+- **routers/**: Individual endpoint definitions separated by domain.
+- **schemas/**: Pydantic models formerly in models.py (ProductInfo, MealAnalysisResponse, FatSecretFood, etc.).
 - **meal_analysis_service.py**: Async meal analysis using OpenAI GPT-4o vision and text models
 - **product_service.py**: OpenFoodFacts barcode lookup service
 - **fatsecret_service.py**: FatSecret API integration with OAuth2 token management and async HTTP helpers
+- **llm_service.py**: Central component for interacting with the OpenAI API.
+- **feature_engineering.py & rule_engine.py**: Data preparation pipelines for user context.
 
 ## Features
 
