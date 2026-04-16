@@ -34,7 +34,7 @@ app.include_router(meal.router)
 app.include_router(fatsecret.router)
 
 @app.get("/api/docs", include_in_schema=False)
-async def docs_redirect():
+def docs_redirect():
     """Redirect to the API documentation."""
     return RedirectResponse(url="/docs")
 
